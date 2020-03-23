@@ -1,13 +1,22 @@
-# Template-repository
-A template repository that can be used to create other OPS repos.
+# COVID-19 Self Assessment Tool
 
-## Required Files:
+**NOTE:** This tool is not intended to provide medical advice. If you have medical questions, consult your local health authority.
 
-### README.md
-This is the descriptor file, detailing what the repo is.
+The tool takes the public through a series of questions to inform those who are concerned they may have contracted COVID-19. It's based on a modified version of the Alberta Health Services tool to which we have applied Ontario design system styling and made a number of functional changes. Those changes include but are not limited to:
 
-### LICENSE
-All repos must have a license applied. The license file in this template is purposefully blank so that no license is automatically applied. Please carefully select and apply a license when creating a new repo.
+- Changed logic and flow of the application to fit the message Ontario Health wanted to convey
+- Changed markup to fit our design and to conform to HTML standards
+- Applied Ontario Design System styling to everything
+- Moved third party assets from CDN links to the static folder included with the app
+- Added handling for browser back/forward buttons
+- Added in-page anchors to aid with analytics
+- Added and tested accessibility features allowing for screen readers and other assistive technologies to be used
 
-### CONTRIBUTE.md
-This file documents the best practices for others to contribute to the repo. All repos that expect open source contributions should have a detailed CONTRIBUTE file.
+Because the tool is comprised of static HTML/JS/CSS files, it can be hosted anywhere and cached in the CDN for optimum performance. We have verified compatibility with a range of desktop and mobile browsers. Internet Explorer 10 and higher and Edge (all versions) are supported in addition to more popular browsers.
+
+## KNOWN ISSUES
+
+- There is a bug in using back/forward buttons on Internet Explorer 10 and 11
+- There is an issue with some screen readers with the skip to main content button
+
+We are working on addressing these issues in the tool and will update the repo accordingly
