@@ -1,5 +1,7 @@
 # COVID-19 Self Assessment Tool
 
+**NOTE**: There is an updated version of this tool available [here](https://github.com/ongov/covid-19-self-assessment-v2.8).
+
 **NOTE:** This tool is not intended to provide medical advice. If you have medical questions, consult your local health authority.
 
 The tool takes the public through a series of questions to inform those who are concerned they may have contracted COVID-19. It's based on a modified version of the Alberta Health Services tool to which we have applied Ontario design system styling and made a number of functional changes. Those changes include but are not limited to:
