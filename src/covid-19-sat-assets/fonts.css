@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-style: normal;
+  src: url('fonts/open-sans-400/open-sans-400.eot');
+  src: url('fonts/open-sans-400/open-sans-400.woff2') format('woff2'),
+  url('fonts/open-sans-400/open-sans-400.woff') format('woff'),
+  local('Open Sans'),
+  local('open-sans-400'),
+  url('fonts/open-sans-400/open-sans-400.svg#opensans') format('svg');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-style: normal;
+  src: url('fonts/open-sans-600/open-sans-600.eot');
+  src: url('fonts/open-sans-600/open-sans-600.woff2') format('woff2'),
+  url('fonts/open-sans-600/open-sans-600.woff') format('woff'),
+  local('Open Sans Semibold'),
+  local('open-sans-600'),
+  url('fonts/open-sans-600/open-sans-600.svg#OpenSans') format('svg');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-style: italic;
+  src: url('fonts/open-sans-400--italic/open-sans-400--italic.eot');
+  src: url('fonts/open-sans-400--italic/open-sans-400--italic.woff2') format('woff2'),
+  url('fonts/open-sans-400--italic/open-sans-400--italic.woff') format('woff'),
+  local('Open Sans Italic'),
+  local('open-sans-italic-400'),
+  url('fonts/open-sans-400--italic/open-sans-400--italic.svg#OpenSans') format('svg');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-weight: 400;
+  font-style: normal;
+  src: url('fonts/raleway-modified-400/raleway-modified-400.woff2') format('woff2'),
+  url('fonts/raleway-modified-400/raleway-modified-400.woff') format('woff'),
+  local('Raleway'),
+  local('raleway-modified-400'),
+  url('fonts/raleway-modified-400/raleway-modified-400.svg#Raleway') format('svg');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-style: normal;
+  src: url('fonts/raleway-modified-700/raleway-modified-700.woff2') format('woff2'),
+  url('fonts/raleway-modified-700/raleway-modified-700.woff') format('woff'),
+  local('Raleway Bold'),
+  local('raleway-modified-700'),
+  url('fonts/raleway-modified-700/raleway-modified-700.svg#Raleway') format('svg');
+}

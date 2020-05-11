@@ -1,4 +1,4 @@
-# COVID-19 Self Assessment Tool
+# COVID-19 Self Assessment Tool V2
 
 **NOTE**: There is an updated version of this tool available [here](https://github.com/ongov/covid-19-self-assessment-v2.8).
 
