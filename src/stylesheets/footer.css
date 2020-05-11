@@ -1,0 +1,33 @@
+/* -------------------------------
+    Footer
+--------------------------------- */
+footer {
+  border-top: 1px solid #d9d9d9;
+  background: #ededed;
+  margin-top: 1em;
+  padding: 2.5rem 0 2rem;
+}
+
+footer a, footer a:visited {
+  color: #1a1a1a;
+  text-decoration: underline;
+}
+
+footer a:hover, footer a:focus, footer a:active {
+  color: #00478f;
+}
+
+.ontario-footer__list li {
+  margin: 0 0 0 1rem;
+}
+
+.ontario-footer__copyright {
+  display: block;
+  padding-left: 1rem;
+}
+
+/* Results section */
+.ontario-results h3 {
+  font-size: 1.5rem;
+  letter-spacing: 0.0313rem;
+}

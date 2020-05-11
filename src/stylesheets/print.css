@@ -1,0 +1,102 @@
+/* -------------------------------
+    Print styles
+--------------------------------- */
+.ontario-show-for-print {
+  display: none;
+}
+
+@media print {
+
+  /* Global */
+  body {
+    font-family: Arial, Helvetica, sans-serif !important;
+  }
+
+  .ontario-hide-for-print {
+    display: none !important;
+  }
+
+  .ontario-show-for-print {
+    display: block !important;
+  }
+
+  div, span {
+    background-color: #fff !important;
+    color: #000 !important;
+  }
+
+  a::after{
+    content: " (" attr(href) ") ";
+  }
+
+  /* Breadcrumbs */
+  .ontario-breadcrumbs {
+    display: none !important;
+  }
+
+  /* Callouts */
+  .ontario-results__callout__arrow-down {
+    display: none !important;
+  }
+
+  .ontario-results__callout {
+    top: 0 !important;
+  }
+
+  /* Form elements */
+  button {
+    display: none !important;
+  }
+
+  .ontario-question-content__wrapper--inner legend {
+    font-family: Times, "Times New Roman", sans-serif !important;
+  }
+
+  /* Footer */
+  footer {
+    display: none !important;
+  }
+
+  /* Headings */
+  h1, h2, h3, h4, h5 {
+    font-family: Times, "Times New Roman", sans-serif !important;
+  }
+
+  .ontario-results__content h2 {
+    font-family: Times, "Times New Roman", sans-serif !important;
+  }
+
+  /* Header */
+  .ontario-main-header {
+    background: none !important;
+  }
+
+  .ontario-site-logo-print {
+    display: block !important;
+    height: 45px;
+    margin: 1rem 0;
+  }
+
+  .ontario-main-header__logo-link {
+    display: none !important;
+  }
+
+  .ontario-main-header__link {
+    display: none !important;
+  }
+
+  /* Icons */
+  .ontario-icon__clipboard,
+  .ontario-icon__self-isolate-home,
+  .ontario-icon__self-isolate,
+  .ontario-icon__warning {
+    display: none !important;
+  }
+
+  /* Type and alignment */
+  .ontario-infographic-number {
+    font-family: Times, "Times New Roman", sans-serif !important;
+    text-align: left !important;
+  }
+
+}

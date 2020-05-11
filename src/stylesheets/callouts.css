@@ -1,0 +1,215 @@
+/* -------------------------------
+    Callouts
+--------------------------------- */
+.ontario-callout  {
+  padding: 0.9375rem 2rem 0.9375rem 0.9375rem;
+  margin: 2.5rem 0;
+}
+
+.ontario-callout--double  {
+  padding: 2rem;
+  margin: 2.5rem 0;
+}
+
+/** Note: this only appear below the Header **/
+.ontario-callout--full-width {
+  margin-bottom: 0;
+  position: relative;
+  top: -2rem;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .ontario-callout--full-width {
+    top: -1rem;
+  }
+}
+
+/** Callout typography **/
+.ontario-callout__title {
+  font-weight: bold;
+  position: relative;
+  top: 0.2rem;
+}
+
+.ontario-callout h2,
+.ontario-callout h3,
+.ontario-callout h4 {
+  margin-bottom: 0;
+}
+
+.ontario-callout h2, .ontario-callout h3 {
+  font-size: 1.5rem;
+  line-height: 1.3;
+}
+
+.ontario-callout__list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.ontario-callout__list li {
+  margin-bottom: 1rem;
+}
+
+.ontario-callout__list li a,
+.ontario-callout__list li a:visited {
+  text-decoration: underline;
+}
+
+.ontario-callout__list li a:hover,
+.ontario-callout__list li a:active {
+  text-decoration: none;
+}
+
+/** Callout types **/
+
+/* General*/
+.ontario-callout--no-bg { /* navy border */
+  background: none;
+  border-left: 4px solid #1080A6;
+}
+
+.ontario-callout--white { /* navy border */
+  background-color: #FFFFFF;
+  border-left: 4px solid #1080A6;
+}
+
+/* Error callout with icon positioning */
+.ontario-callout--alert {
+  background-color: #FFECEE;
+  border-left: 4px solid #CD0000;
+}
+
+.ontario-callout--alert a,
+.ontario-callout--alert a:visited {
+  color: #CD0000;
+  text-decoration: underline;
+}
+
+.ontario-callout--alert a:hover,
+.ontario-callout--alert a:focus,
+.ontario-callout--alert a:active  {
+  color: #CD0000;
+  text-decoration: none;
+}
+
+.ontario-callout__title--error {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .ontario-callout__title--error {
+    display: block;
+    float: left;
+    width: 70%;
+  }
+}
+
+.ontario-callout__icon-error {
+  display: inline-block;
+  margin: 0 1rem 0 0;
+  float: left;
+}
+
+/* Success callout with icon positioning */
+.ontario-callout--success {
+  background: rgba(17, 136, 71, 0.12);
+  border-left: 4px solid #118847;
+}
+
+.ontario-callout__title--success {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .ontario-callout__title--success {
+    display: block;
+    float: left;
+    width: 70%;
+  }
+}
+
+.ontario-callout__icon-success {
+  display: inline-block;
+  margin-right: 1rem;
+  float: left;
+}
+
+/* general info callout with icon positioning (light blue) */
+.ontario-callout--info {
+  background-color: #DEF2FA;
+  border-left: 4px solid #1080A6;
+}
+
+.ontario-callout__title--info {
+  font-size: 1.25rem;
+  margin-left: 0.5rem;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 72.9375em) {
+  .ontario-callout__title--info {
+    display: block;
+    float: left;
+    width: 80%;
+  }
+}
+
+.ontario-callout__icon-info {
+  display: inline-block;
+  margin: 0 1rem 0 0;
+  float: left;
+}
+
+/* Yellow warnings with warning icon */
+.ontario-callout--warning {
+  background-color: rgba(255, 212, 64, 0.2);
+  border-left: 4px solid #ffd440;
+  margin-bottom: 1rem;
+}
+
+.ontario-callout--warning__message {
+  display: block;
+  float: left;
+  margin-left: 1rem;
+  position: relative;
+  top: 0.6rem;
+  width: 90%;
+}
+
+.ontario-callout--warning__message--bottom {
+  display: table-cell;
+  padding-left: 0.5rem;
+  vertical-align: bottom;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .ontario-callout--warning__message {
+    width: 80%;
+  }
+}
+
+.ontario-callout--warning-solid { /* appears in the results header */
+  background-color: #FEF6D6;
+  border-left: 4px solid #FFD440;
+}
+
+.ontario-callout__title--warning {
+  font-weight: bold;
+  position: relative;
+  top: 0.2rem;
+  margin-left: 0.5rem;
+}
+
+.ontario-callout--results-warning {
+  background-color: #F8E5C3;
+  border-left: 4px solid #FCAF17;
+}
+
+.ontario-callout--message {
+  background-color: #E5F0E9;
+  border-left: 4px solid #118847;
+}

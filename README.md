@@ -1,24 +1,23 @@
-# COVID-19 Self Assessment Tool V2
-
-**NOTE**: There is an updated version of this tool available [here](https://github.com/ongov/covid-19-self-assessment-v2.8).
+# COVID-19 Self Assessment Tool v2.8
 
 **NOTE:** This tool is not intended to provide medical advice. If you have medical questions, consult your local health authority.
 
-The tool takes the public through a series of questions to inform those who are concerned they may have contracted COVID-19. It's based on a modified version of the Alberta Health Services tool to which we have applied Ontario design system styling and made a number of functional changes. Those changes include but are not limited to:
+The tool takes the public through a series of questions to inform those who are concerned they may have contracted COVID-19. It's implemented using [Gatsby](https://www.gatsbyjs.org/), which is a React-based, GraphQL powered static site generator. Because Gatsby compiles into static HTML/CSS/JS, it enables blistering performance and simple deployments.
 
-- Changed logic and flow of the application to fit the message Ontario Health wanted to convey
-- Changed markup to fit our design and to conform to HTML standards
-- Applied Ontario Design System styling to everything
-- Moved third party assets from CDN links to the static folder included with the app
-- Added handling for browser back/forward buttons
-- Added in-page anchors to aid with analytics
-- Added and tested accessibility features allowing for screen readers and other assistive technologies to be used
+Compared to the first two versions of the tool, this version contains many improvements. These are the highlights of the improvements:
 
-Because the tool is comprised of static HTML/JS/CSS files, it can be hosted anywhere and cached in the CDN for optimum performance. We have verified compatibility with a range of desktop and mobile browsers. Internet Explorer 10 and higher and Edge (all versions) are supported in addition to more popular browsers.
+- Symptoms are consolidated into a single page and are now selected via checkboxes
+- Each symptom carries a "weight" which is then combined into a symtpom score
+- Most of the content has been separated from the markup and can be managed separately
+- State management is improved and back/forward buttons work correctly and remember previous state
+- Analytics is greatly improved by adding symptoms and symptom scores to the data layer for Google Tag Manager
 
-## KNOWN ISSUES
+Work on the tool is ongoing and due to its time-sensitive nature, we are prioritizing speed over everything else. It's not perfect but we are working around the clock to improve it for better useability and accuracy based on latest medical information we have available.
 
-- There is a bug in using back/forward buttons on Internet Explorer 10 and 11
-- There is an issue with some screen readers with the skip to main content button
+## RUNNING
 
-We are working on addressing these issues in the tool and will update the repo accordingly
+**NOTE:** You need to have an up-to-date version of NodeJS installed to run this. I used 13.3.0 for development but any version higher than 12.0.0 should work. You will need to install `yarn` globally using `npm i -g yarn` before being able to run this project.
+
+To run during development, simply use `yarn develop` command.
+
+To build production version, use `yarn build`. Production build can be served locally using `yarn serve`.

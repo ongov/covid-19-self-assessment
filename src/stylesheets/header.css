@@ -1,0 +1,56 @@
+/* -------------------------------
+    Header
+--------------------------------- */
+.ontario-main-header {
+  background: #1a1a1a;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .ontario-main-header {
+    margin-bottom: 1rem;
+  }
+}
+
+.ontario-header-logo {
+  width: 110px;
+  margin: 1rem 1rem 1rem 0;
+}
+
+.ontario-main-header__logo-link {
+  display: block;
+  line-height: 0;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .ontario-header-logo {
+    width: 112px;
+    margin: 0.85rem 0;
+  }
+}
+
+@media screen and (max-width: 39.9375em) {
+  .ontario-main-header__link {
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (min-width: 40em) {
+  .ontario-main-header__link {
+    margin-top: 1.25rem;
+  }
+}
+
+.ontario-main-header__link a,
+.ontario-main-header__link a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.ontario-main-header__link a:hover,
+.ontario-main-header__link a:focus {
+  text-decoration: underline;
+}
+
+/* Footer */

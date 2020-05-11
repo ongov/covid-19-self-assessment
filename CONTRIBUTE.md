@@ -5,4 +5,4 @@ We're so glad you're thinking about contributing to an Ontario Digital Service (
 
 We want to ensure a welcoming environment for all of our projects. Our staff follow the ODS Code of Conduct and all contributors should do the same.
 
-We encourage you to read this project's contributing policy (you are here), its [license](LICENSE), and its [README](README.md).
+We encourage you to read this project's contributing policy (you are here), its [license](LICENSE.md), and its [README](README.md).

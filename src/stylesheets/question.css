@@ -1,0 +1,61 @@
+/* -------------------------------
+    Question blocks
+--------------------------------- */
+.ontario-question-content__wrapper--inner {
+  margin: 2.5rem 0;
+  font-size: 1.125rem;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .ontario-question-content__wrapper--inner {
+    margin: 1.5rem 0 2rem 0;
+  }
+}
+
+.ontario-question-content__wrapper--inner h2 {
+  margin-bottom: 1.5rem;
+}
+
+.ontario-question-content__wrapper--inner ul li,
+.ontario-list-item {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.ontario-question-content__wrapper--inner legend {
+  font: 2.0625rem "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.02rem;
+  line-height: 1.37;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .ontario-question-content__wrapper--inner legend {
+    font-size: 1.6875rem;
+    letter-spacing: 0.03rem;
+    line-height: 1.33;
+    margin: 0 0 1rem 0;
+  }
+}
+
+.ontario-question-content__wrapper--inner .ontario-hint {
+  font-size: 1rem;
+  font-weight: normal;
+  margin: 0;
+}
+
+.ontario-question__text--strong {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin: 0 0 2.5rem 0;
+}
+
+.ontario-question__options {
+  margin: 2rem 0 0 5rem;
+}
+
+@media screen and (max-width: 72.9375em) {
+  .ontario-question__options {
+    margin: 2rem 0 0 2.5rem;
+  }
+}

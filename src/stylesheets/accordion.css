@@ -1,0 +1,91 @@
+.ontario-accordion {
+  position: relative;
+  width: 80%;
+  top: -0.8rem;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .ontario-accordion {
+    width: 100%;
+  }
+}
+
+[id*="open-accordion"], [id*="close-accordion"] {
+  line-height: 40px;
+  height: 40px;
+  display: block;
+  margin: 0;
+  position: relative;
+  width: 99%;
+}
+
+[id*="close-accordion"] {
+  display: none;
+}
+
+.ontario-accordion a, .ontario-accordion a:visited {
+  color: #0066cc;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+.ontario-accordion a:hover, .ontario-accordion a:focus, .ontario-accordion a:active {
+  color: #00478F;
+  text-decoration: none;
+}
+
+[id*="open-accordion"]:after, [id*="close-accordion"]:after {
+  content: "";
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid #0066cc;
+  position: absolute;
+  margin-left: 1.5rem;
+  top: 15px;
+  z-index: 999;
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+}
+
+.ontario-target-fix {
+  display: block;
+  top: 0;
+  left: 0;
+  position: fixed;
+}
+
+.ontario-accordion-content {
+  border-left: 4px solid #3193CC;
+  height: 0;
+  padding-left: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  width: 90%;
+  transition: all 0.35s ease;
+  -webkit-transition: all 0.35s ease;
+  -moz-transition: all 0.35s ease;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .ontario-accordion-content {
+    width: 100%;
+  }
+}
+
+.ontario-accordion span:target ~ .ontario-accordion-content {
+  display: block;
+  height: auto;
+}
+
+.ontario-accordion span:target ~ [id*="close-accordion"] {
+  display: block;
+}
+
+.ontario-accordion span:target ~ [id*="open-accordion"] {
+  display: none;
+}
+
+.ontario-accordion span:target ~ [id*="close-accordion"]:after {
+  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+}

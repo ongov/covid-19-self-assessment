@@ -1,0 +1,110 @@
+/* -------------------------------
+    Results
+--------------------------------- */
+.ontario-results__callout {
+  background-color: #cfeded;
+  margin-bottom: 0;
+  padding: 1.5rem 0;
+  position: relative;
+  top: -2rem;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .ontario-results__callout {
+    top: -1rem;
+  }
+}
+
+.ontario-results__callout p,
+.ontario-results__callout ul {
+  font-size: 1.4375rem;
+  line-height: 36px;
+  letter-spacing: 0.32px;
+}
+
+.ontario-results__callout__arrow-down {
+  position: relative;
+  top: -2rem;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #cfeded;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .ontario-results__callout__arrow-down {
+    top: -1rem;
+  }
+}
+
+.ontario-results__callout-alert {
+  background-color: #fceff0;
+}
+
+.ontario-results__content {
+  margin-bottom: 1.5rem;
+}
+
+.ontario-results__content h2 {
+  font: 1.375rem "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.4;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .ontario-results__content h2 {
+    font-size: 1.4375rem;
+  }
+}
+
+@media screen and (max-width: 39.9375em) {
+  .ontario-results__content h3 {
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 39.9375em) {
+  .ontario-results__content h4 {
+    font-size: 1.125rem;
+  }
+}
+
+.ontario-results__content p.ontario-first-line {
+  margin-top: 0.5rem;
+}
+
+.ontario-results__content h4 {
+  margin-top: 2rem;
+}
+
+.ontario-results__content ul:not(.ontario-list--inline),
+.ontario-results__content ol {
+  padding-left: 1.2rem;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .ontario-results__content ul.ontario-list--inline li {
+    margin-right: 0.9rem;
+  }
+}
+
+.ontario-results__content a,
+.ontario-results__content a:visited {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.ontario-results__content a:hover,
+.ontario-results__content a:focus,
+.ontario-results__content a:active {
+  color: #00478f;
+  text-decoration: underline;
+}
+
+.ontario-results__content .ontario-H2 {
+  font: 1.5rem "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.02rem;
+  line-height: 1.37;
+}
