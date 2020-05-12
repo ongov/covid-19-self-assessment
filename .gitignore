@@ -68,6 +68,8 @@ yarn-error.log
 # Yarn Integrity file
 .yarn-integrity
 
-# sonarqube files
+# Sonarqube stuff
 .scannerwork/
 sonar/
+sonar-scanner.sh
+node_modules

@@ -95,13 +95,16 @@
 }
 
 .ontario-callout__title--error {
-  font-size: 1.5rem;
-  font-weight: bold;
+  display: block;
+  font: 1.5rem "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.0313rem;
+  line-height: 1.5;
+  margin-top: 0.3rem;
 }
 
 @media screen and (max-width: 39.9375em) {
   .ontario-callout__title--error {
-    display: block;
     float: left;
     width: 70%;
   }
@@ -138,6 +141,14 @@
   float: left;
 }
 
+@media screen and (max-width: 39.9375em) {
+  .ontario-callout__icon-success {
+    width: 25px;
+    height: 25px;
+    margin: auto;
+  }
+}
+
 /* general info callout with icon positioning (light blue) */
 .ontario-callout--info {
   background-color: #DEF2FA;
@@ -162,6 +173,10 @@
   display: inline-block;
   margin: 0 1rem 0 0;
   float: left;
+}
+
+.ontario-callout--info .ontario-button--secondary {
+  background-color: transparent;
 }
 
 /* Yellow warnings with warning icon */

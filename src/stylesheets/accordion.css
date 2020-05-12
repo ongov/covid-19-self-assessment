@@ -12,11 +12,17 @@
 
 [id*="open-accordion"], [id*="close-accordion"] {
   line-height: 40px;
-  height: 40px;
   display: block;
   margin: 0;
   position: relative;
   width: 99%;
+}
+
+@media screen and (max-width: 39.9375em) {
+  [id*="open-accordion"], [id*="close-accordion"] {
+    margin-top: 1rem;
+    line-height: 25px;
+  }
 }
 
 [id*="close-accordion"] {
@@ -35,17 +41,26 @@
 }
 
 [id*="open-accordion"]:after, [id*="close-accordion"]:after {
-  content: "";
-  border-left: 8px solid transparent;
-  border-right: 8px solid transparent;
-  border-top: 8px solid #0066cc;
+  background-image: url("../images/ontario-icon-chevron.svg");
+  content: " ";
+  display: inline-block;
+  width: 7px;
+  height: 13px;
   position: absolute;
-  margin-left: 1.5rem;
-  top: 15px;
+  margin-left: 0.5rem;
+  top: 14px;
   z-index: 999;
-  transform: rotate(-90deg);
-  -webkit-transform: rotate(-90deg);
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
 }
+
+@media screen and (max-width: 39.9375em) {
+  [id*="open-accordion"]:after, [id*="close-accordion"]:after {
+    right: 0;
+    top: 5px;
+  }
+}
+
 
 .ontario-target-fix {
   display: block;
@@ -86,6 +101,6 @@
 }
 
 .ontario-accordion span:target ~ [id*="close-accordion"]:after {
-  transform: rotate(0deg);
-  -webkit-transform: rotate(0deg);
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
 }

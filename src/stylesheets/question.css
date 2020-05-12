@@ -59,3 +59,7 @@
     margin: 2rem 0 0 2.5rem;
   }
 }
+
+.ontario-question__options .ontario-radios__label {
+  color: black;
+}

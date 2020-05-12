@@ -1,10 +1,10 @@
 import React, { useReducer, createContext } from "react"
-import { noSymptomsId } from "../localized_content"
 
 export const GlobalStateContext = createContext()
 export const GlobalDispatchContext = createContext()
 
 const initialState = {}
+const noSymptomsId = "none_of_the_above"
 
 function reducer(state, action) {
   switch (action.type) {
@@ -28,12 +28,16 @@ function reducer(state, action) {
 
       return updatedState
     }
-    case "CONTINUE_CLICKED": {
+    case "SYMPTOMS_CONTINUE_CLICKED": {
       let updatedState = { ...state }
       if (!state.q2) updatedState = { ...state, q2: { noSymptoms: 0 }, symptomScore: 0 }
 
       return updatedState
     }
+    case "RETURN_DATE_CONTINUE_CLICKED": {
+      return { ...state, q15: action.returnDate }
+    }
+    case "ONSET_RADIO_SELECTED":
     case "YES_NO_RESPONSE": {
       const updatedState = { ...state }
       updatedState[action.question] = action.response
@@ -43,10 +47,25 @@ function reducer(state, action) {
       return { in_progress: true }
     }
     case "SAT_BACK_BUTTON_PRESSED": {
-      return { ...state, in_progress: true }
+      const newState = { ...state, in_progress: true }
+
+      // We do this to hide the success bar accross the top if user goes back from results
+      if (newState.contact_form_submitted_ok) delete newState.contact_form_submitted_ok
+      return newState
     }
     case "SAT_DONE": {
       return { ...state, in_progress: false }
+    }
+    case "CONTACT_FORM_SUBMITTED_OK": {
+      return { ...state, contact_form_submitted_ok: true }
+    }
+    case "CONTACT_FORM_SUBMITTED_WITH_ERRORS": {
+      return { ...state, contact_form_submitted_ok: false }
+    }
+    case "CONTACT_FORM_RESUBMITTED": {
+      const newState = { ...state }
+      delete newState.contact_form_submitted_ok
+      return newState
     }
     default:
       throw new Error(`Bad Action Type: ${action.type}`)

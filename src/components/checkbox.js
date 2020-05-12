@@ -1,22 +1,18 @@
 import React, { useContext } from "react"
-import { GlobalDispatchContext, GlobalStateContext } from "../context/global-context-provider"
 
-const Checkbox = ({ id, value, text, supplementaryText }) => {
-  const dispatch = useContext(GlobalDispatchContext)
-  const state = useContext(GlobalStateContext)
-
+const Checkbox = ({ id, value, text, supplementaryText, labelStyle, checkboxState, checkboxOnChange }) => {
   return (
     <div className="ontario-checkboxes__item">
       <input
         className="ontario-checkboxes__input"
         id={id}
-        name="options"
+        name={id}
         type="checkbox"
         value={value}
-        checked={state.q2 && state.q2.hasOwnProperty(id)}
-        onChange={() => dispatch({ type: "TOGGLE_SYMPTOM", id, value })}
+        checked={checkboxState}
+        onChange={checkboxOnChange}
       />
-      <label className="ontario-checkboxes__label ontario-checkboxes__label--large" htmlFor={id}>
+      <label className={`ontario-checkboxes__label ontario-checkboxes__label${labelStyle}`} htmlFor={id}>
         {text}
         {supplementaryText && <span className="ontario-hint">{supplementaryText}</span>}
       </label>

@@ -7,6 +7,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Question from "../components/question"
 import YesNoButtons from "../components/yes-no-buttons"
+import { questions } from "../localized_content"
 
 const QuestionTemplate = ({ lang, yesLink, noLink, children }) => {
   const state = useContext(GlobalStateContext)
@@ -20,8 +21,8 @@ const QuestionTemplate = ({ lang, yesLink, noLink, children }) => {
         buttons={
           <YesNoButtons
             lang={lang}
-            yesLink={`${general[lang].basePath}${yesLink(state)}`}
-            noLink={`${general[lang].basePath}${noLink(state)}`}
+            yesLink={`${general[lang].basePath}${questions[yesLink(state)][lang]}`}
+            noLink={`${general[lang].basePath}${questions[noLink(state)][lang]}`}
           />
         }
       >

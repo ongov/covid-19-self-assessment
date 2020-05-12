@@ -1,8 +1,8 @@
 import React, { useContext, useEffect } from "react"
 import { navigate } from "@reach/router"
-
 import { GlobalStateContext } from "../context/global-context-provider"
-import SkipToMainContent from "./skip-to-main-content"
+import { SkipNavLink } from "@reach/skip-nav"
+
 import Header from "./header"
 import Footer from "./footer"
 import { general } from "../localized_content"
@@ -13,6 +13,8 @@ import "../stylesheets/print.css"
 const Layout = ({ lang, hideFooter, isResultsPage, children }) => {
   const state = useContext(GlobalStateContext)
 
+  // This restricts direct access to pages and
+  // redirects any such request back to the start
   useEffect(() => {
     if (!state.in_progress) {
       navigate(general[lang].basePath, {
@@ -23,7 +25,9 @@ const Layout = ({ lang, hideFooter, isResultsPage, children }) => {
 
   return (
     <>
-      <SkipToMainContent lang={lang} />
+      <div className="ontario-text-center">
+        <SkipNavLink>{general[lang].skipNavText}</SkipNavLink>
+      </div>
       <Header lang={lang} />
       <main id="main-content">
         {isResultsPage ? (

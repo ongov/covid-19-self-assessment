@@ -1,5 +1,6 @@
 import React from "react"
 import { navigate } from "@reach/router"
+import { SkipNavContent } from "@reach/skip-nav"
 import "../stylesheets/forms.css"
 import "../stylesheets/question.css"
 
@@ -18,7 +19,9 @@ const Question = ({ lang, title, buttons, children }) => {
         <i className="ontario-icon ontario-icon__back-blue" aria-hidden="true"></i>
         {` ${general[lang].backButtonText}`}
       </button>
-      <div className="ontario-question-content__wrapper--inner">{children}</div>
+      <SkipNavContent>
+        <div className="ontario-question-content__wrapper--inner">{children}</div>
+      </SkipNavContent>
       {buttons}
     </div>
   )

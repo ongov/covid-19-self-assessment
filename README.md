@@ -2,15 +2,17 @@
 
 **NOTE:** This tool is not intended to provide medical advice. If you have medical questions, consult your local health authority.
 
-The tool takes the public through a series of questions to inform those who are concerned they may have contracted COVID-19. It's implemented using [Gatsby](https://www.gatsbyjs.org/), which is a React-based, GraphQL powered static site generator. Because Gatsby compiles into static HTML/CSS/JS, it enables blistering performance and simple deployments.
+The tool takes the public through a series of questions to inform those who are concerned they may have contracted COVID-19. If the user's responses warrant them speaking to a medical professional, they are given the option of filling out their personal information and submitting it in order to get a callback. The tool is implemented using [Gatsby](https://www.gatsbyjs.org/), which is a React-based, GraphQL powered static site generator. Because Gatsby compiles into static HTML/CSS/JS, it enables blistering performance and simple deployments.
 
-Compared to the first two versions of the tool, this version contains many improvements. These are the highlights of the improvements:
+Changelog:
 
-- Symptoms are consolidated into a single page and are now selected via checkboxes
-- Each symptom carries a "weight" which is then combined into a symtpom score
-- Most of the content has been separated from the markup and can be managed separately
-- State management is improved and back/forward buttons work correctly and remember previous state
-- Analytics is greatly improved by adding symptoms and symptom scores to the data layer for Google Tag Manager
+- Revised symptom list to remove redundant and obsolete symptoms
+- Added a form to collect an estimate of the symptom onset date from user
+- Also added a form to collect an estimate the date of exposure to COVID-19 and to someone with respiratory symptoms
+- Added a form to get the exact date of return to Canada (if in the last 14 days)
+- Added a form where the user could fill in their contact information and request a callback from Ontario Health
+- Resolved an issue with "skip to content" links on pages to improve accessibility
+- Many small design and content tweaks
 
 Work on the tool is ongoing and due to its time-sensitive nature, we are prioritizing speed over everything else. It's not perfect but we are working around the clock to improve it for better useability and accuracy based on latest medical information we have available.
 
@@ -21,3 +23,5 @@ Work on the tool is ongoing and due to its time-sensitive nature, we are priorit
 To run during development, simply use `yarn develop` command.
 
 To build production version, use `yarn build`. Production build can be served locally using `yarn serve`.
+
+The form used in this version of the tool submits the data to an API URL set via the `GATSBY_OAG_API_URL` environment variable. In development, this is set to http://localhost:3000/api/sat-data.

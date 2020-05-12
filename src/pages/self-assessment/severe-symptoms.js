@@ -2,30 +2,26 @@ import React from "react"
 import QuestionTemplate from "../../templates/yes-no-question-template"
 import { logic } from "../../shared"
 
-const Q1 = () => (
+const SevereSymptoms = () => (
   <QuestionTemplate lang="en" yesLink={logic.q1.yes} noLink={logic.q1.no}>
     <h2>
-      Are you experiencing <strong>any</strong> of the following symptoms?
+      Are you currently experiencing any of these issues? Call 911 if you are.
     </h2>
     <ul>
       <li>
-        severe difficulty breathing
+        Severe difficulty breathing
         <br />
         <span className="ontario-hint">(struggling for each breath, can only speak in single words)</span>
       </li>
       <li>
-        severe chest pain
+        Severe chest pain
         <br />
         <span className="ontario-hint">(constant tightness or crushing sensation)</span>
       </li>
-      <li>
-        feeling confused
-        <br />
-        <span className="ontario-hint">(for example, unsure of where you are)</span>
-      </li>
-      <li>losing consciousness</li>
+      <li>Feeling confused or unsure of where you are</li>
+      <li>Losing consciousness</li>
     </ul>
   </QuestionTemplate>
 )
 
-export default Q1
+export default SevereSymptoms

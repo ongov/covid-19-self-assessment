@@ -1,10 +1,23 @@
+import { onsetTemplate } from "../localized_content"
+const moreThanTwoWeeksAgoLabels = ["en", "fr"].map(
+  lang => onsetTemplate[lang].find(item => item.id === "more-than-two-weeks-ago").labelText
+)
 /*
-    q3 - healthcare workers
-    q4 - rural
-    q5 - at-risk
-    q6 - travel
-    q7 - exposure to covid-19
-    q8 - exposure to respiratory symptoms
+    q1: "severe-symptoms"
+    q2: "symptoms"
+    q3: "symptoms-onset"
+    q4: "health-worker"
+    q5: "essential-worker"
+    q6: "congregate-setting"
+    q7: "risk-factors"
+    q8: "covid-exposure"
+    q9: "exposure-date"
+    q10: "respiratory-exposure"
+    q11: "respiratory-exposure-date"
+    q12: "cross-border-worker"
+    q13: "rural-or-indigenous"
+    q14: "travel"
+    q15: "travel-return"
 
     r2 - symptomatic, self-isolate
     r3 - practice physical distancing
@@ -15,39 +28,21 @@
 */
 export default {
   q1: { yes: () => "r1", no: () => "q2" },
-  q2: {
-    // q2 is the symptoms question with a continue button
-    cont: state => (state.symptomScore ? "q3" : "q5"),
+  q2: { cont: state => (state.symptomScore ? "q3" : "q7") },
+  q3: { cont: state => (moreThanTwoWeeksAgoLabels.includes(state.q3) ? "r7" : "q4") },
+  q4: { yes: state => (state.symptomScore && state.symptomScore >= 0.5 ? "r7" : "r2"), no: () => "q5" },
+  q5: { yes: state => (state.symptomScore && state.symptomScore >= 0.75 ? "r7" : "r2"), no: () => "q6" },
+  q6: { yes: state => (state.symptomScore && state.symptomScore >= 0.5 ? "r7" : "r2"), no: () => "q7" },
+  q7: { yes: state => (state.symptomScore && state.symptomScore >= 0.5 ? "r7" : "r4"), no: () => "q8" },
+  q8: { yes: () => "q9", no: () => "q10" },
+  q9: { cont: state => (state.symptomScore && state.symptomScore >= 0.75 ? "r7" : "r6") },
+  q10: { yes: () => "q11", no: state => (state.symptomScore ? "q12" : "q14") },
+  q11: { cont: state => (state.symptomScore && state.symptomScore >= 1 ? "r7" : "r6") },
+  q12: { yes: state => (state.symptomScore && state.symptomScore >= 0.5 ? "r7" : "r2"), no: () => "q13" },
+  q13: { yes: state => (state.symptomScore && state.symptomScore >= 0.75 ? "r7" : "r2"), no: () => "q14" },
+  q14: {
+    yes: () => "q15",
+    no: state => (state.symptomScore && state.symptomScore >= 1 ? "r7" : state.symptomScore ? "r2" : "r3"),
   },
-  q3: { yes: state => (state.symptomScore && state.symptomScore >= 0.5 ? "r7" : "r2"), no: () => "q4" },
-  q4: { yes: state => (state.symptomScore && state.symptomScore >= 0.75 ? "r7" : "r2"), no: () => "q5" },
-  q5: { yes: state => (state.symptomScore && state.symptomScore >= 0.5 ? "r7" : "q6"), no: () => "q6" },
-  q6: {
-    yes: state => {
-      if (state.symptomScore >= 1) return "r7"
-      if (state.q5) return "r4"
-      return "r5"
-    },
-    no: () => "q7",
-  },
-  q7: {
-    yes: state => {
-      if (state.symptomScore >= 0.75) return "r7"
-      if (state.q5) return "r4"
-      return "r6"
-    },
-    no: () => "q8",
-  },
-  q8: {
-    yes: state => {
-      if (state.symptomScore >= 1) return "r7"
-      if (state.q5) return "r4"
-      return "r6"
-    },
-    no: state => {
-      if (state.symptomScore >= 1) return "r7"
-      if (state.q5) return "r4"
-      return state.symptomScore ? "r2" : "r3"
-    },
-  },
+  q15: { cont: state => (state.symptomScore && state.symptomScore >= 1 ? "r7" : "r5") },
 }

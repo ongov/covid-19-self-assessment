@@ -108,3 +108,12 @@
   letter-spacing: 0.02rem;
   line-height: 1.37;
 }
+
+/* Specific to the feedback callout box that appears at the bottom of the results page */
+.ontario-results__content h2.ontario-callout--feedback__title {
+  font: 1.5rem "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 1rem;
+  text-rendering: optimizeLegibility;
+}

@@ -3,6 +3,9 @@ import { Link } from "gatsby"
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 
 import ResultsTemplate from "../../templates/results-template"
+import CalloutSignUp from "../../components/callout-signup"
+
+const lang = "en"
 
 const resultsContent = (
   <>
@@ -12,12 +15,13 @@ const resultsContent = (
       </div>
       <div className="ontario-small-10 ontario-medium-11 ontario-large-10 ontario-end ontario-columns ontario-results__content">
         <h2>
-          You must stay at home for 14 days because you were in close contact with someone who either recently
-          travelled, tested positive for COVID-19, or has new respiratory symptoms.
+          Based on your answers, we recommend that you <strong>stay at home for 14 days</strong> because you were in
+          close physical contact with someone who has COVID-19 symptoms or recently travelled.
         </h2>
         <p>
-          You <strong>do not</strong> need to contact a doctor or Telehealth Ontario for an assessment.{" "}
+          You <strong>do not</strong> need to contact a doctor or Telehealth Ontario for an assessment at this time.{" "}
         </p>
+        <p>On this page:</p>
         <ol>
           <li>
             <AnchorLink to="/self-assessment/r6#stay-at-home">Stay at home for 14 days</AnchorLink>
@@ -28,6 +32,8 @@ const resultsContent = (
         </ol>
       </div>
     </div>
+
+    <CalloutSignUp lang={lang}></CalloutSignUp>
 
     <div className="ontario-row ontario-results__content" id="stay-at-home">
       <div className="ontario-small-1 ontario-medium-1 ontario-large-1 ontario-columns">
@@ -56,7 +62,17 @@ const resultsContent = (
           </li>
         </ul>
 
-        <h4>Groceries, medications and essential items</h4>
+        <h4>Going to work</h4>
+        <ul>
+          <li>work from home (if possible)</li>
+          <li>if you cannot work from home, call your manager and occupational health and safety representative</li>
+          <li>
+            let them know if you are experiencing symptoms or have been instructed to self-isolate
+          </li>
+          <li>discuss your next steps with them to make sure you and your company are taking the right safety precautions</li>
+        </ul>
+
+        <h4>Groceries, medications, and essential items</h4>
         <ul>
           <li>get someone who does not live with you to deliver these items</li>
           <li>place orders over the phone or online</li>
@@ -67,9 +83,10 @@ const resultsContent = (
 
         <h4>Roommates and family you live with</h4>
         <ul>
-          <li>they must self-isolate too</li>
-          <li>stay in a room away from them</li>
-          <li>keep a distance of at least 6 feet (2 metres)</li>
+          <li>they should self-isolate too</li>
+          <li>stay in a room away from them (if possible)</li>
+          <li>use a different bathroom (if possible)</li>
+          <li>keep a distance of at least 6 feet (2 metres) in shared spaces like kitchens or living rooms</li>
         </ul>
 
         <h4>People you do not live with</h4>
@@ -80,17 +97,30 @@ const resultsContent = (
           </li>
         </ul>
 
-        <p className="ontario-margin-top-32-!">
-          Get more tips on how to safely{" "}
-          <a href="https://www.ontario.ca/page/covid-19-stop-spread#section-3">self-isolate</a> to protect yourself and
-          others in your community. {" "}
-        </p>
+        <div className="ontario-margin-top-32-!">
+          <p>To further protect yourself and others in your community:</p>
+          <ul>
+            <li>
+              get more tips on how to{" "}
+              <a href="https://www.ontario.ca/page/covid-19-stop-spread#section-3" rel="noopener" target="_blank">
+                safely self-isolate <span className="ontario-show-for-sr">This link will open in a new window.</span>
+              </a>{" "}
+            </li>
+            <li>
+              learn about{" "}
+              <a href="https://www.ontario.ca/page/covid-19-stop-spread#section-2" rel="noopener" target="_blank">
+                wearing face coverings and masks{" "}
+                <span className="ontario-show-for-sr">This link will open in a new window.</span>
+              </a>{" "}
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
 
     <div className="ontario-row">
       <div className="ontario-small-12 ontario-columns">
-        <hr className="ontario-hr-short" />
+        <hr className="ontario-hr-short" aria-hidden="true" />
       </div>
     </div>
 
@@ -101,12 +131,14 @@ const resultsContent = (
       <div className="ontario-small-10 ontario-medium-11 ontario-large-10 ontario-end ontario-columns">
         <h3>Monitor your health</h3>
         <p className="ontario-first-line">
-          <Link to="/self-assessment">Take this self-assessment again</Link> at the end of the 14-day period or sooner if
-          you:
+          <Link to="/self-assessment">Take this self-assessment again</Link> at the end of the 14-day period or sooner
+          if you:
         </p>
         <ul>
-          <li>start feeling sick (difficulty breathing, fever or new cough)</li>
-          <li>come into close contact again with someone who has difficulty breathing, a fever or a cough</li>
+          <li>start feeling sick (difficulty breathing, fever, or new cough)</li>
+          <li>
+            come into close physical contact again with someone who has difficulty breathing, a fever, or a new cough{" "}
+          </li>
         </ul>
 
         <h4>Roommates and family you live with</h4>
@@ -119,6 +151,6 @@ const resultsContent = (
   </>
 )
 
-const R6 = () => <ResultsTemplate lang="en" resultsContent={resultsContent} />
+const R6 = () => <ResultsTemplate lang={lang}>{resultsContent}</ResultsTemplate>
 
 export default R6

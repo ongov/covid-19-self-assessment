@@ -3,6 +3,9 @@ import { Link } from "gatsby"
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 
 import ResultsTemplate from "../../templates/results-template"
+import CalloutSignUp from "../../components/callout-signup"
+
+const lang = "fr"
 
 const resultsContent = (
   <>
@@ -11,84 +14,100 @@ const resultsContent = (
         <div className="ontario-icon__self-isolate-home"></div>
       </div>
       <div className="ontario-small-10 ontario-medium-11 ontario-large-10 ontario-end ontario-columns ontario-results__content">
-        <h2>Vous devez rester à la maison pendant 14 jours après le début de vos symptômes.</h2>
+        <h2>Sur la base de vos réponses, nous vous recommandons de <strong>rester à la maison pendant 14 jours</strong> parce que vous présentez des symptômes. </h2>
 
         <p>
-          Vous <strong>n'avez pas besoin</strong> de contacter un médecin ou Télésanté Ontario pour une évaluation.
+          Vous <strong>n'avez pas besoin</strong> de communiquer avec un médecin ou avec Télésanté Ontario pour subir une évaluation à l’heure actuelle.
         </p>
+
+        <p>Sur cette page :</p>
         <ol>
           <li>
-            <AnchorLink to="/autoevaluation/r2#stay-at-home">Restez à la maison pendant 14 jours </AnchorLink>
+            <AnchorLink to="/autoevaluation/r2#stay-at-home">Restez à la maison pendant 14 jours suivant l’apparition de vos symptômes </AnchorLink>
           </li>
           <li>
             <AnchorLink to="/autoevaluation/r2#tell-people-youve-been-in-contact-with">
-              Parlez aux personnes avec lesquelles vous avez été en contact
+              Avisez les gens avec qui vous avez été en contact physique étroit
             </AnchorLink>
           </li>
           <li>
-            <AnchorLink to="/autoevaluation/r2#monitor-your-health">Surveillez votre santé </AnchorLink>
+            <AnchorLink to="/autoevaluation/r2#monitor-your-health">Surveillez votre état de santé </AnchorLink>
           </li>
         </ol>
       </div>
     </div>
+
+    <CalloutSignUp lang={lang}></CalloutSignUp>
 
     <div className="ontario-row ontario-results__content" id="stay-at-home">
       <div className="ontario-small-1 ontario-medium-1 ontario-large-1 ontario-columns">
         <div className="ontario-infographic-number">1.</div>
       </div>
       <div className="ontario-small-10 ontario-medium-11 ontario-large-10 ontario-end ontario-columns">
-        <h3>Restez à la maison pendant 14 jours</h3>
+        <h3>Restez à la maison pendant 14 jours suivant l’apparition de vos symptômes</h3>
         <p className="ontario-first-line">
-          C’est ce qu’on appelle <strong>l’auto-isolement</strong>.
+          On appelle cette mesure <strong>l’auto-isolement</strong>.
         </p>
         <p>
-          Vous pouvez être contagieux. Restez à la maison pour que les autres membres de votre communauté ne tombent pas
-          malades.
+          Vous pourriez être contagieux. Restez à l’intérieur pour éviter que les gens de votre collectivité ne tombent malades.
         </p>
         <h4>Quitter votre domicile</h4>
         <ul>
           <li>
-            <strong>ne quittez votre domicile que pour des raisons essentielles</strong> (comme une urgence médicale)
+            <strong>quittez votre domicile uniquement pour des raisons essentielles</strong> (comme une urgence médicale)
           </li>
         </ul>
 
         <h4>Test de dépistage de la COVID-19</h4>
         <ul>
           <li>
-            <strong>ne vous rendez pas</strong> dans un hôpital ou une clinique pour faire un test de dépistage de la
-            COVID-19, sauf si un médecin ou un fournisseur de soins de santé vous le demande
+            <strong>ne vous présentez pas</strong> à l’hôpital ou à une clinique pour subir un test de dépistage de la COVID-19 sauf si un médecin ou un
+            fournisseur de soins de santé vous demande de le faire
           </li>
         </ul>
 
-        <h4>Produits alimentaires, médicaments et articles essentiels</h4>
+        <h4>Aller au travail</h4>
         <ul>
-          <li>demandez à une personne extérieure à votre domicile de vous livrer ces articles</li>
-          <li>passez des commandes par téléphone ou en ligne</li>
+          <li>travaillez de la maison (si possible)</li>
+          <li>si vous ne pouvez pas travailler de la maison, téléphonez à votre gestionnaire et à votre délégué à la santé et à la sécurité au travail</li>
+          <li>informez-les si vous présentez des symptômes ou si on vous a demandé de vous isoler</li>
+          <li>discutez des prochaines étapes avec eux pour faire en sorte que vous et votre entreprise preniez les mesures de sécurité appropriées</li>
+        </ul>
+
+        <h4>Produits d’épicerie, médicaments et articles essentiels</h4>
+        <ul>
+          <li>demandez à quelqu’un qui n’habite pas avec vous de vous procurer ces articles </li>
+          <li>passez vos commandes par téléphone ou en ligne</li>
           <li>
-            <strong>n’entrez pas</strong> dans les magasins ou les supermarchés en personne
+            <strong>ne vous rendez pas</strong> dans les magasins ou supermarchés en personne
           </li>
         </ul>
 
         <h4>Colocataires et membres de la famille avec qui vous habitez</h4>
         <ul>
-          <li>ils doivent aussi s’auto-isoler</li>
-          <li>restez dans une pièce éloignée de ces personnes</li>
-          <li>gardez une distance d’au moins 2 mètres (6 pieds)</li>
+          <li>ils devraient eux aussi s’auto-isoler</li>
+          <li>restez dans une pièce à l’écart d’eux (si possible)</li>
+          <li>utilisez une salle de bains différente (si possible) </li>
+          <li>gardez une distance d’au moins 2 mètres (6 pieds) dans les espaces communs comme la cuisine ou le salon </li>
         </ul>
 
         <h4>Personnes avec qui vous n’habitez pas</h4>
         <ul>
-          <li>ne contacter les personnes que par téléphone ou en ligne</li>
+          <li>communiquez avec ces personnes par téléphone ou en ligne uniquement </li>
           <li>
-            <strong>n’invitez pas</strong> les gens ou ne faites pas de rencontres en personne
+            <strong>ne les invitez pas</strong> à la maison et ne socialisez pas en personne
           </li>
         </ul>
 
-        <p className="ontario-margin-top-32-!">
-          Obtenez d’autres conseils sur la façon de{" "}
-          <a href="https://www.ontario.ca/fr/page/freinez-la-propagation-de-la-covid-19#section-3">s’auto-isoler</a> en
-          toute sécurité pour vous protéger et protéger les autres membres de votre communauté.  {" "}
-        </p>
+        <div className="ontario-margin-top-32-!">
+          <p>Afin de mieux vous protéger ainsi que les autres membres de votre collectivité :</p>
+          <ul>
+            <li>obtenez d’autres conseils sur la façon de{" "}
+            <a href="https://www.ontario.ca/fr/page/freinez-la-propagation-de-la-covid-19#section-3" target="_blank" rel="noopener">vous auto-isoler de façon sécuritaire </a> {" "}</li>
+            <li>renseignez-vous sur {" "}<a href="https://www.ontario.ca/fr/page/freinez-la-propagation-de-la-covid-19#section-2" target="_blank" rel="noopener">le port d’un couvre-visage et d’un masque</a>{" "}</li>
+          </ul>
+        </div>
+
       </div>
     </div>
 
@@ -103,16 +122,19 @@ const resultsContent = (
         <div className="ontario-infographic-number">2.</div>
       </div>
       <div className="ontario-small-10 ontario-medium-11 ontario-large-10 ontario-end ontario-columns">
-        <h3>Parlez aux personnes avec lesquelles vous avez été en contact </h3>
+        <h3>Avisez les gens avec qui vous avez été en contact physique étroit</h3>
 
         <p className="ontario-first-line">
-          Vous devez <strong>dire aux gens de s’isoler si vous avez été en contact étroit</strong> avec eux dans les deux jours précédant le début de vos symptômes.
+          Vous devriez dire aux gens de <strong>surveiller leur état de santé et de s’auto-isoler</strong> si vous avez été en contact physique étroit
+          avec eux dans les 2 jours précédant l’apparition de vos symptômes.
         </p>
 
-        <h4>Par contact étroit, on entend : </h4>
+        <h4>Par contact physique étroit, on entend :</h4>
         <ul>
-          <li>une conversation en tête à tête pendant 15 minutes</li>
-          <li>être dans la même pièce pendant 2 heures</li>
+          <li>une conversation face à face pendant 15 minutes </li>
+          <li>se trouver dans la même pièce pendant deux heures</li>
+          <li>vivre dans la même demeure</li>
+          <li>travailler au même endroit</li>
         </ul>
       </div>
     </div>
@@ -128,29 +150,26 @@ const resultsContent = (
         <div className="ontario-infographic-number">3.</div>
       </div>
       <div className="ontario-small-10 ontario-medium-11 ontario-large-10 ontario-end ontario-columns">
-        <h3>Surveillez votre santé </h3>
+        <h3>Surveillez votre état de santé</h3>
 
         <p className="ontario-first-line">
-          <strong>Surveillez votre santé pendant 14 jours complets</strong> après le début des symptômes.
+          <strong>Surveillez votre état de santé pendant 14 jours complets</strong> suivant l’apparition de vos symptômes.
         </p>
 
         <p>
-          <Link to="/autoevaluation">Refaites cette auto-évaluation </Link> à la fin de la période de 14 jours ou plus
-          tôt si vous :
+          <Link to="/autoevaluation">Faites cette auto-évaluation de nouveau</Link> à la fin de la période de 14 jours ou avant si vous :
         </p>
         <ul>
-          <li>commencez à vous sentir plus malade</li>
+          <li>commencez à vous sentir encore plus malade</li>
           <li>développez de nouveaux symptômes</li>
-          <li>
-            entrez en contact étroit avec une personne qui a des difficultés respiratoires, de la fièvre ou de la toux
-          </li>
+          <li>êtes en contact physique étroit avec une personne qui a de la difficulté à respirer, qui fait de la fièvre ou qui présente une nouvelle toux </li>
         </ul>
 
-        <h4>Colocataires et membres de la famille avec qui vous habitez</h4>
+        <h4>Colocataires et membres de la famille avec qui vous habitez </h4>
         <ul>
-          <li>elles devraient surveiller leur santé aussi</li>
+          <li>ils doivent eux aussi surveiller leur état de santé</li>
           <li>
-            les jeunes enfants peuvent présenter des symptômes moins précis, comme la léthargie ou le manque d’appétit
+            les jeunes enfants pourraient présenter des symptômes moins précis, par exemple de la léthargie ou un manque d’appétit
           </li>
         </ul>
       </div>
@@ -158,6 +177,6 @@ const resultsContent = (
   </>
 )
 
-const R2 = () => <ResultsTemplate lang="fr" resultsContent={resultsContent} />
+const R2 = () => <ResultsTemplate lang={lang}>{resultsContent}</ResultsTemplate>
 
 export default R2

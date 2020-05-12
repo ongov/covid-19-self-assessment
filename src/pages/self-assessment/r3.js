@@ -4,6 +4,8 @@ import { AnchorLink } from "gatsby-plugin-anchor-links"
 
 import ResultsTemplate from "../../templates/results-template"
 
+const lang = "en"
+
 const resultsContent = (
   <>
     <div className="ontario-row">
@@ -11,10 +13,16 @@ const resultsContent = (
         <div className="ontario-icon__self-isolate"></div>
       </div>
       <div className="ontario-small-10 ontario-medium-11 ontario-large-10 ontario-end ontario-columns ontario-results__content">
-        <h2>Stay at home as much as possible. </h2>
+        <h2>
+          Based on your answers, we recommend that you{" "}
+          <strong>continue staying home and limiting your time outside</strong> because you do not seem to have symptoms
+          or be part of an at-risk group.{" "}
+        </h2>
+
         <p>
-          You <strong>do not</strong> need to contact a doctor or Telehealth Ontario for an assessment.
+          You <strong>do not</strong> need to contact a doctor or Telehealth Ontario for an assessment at this time.
         </p>
+        <p>On this page:</p>
         <ol>
           <li>
             <AnchorLink to="/self-assessment/r3#avoid-going-out">Avoid going out in public</AnchorLink>
@@ -40,20 +48,21 @@ const resultsContent = (
         <ul>
           <li>stay home as much as possible</li>
           <li>avoid public transit unless you must use it</li>
+          <li>work from home (if possible) </li>
         </ul>
 
-        <h4>Grocery stores, pharmacies and banks </h4>
+        <h4>Grocery stores, pharmacies, and banks </h4>
         <ul>
-          <li>go grocery shopping once a week (or less)</li>
+          <li>go grocery shopping once a week or less</li>
           <li>only visit pharmacies and banks when absolutely necessary</li>
           <li>place orders over the phone or online</li>
         </ul>
 
-        <h4>Walks and exercise</h4>
+        <h4>Walks and exercise with people you live with</h4>
         <ul>
           <li>you can go on neighbourhood walks</li>
           <li>you can jog or bike around</li>
-          <li>keep a distance of at least 6 feet (2 metres) from other people</li>
+          <li>keep a distance of at least 6 feet (2 metres) from people you do not live with</li>
         </ul>
 
         <h4>In public spaces</h4>
@@ -70,16 +79,34 @@ const resultsContent = (
           </li>
         </ul>
 
-        <p className="ontario-margin-top-32-!">
-          Learn more about{" "}
-          <a href="https://www.ontario.ca/page/covid-19-stop-spread#physical-distancing">physical distancing</a>.
-        </p>
+        <div className="ontario-margin-top-32-!">
+          Learn more about:
+          <ul>
+            <li>
+              {" "}
+              <a
+                href="https://www.ontario.ca/page/covid-19-stop-spread#physical-distancing"
+                rel="noopener"
+                target="_blank"
+              >
+                physical distancing <span className="ontario-show-for-sr">This link will open in a new window.</span>
+              </a>{" "}
+            </li>
+            <li>
+              {" "}
+              <a href="https://www.ontario.ca/page/covid-19-stop-spread#section-1" rel="noopener" target="_blank">
+                reducing your exposure to the virus{" "}
+                <span className="ontario-show-for-sr">This link will open in a new window.</span>
+              </a>{" "}
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
 
     <div className="ontario-row">
       <div className="ontario-small-12 ontario-columns">
-        <hr className="ontario-hr-short" />
+        <hr className="ontario-hr-short" aria-hidden="true" />
       </div>
     </div>
 
@@ -93,8 +120,8 @@ const resultsContent = (
           <Link to="/self-assessment">Take this self-assessment again</Link> if you:
         </p>
         <ul>
-          <li>start feeling sick (difficulty breathing, fever or new cough)</li>
-          <li>come into close contact with someone who has difficulty breathing, a fever or a cough</li>
+          <li>start feeling sick (difficulty breathing, fever, or new cough)</li>
+          <li>come into close physical contact with someone who has difficulty breathing, a fever or a new cough </li>
         </ul>
 
         <h4>Roommates and family you live with</h4>
@@ -107,6 +134,10 @@ const resultsContent = (
   </>
 )
 
-const R3 = () => <ResultsTemplate lang="en" resultsContent={resultsContent} />
+const R3 = () => (
+  <ResultsTemplate lang={lang} showContactForm={false}>
+    {resultsContent}
+  </ResultsTemplate>
+)
 
 export default R3

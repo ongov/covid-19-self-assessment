@@ -6,9 +6,9 @@
   margin-bottom: 0.5rem;
 }
 
-.ontario-form .ontario-label {
+.ontario-label {
   color: #666;
-  font: 1rem "Open Sans", Arial, Helvetica, sans-serif;
+  font: 1rem "Open Sans", Arial, Helvetica, sans-serif !important;
   font-weight: normal;
   margin-bottom: 0.5rem;
 }
@@ -71,7 +71,7 @@
 .ontario-form--link:hover,
 .ontario-form--link:active,
 .ontario-form--link:focus {
-  background-color: white;
+  background-color: transparent;
   text-decoration: underline;
 }
 
@@ -91,7 +91,6 @@
 .ontario-form__message-success {
   /* To appear underneath the main header*/
   background: rgba(17, 136, 71, 0.12);
-  border-left: 4px solid #118847;
   margin: 0;
   padding: 0.9375rem 2rem 0.9375rem 0.9375rem;
   position: relative;
@@ -102,4 +101,23 @@
   .ontario-form__message-success {
     top: -1rem;
   }
+}
+
+@media screen and (max-width: 39.9375em) {
+  .ontario-form__message-success--icon {
+    padding: 0;
+  }
+}
+
+.ontario-form__title {
+  font: 1.5rem "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.0313rem;
+  line-height: 1.5;
+}
+
+.ontario-form__message-success--title{
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-top: 0;
 }
