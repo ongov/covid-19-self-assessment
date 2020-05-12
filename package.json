@@ -2,7 +2,7 @@
   "name": "covid-19-self-assessment-tool-v3",
   "private": true,
   "description": "covid-19 self-assessment tool v3",
-  "version": "0.0.1",
+  "version": "3.0.0",
   "author": "Bane Debeljevic <bane.debeljevic@ontario.ca>",
   "dependencies": {
     "@reach/skip-nav": "^0.10.1",

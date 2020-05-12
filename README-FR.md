@@ -1,4 +1,4 @@
-# COVID-19 Outil d'auto-évaluation v2.8
+# COVID-19 Outil d'auto-évaluation v3.0
 
 **REMARQUE:** Cet outil n'est pas destiné à fournir des conseils médicaux. Si vous avez des questions médicales, consultez votre autorité sanitaire locale.
 
@@ -25,3 +25,4 @@ Pour exécuter pendant le développement, utilisez simplement la commande `yarn 
 Pour construire la version de production, utilisez `yarn build`. La construction de la production peut être servie localement en utilisant `yarn serve`.
 
 Le formulaire utilisé dans cette version de l'outil soumet les données à une URL API définie via la variable d'environnement `GATSBY_OAG_API_URL`. En cours de développement, cette valeur est définie sur http://localhost:3000/api/sat-data.
+git
