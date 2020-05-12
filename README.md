@@ -1,4 +1,4 @@
-# COVID-19 Self Assessment Tool v2.8
+# COVID-19 Self Assessment Tool v3.0
 
 **NOTE:** This tool is not intended to provide medical advice. If you have medical questions, consult your local health authority.
 
