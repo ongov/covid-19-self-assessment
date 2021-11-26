@@ -69,7 +69,7 @@ const symptoms = {
       text: "Muscle aches/joint pain",
       sup_text: (
         <>
-          Unusual, long-lasting (not related to <strong>getting a COVID-19 vaccine and/or flu shot in the last 48 hours</strong>, a
+          Unusual, long-lasting (not related to <strong>getting a COVID-19 vaccine in the last 48 hours</strong>, a
           sudden injury, fibromyalgia, or other known causes or conditions you already have)
         </>
       ),
@@ -79,7 +79,7 @@ const symptoms = {
       sup_text: (
         <>
           Inhabituelles, de longue durée (non liées{" "}
-          <strong>à l’administration du vaccin contre la COVID-19 et/ou vaccin contre la grippe au cours des dernières 48 heures</strong>, à une
+          <strong>à l’administration du vaccin contre la COVID-19 au cours des dernières 48 heures</strong>, à une
           blessure soudaine, à une fibromyalgie ou à d'autres causes ou affections connues dont vous souffrez déjà)
         </>
       ),
@@ -92,7 +92,7 @@ const symptoms = {
       sup_text: (
         <>
           Unusual, fatigue, lack of energy (not related to{" "}
-          <strong>getting a COVID-19 vaccine and/or flu shot in the last 48 hours</strong>, depression, insomnia, thyroid dysfunction,
+          <strong>getting a COVID-19 vaccine in the last 48 hours</strong>, depression, insomnia, thyroid dysfunction,
           or other known causes or conditions you already have)
         </>
       ),
@@ -102,7 +102,7 @@ const symptoms = {
       sup_text: (
         <>
           Inhabituelle, fatigue, manque d'énergie (non liée{" "}
-          <strong>à l’administration du vaccin contre la COVID-19 et/ou vaccin contre la grippe au cours des dernières 48 heures</strong>, à une
+          <strong>à l’administration du vaccin contre la COVID-19 au cours des dernières 48 heures</strong>, à une
           dépression, à une insomnie, à un dysfonctionnement de la thyroïde ou à d'autres causes ou affections connues
           dont vous souffrez déjà)
         </>

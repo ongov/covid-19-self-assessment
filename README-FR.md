@@ -4,7 +4,7 @@
 
 L'outil amène le public à travers une série de questions pour informer ceux qui sont concernés qu'ils peuvent avoir contracté COVID-19. Si les réponses de l'utilisateur le justifient de parler à un professionnel de la santé, il a la possibilité de remplir ses informations personnelles et de les soumettre afin d'obtenir un rappel. L'outil est implémenté à l'aide de [Gatsby](https://www.gatsbyjs.org/), qui est un générateur de site statique basé sur React et alimenté par GraphQL. Étant donné que Gatsby compile en HTML / CSS / JS statique, il permet des performances fulgurantes et des déploiements simples.
 
-Version actuelle : [v5.0.0](https://github.com/ongov/covid-19-self-assessment/releases/tag/v5.0.0)
+Version actuelle : [v5.5.0](https://github.com/ongov/covid-19-self-assessment/releases/tag/v5.5.0)
 
 Versions antérieures :
 - [v1.0.0](https://github.com/ongov/covid-19-self-assessment/releases/tag/v1.0.0)
@@ -12,6 +12,7 @@ Versions antérieures :
 - [v2.8.0](https://github.com/ongov/covid-19-self-assessment/releases/tag/v2.8.0)
 - [v3.0.0](https://github.com/ongov/covid-19-self-assessment/releases/tag/v3.0.0)
 - [v4.0.0](https://github.com/ongov/covid-19-self-assessment/releases/tag/v4.0.0)
+- [v5.0.0](https://github.com/ongov/covid-19-self-assessment/releases/tag/v5.0.0)
 
 Le travail sur l'outil est en cours et en raison de sa nature sensible au temps, nous privilégions la vitesse à tout le reste. Ce n'est pas parfait, mais nous travaillons 24 heures sur 24 pour l'améliorer pour une meilleure facilité d'utilisation et précision en fonction des dernières informations médicales dont nous disposons.
 

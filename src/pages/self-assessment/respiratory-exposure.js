@@ -21,7 +21,7 @@ const RespiratoryExposure = () => (
       <strong>Adults (18 years old or older):</strong> fever and/or chills, cough or barking cough, shortness of breath, decrease or loss of taste or smell, tiredness, muscle aches 
     </p>
 
-    <p>If the person with symptoms got a COVID-19 vaccine and/or flu shot in the last 48 hours and is experiencing mild fatigue, muscle aches, and/or joint pain that only began after vaccination, select “No.”</p>
+    <p>If the person with symptoms got a COVID-19 vaccine in the last 48 hours and is experiencing mild fatigue, muscle aches, and/or joint pain that only began after vaccination, select “No.”</p>
   </QuestionTemplate>
 )
 

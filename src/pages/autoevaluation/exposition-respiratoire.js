@@ -23,7 +23,7 @@ const RespiratoryExposure = () => (
       <strong>Adultes (18 ans ou plus) :</strong> fièvre et/ou frissons, toux ou toux aboyante, essoufflement, diminution ou perte du goût ou de l'odorat, fatigue, douleurs musculaires 
     </p>
     
-    <p>Si la personne présentant des symptômes a reçu un vaccin contre la COVID-19 et/ou vaccin contre la grippe au cours des 48 dernières heures et ressent une fatigue légère, des douleurs musculaires ou articulaires qui ont commencé seulement après la vaccination, sélectionnez « Non ».</p>
+    <p>Si la personne présentant des symptômes a reçu un vaccin contre la COVID-19 au cours des 48 dernières heures et ressent une fatigue légère, des douleurs musculaires ou articulaires qui ont commencé seulement après la vaccination, sélectionnez « Non ».</p>
   </QuestionTemplate>
 )
 
