@@ -1,71 +1,74 @@
-import React from "react"
-import { Link } from "gatsby"
+import React, { forwardRef, useRef } from "react"
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 
 import ResultsTemplate from "../../templates/results-template"
-import CalloutSignUp from "../../components/callout-signup"
+import SaveToPDFButton from "../../components/save-to-pdf-button"
+import CalloutCovidApp from "../../components/callout-covid-app"
 
 const lang = "fr"
 
-const resultsContent = (
+const ResultsContent = forwardRef(({ lang }, ref) => (
   <>
     <div className="ontario-row">
-      <div className="ontario-small-1 ontario-medium-1 ontario-large-1 ontario-columns">
+      <div className="ontario-small-1 ontario-medium-1 ontario-large-1 ontario-columns ontario-hide-for-print">
         <div className="ontario-icon__self-isolate-home"></div>
       </div>
       <div className="ontario-small-10 ontario-medium-11 ontario-large-10 ontario-end ontario-columns ontario-results__content">
-        <h2>Vous <strong>devez rester chez vous pendant 14 jours</strong> immédiatement après votre retour au Canada. </h2>
-        <p>
-          Vous <strong>n’avez pas</strong> besoin de communiquer avec un médecin ou avec Télésanté Ontario pour subir une évaluation à l’heure actuelle.{" "}
-        </p>
+        <h2 className="ontario-results--subtitle">
+          Vous <strong>devez rester chez vous pendant 14 jours</strong> immédiatement après votre retour au Canada.{" "}
+        </h2>
 
-        <p>Sur cette page :</p>
+        <div className="ontario-margin-top-40-! ontario-hide-for-print">
+          <SaveToPDFButton ref={ref} lang={lang} />
+        </div>
+
+        <div className="ontario-hide-for-print">
+          <p>Sur cette page :</p>
           <ol>
-          <li>
-            <AnchorLink to="/autoevaluation/r5#stay-at-home">Restez à la maison pendant 14 jours </AnchorLink>
-          </li>
-          <li>
-            <AnchorLink to="/autoevaluation/r5#monitor-your-health">Surveillez votre état de santé </AnchorLink>
-          </li>
-        </ol>
+            <li>
+              <AnchorLink to="/autoevaluation/r5#stay-at-home">Restez à la maison pendant 14 jours </AnchorLink>
+            </li>
+            <li>
+              <AnchorLink to="/autoevaluation/r5#monitor-your-health">Surveillez votre état de santé </AnchorLink>
+            </li>
+          </ol>
+
+          <CalloutCovidApp lang="fr" />
+        </div>
       </div>
     </div>
 
-    <CalloutSignUp lang={lang}></CalloutSignUp>
-
     <div className="ontario-row ontario-results__content" id="stay-at-home">
-      <div className="ontario-small-1 ontario-medium-1 ontario-large-1 ontario-columns">
+      <div className="ontario-small-1 ontario-medium-1 ontario-large-1 ontario-columns ontario-hide-for-print">
         <div className="ontario-infographic-number">1.</div>
       </div>
       <div className="ontario-small-10 ontario-medium-11 ontario-large-10 ontario-end ontario-columns">
-        <h3>Restez à la maison pendant 14 jours</h3>
+        <h3>
+          <span className="ontario-show-for-print">1.</span> Restez à la maison pendant 14 jours
+        </h3>
         <p className="ontario-first-line">
           On appelle cette mesure l'<strong>auto-isolement</strong>.
         </p>
         <p>
-          Vous pourriez être porteur du virus sans le savoir. Restez à l’intérieur pour éviter que les gens de votre collectivité ne tombent malades.
+          Vous pourriez être porteur du virus sans le savoir et le transmettre aux gens de votre collectivité.{" "}
+          <strong>Ne vous rendez pas dans des espaces publics sauf pour une raison essentielle</strong> (comme une
+          urgence médicale).
         </p>
-        <h4>Quitter votre domicile</h4>
+
+        <h4>Couvre-visages et masques</h4>
         <ul>
           <li>
-            <strong>quittez votre domicile uniquement pour des raisons essentielles</strong> (comme une urgence médicale)
+            portez-en un lorsque vous êtes en chemin pour subir un test ou vous rendre à une consultation à l’hôpital{" "}
           </li>
-        </ul>
-
-        <h4>Test de dépistage de la COVID-19 </h4>
-        <ul>
+          <li>couvrez votre bouche et votre nez</li>
           <li>
-            <strong>ne vous présentez pas</strong> à l’hôpital ou à une clinique pour subir un test de dépistage de la COVID-19 sauf si un médecin ou un fournisseur de soins de santé vous demande de le faire
+            <strong>ne le touchez pas</strong> sans d’abord vous laver ou désinfecter les mains
           </li>
-        </ul>
-
-
-        <h4>Aller au travail</h4>
-        <ul>
-          <li>travaillez de la maison (si possible)</li>
-          <li>si vous ne pouvez pas travailler de la maison, téléphonez à votre gestionnaire et à votre délégué à la santé et à la sécurité au travail</li>
-          <li>informez-les si vous présentez des symptômes ou si on vous a demandé de vous isoler</li>
-          <li>discutez des prochaines étapes avec eux pour faire en sorte que vous et votre entreprise preniez les mesures de sécurité appropriées</li>
+          <li>
+            <a href="https://www.ontario.ca/fr/page/couvre-visage-et-masques-faciaux" target="_blank" rel="noopener">
+              apprenez comment porter un couvre-visage et un masque facial
+            </a>
+          </li>
         </ul>
 
         <h4>Produits d’épicerie, médicaments et articles essentiels </h4>
@@ -77,12 +80,27 @@ const resultsContent = (
           </li>
         </ul>
 
+        <h4>Travail et lieux de travail</h4>
+        <ul>
+          <li>travaillez de la maison (si possible)</li>
+          <li>
+            si vous ne pouvez pas travailler de la maison, téléphonez à votre gestionnaire et à votre délégué à la santé
+            et à la sécurité au travail
+          </li>
+          <li>informez-les qu’on vous a demandé de vous auto-isoler</li>
+          <li>
+            discuter avec eux des prochaines étapes pour vous assurer que vous et votre entreprise prenez les bonnes
+            précautions en matière de sécurité
+          </li>
+        </ul>
+
         <h4>Colocataires et membres de la famille avec qui vous habitez</h4>
         <ul>
-          <li>ils devraient eux aussi s’auto-isoler</li>
+          <li>ils <strong>n’ont pas</strong> à s’auto-isoler, mais ils doivent s’autosurveiller pour voir s’ils ont les symptômes </li>
           <li>restez dans une pièce à l’écart d’eux (si possible) </li>
           <li>utilisez une salle de bains différente (si possible) </li>
-          <li>gardez une distance d’au moins 2 mètres (6 pieds) dans les espaces communs comme la cuisine ou le salon</li>
+          <li>gardez une distance d’au moins 2 mètres dans les espaces communs comme les cuisines ou les salons</li>
+          <li>portez un couvre-visage ou un masque lorsque vous êtes en leur présence</li>
         </ul>
 
         <h4>Personnes avec qui vous n’habitez pas</h4>
@@ -93,50 +111,71 @@ const resultsContent = (
           </li>
         </ul>
 
-        <div className="ontario-margin-top-32-!">
-          <p>Afin de mieux vous protéger ainsi que les autres membres de votre collectivité :</p>
-          <ul>
-            <li>obtenez d’autres conseils sur la façon de {" "}<a href="https://www.ontario.ca/fr/page/freinez-la-propagation-de-la-covid-19#section-3" target="_blank" rel="noopener">vous auto-isoler de façon sécuritaire</a>{" "}</li>
-            <li>renseignez-vous sur {" "}<a href="https://www.ontario.ca/fr/page/freinez-la-propagation-de-la-covid-19#section-2" target="_blank" rel="noopener">le port d’un couvre-visage et d’un masque</a>{" "}</li>
-          </ul>
-        </div>
+        <p className="ontario-margin-top-32-!">
+          <a
+            href="https://www.ontario.ca/fr/page/freinez-la-propagation-de-la-covid-19#section-3"
+            target="_blank"
+            rel="noopener"
+          >
+            Obtenez d’autres conseils sur la façon de vous auto-isoler de façon sécuritaire
+          </a>
+          .
+        </p>
       </div>
     </div>
 
-    <div className="ontario-row">
+    <div className="ontario-row ontario-hide-for-print">
       <div className="ontario-small-12 ontario-columns">
         <hr className="ontario-hr-short" />
       </div>
     </div>
 
     <div className="ontario-row ontario-results__content" id="monitor-your-health">
-      <div className="ontario-small-1 ontario-medium-1 ontario-large-1 ontario-columns">
+      <div className="ontario-small-1 ontario-medium-1 ontario-large-1 ontario-columns ontario-hide-for-print">
         <div className="ontario-infographic-number">2.</div>
       </div>
       <div className="ontario-small-10 ontario-medium-11 ontario-large-10 ontario-end ontario-columns">
-        <h3>Surveillez votre état de santé  </h3>
+        <h3>
+          <span className="ontario-show-for-print">2.</span> Surveillez votre état de santé{" "}
+        </h3>
         <p className="ontario-first-line">
-          <Link to="/autoevaluation">Faites cette auto-évaluation de nouveau</Link> à la fin de la période de 14 jours ou avant si vous :
+          Faites attention à votre santé et portez attention à tout changement de votre état de santé.
         </p>
+
+        <p>Présentez-vous dans un centre d’évaluation pour passer un test de diagnostic de la COVID-19 si :</p>
         <ul>
-          <li>commencez à vous sentir malade (difficulté à respirer, fièvre ou nouvelle toux)</li>
+          <li>vous présentez des symptômes</li>
           <li>
-            êtes en contact physique étroit avec une personne qui a de la difficulté à respirer, qui fait de la fièvre ou qui présente une nouvelle toux
+            vous vous êtes fait dire de vous faire tester par le service de santé publique local ou par votre
+            fournisseur de soins de santé (médecin, médecin de soins primaires)
           </li>
         </ul>
 
+        <p className="ontario-margin-top-32-!">
+          <strong>N’allez pas</strong> passer un test de dépistage si vous ne présentez pas de symptômes.
+        </p>
+
         <h4>Colocataires et membres de la famille avec qui vous habitez</h4>
         <ul>
-          <li>ils doivent eux aussi surveiller leur état de santé</li>
+          <li>ils doivent porter attention à tout changement de leur état de santé également (il s’agit de l’autosurveillance)</li>
           <li>
-            les jeunes enfants pourraient présenter des symptômes moins précis, par exemple de la léthargie ou un manque d’appétit
+            les jeunes enfants pourraient présenter des symptômes moins précis, par exemple de la léthargie ou un manque
+            d’appétit
           </li>
         </ul>
       </div>
     </div>
   </>
-)
+))
 
-const R5 = () => <ResultsTemplate lang={lang}>{resultsContent}</ResultsTemplate>
+const R5 = () => {
+  const elToPrintRef = useRef(null)
+
+  return (
+    <ResultsTemplate lang={lang} showContactForm={false} showFindAssessmentCentres={true} elToPrintRef={elToPrintRef}>
+      <ResultsContent ref={elToPrintRef} lang={lang} />
+    </ResultsTemplate>
+  )
+}
 
 export default R5

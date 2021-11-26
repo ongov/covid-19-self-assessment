@@ -44,12 +44,6 @@
   margin: 0;
 }
 
-.ontario-question__text--strong {
-  font-size: 1.125rem;
-  font-weight: 600;
-  margin: 0 0 2.5rem 0;
-}
-
 .ontario-question__options {
   margin: 2rem 0 0 5rem;
 }

@@ -6,8 +6,6 @@ const RiskFactors = () => (
   <QuestionTemplate lang="fr" yesLink={logic.q7.yes} noLink={logic.q7.no}>
     <h2>Faites-vous partie de l’un ou l’autre de ces groupes à risque?</h2>
     <ul>
-      <li>J’ai 65 ans ou plus</li>
-      <li>Je suis enceinte ou j’ai récemment donné naissance</li>
       <li>
         Je reçois des traitements qui compromettent (affaiblissent) mon système immunitaire <br />
         <span className="ontario-hint">(par exemple, chimiothérapie, médicament pour greffés, corticostéroïdes, inhibiteurs du {" "}<abbr title="facteur de nécrose tumorale">TNF</abbr>)</span>
@@ -15,13 +13,13 @@ const RiskFactors = () => (
       <li>
         J’ai un problème de santé qui compromet (affaiblit) mon système immunitaire
         <br />
-        <span className="ontario-hint">(par exemple, lupus, polyarthrite rhumatoïde ou autre trouble auto-immun)</span>
+        <span className="ontario-hint">(par exemple, lupus, polyarthrite rhumatoïde ou autre trouble du système immunitaire)</span>
       </li>
       <li>
         Je souffre d’une maladie chronique
         <br />
         <span className="ontario-hint">
-          (par exemple, diabète, emphysème, asthme, problèmes cardiaques)
+          (par exemple, diabète, emphysème, asthme, problèmes cardiaques, <abbr>MPOC</abbr>)
         </span>
       </li>
       <li>

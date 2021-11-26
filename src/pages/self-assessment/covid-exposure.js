@@ -5,14 +5,15 @@ import { logic } from "../../shared"
 const CovidExposure = () => (
   <QuestionTemplate lang="en" yesLink={logic.q8.yes} noLink={logic.q8.no}>
     <h2>
-      In the last 14 days, have you been in close physical contact with someone who tested positive for COVID-19?{" "}
+      In the last 14 days, have you been in close physical contact with someone who currently has COVID-19?
     </h2>
+    <p>This includes getting a COVID Alert exposure notification.</p>
+
     <p>Close physical contact means:</p>
     <ul>
-      <li>a face-to-face conversation for 15 minutes</li>
-      <li>being in the same room for 2 hours</li>
+      <li>being less than 2 metres away in the same room, workspace, or area</li>
       <li>living in the same home</li>
-      <li>working in the same workplace</li>
+      <li>being in the same classroom</li>
     </ul>
   </QuestionTemplate>
 )

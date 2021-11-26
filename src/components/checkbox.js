@@ -1,4 +1,4 @@
-import React, { useContext } from "react"
+import React from "react"
 
 const Checkbox = ({ id, value, text, supplementaryText, labelStyle, checkboxState, checkboxOnChange }) => {
   return (

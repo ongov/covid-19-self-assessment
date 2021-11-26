@@ -6,18 +6,31 @@
 }
 
 @media print {
-
   /* Global */
+  @page {
+    size:  auto;   /* auto is the initial value */
+    margin: 0mm;  /* this affects the margin in the printer settings */
+  }
+
+  html {
+    background-color: #FFFFFF;
+    margin: 0px;  /* this affects the margin on the html before sending to printer */
+  }
+
   body {
-    font-family: Arial, Helvetica, sans-serif !important;
+    margin: 10mm; /* margin you want for the content */
   }
 
   .ontario-hide-for-print {
-    display: none !important;
+    display: none;
   }
 
-  .ontario-show-for-print {
-    display: block !important;
+  div.ontario-show-for-print {
+    display: block;
+  }
+
+  span.ontario-show-for-print {
+    display: inline-block;
   }
 
   div, span {
@@ -31,16 +44,22 @@
 
   /* Breadcrumbs */
   .ontario-breadcrumbs {
-    display: none !important;
+    display: none;
   }
 
   /* Callouts */
   .ontario-results__callout__arrow-down {
-    display: none !important;
+    display: none;
   }
 
   .ontario-results__callout {
     top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  [class^='ontario-callout'], [class*='ontario-callout'] {
+    padding: 0 !important;
+    border: none !important;
   }
 
   /* Form elements */
@@ -48,41 +67,29 @@
     display: none !important;
   }
 
-  .ontario-question-content__wrapper--inner legend {
-    font-family: Times, "Times New Roman", sans-serif !important;
-  }
-
   /* Footer */
   footer {
-    display: none !important;
-  }
-
-  /* Headings */
-  h1, h2, h3, h4, h5 {
-    font-family: Times, "Times New Roman", sans-serif !important;
-  }
-
-  .ontario-results__content h2 {
-    font-family: Times, "Times New Roman", sans-serif !important;
+    display: none;
   }
 
   /* Header */
   .ontario-main-header {
-    background: none !important;
+    background: none;
+    margin-bottom: 0;
   }
 
   .ontario-site-logo-print {
-    display: block !important;
-    height: 45px;
-    margin: 1rem 0;
+    display: block;
+    height: 30px;
+    margin: 1rem 0 0.5rem 0;
   }
 
   .ontario-main-header__logo-link {
-    display: none !important;
+    display: none;
   }
 
   .ontario-main-header__link {
-    display: none !important;
+    display: none;
   }
 
   /* Icons */
@@ -90,13 +97,22 @@
   .ontario-icon__self-isolate-home,
   .ontario-icon__self-isolate,
   .ontario-icon__warning {
-    display: none !important;
+    display: none;
   }
 
   /* Type and alignment */
   .ontario-infographic-number {
-    font-family: Times, "Times New Roman", sans-serif !important;
-    text-align: left !important;
+    font-size: 1.4375rem;
+    font-weight: 700;
+  }
+
+  /* Components */
+  .ontario-results__callout .ontario-results__timestamp {
+    margin-bottom: 0.5rem;
+  }
+
+  .ontario-question-content__wrapper--outer {
+    margin-top: 1rem;
   }
 
 }

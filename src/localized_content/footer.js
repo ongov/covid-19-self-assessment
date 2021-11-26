@@ -18,4 +18,15 @@ const footer = {
   ],
 }
 
-export default footer
+const queensPrinter = {
+  en: {
+    text: "© Queen’s Printer for Ontario, 2012–20 ",
+    link: "https://www.ontario.ca/page/copyright-information-c-queens-printer-ontario",
+  },
+  fr: {
+    text: "© Imprimeur de la Reine pour l’Ontario, 2012‑20 ",
+    link: "https://www.ontario.ca/fr/page/droits-dauteur-imprimeur-de-la-reine-pour-lontarioc",
+  },
+}
+
+export { footer, queensPrinter }

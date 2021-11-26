@@ -8,7 +8,11 @@ import { getDaysInMonth } from "date-fns"
 import { GlobalStateContext, GlobalDispatchContext } from "../context/global-context-provider"
 import Checkbox from "../components/checkbox"
 import { months, addSubmitResponseCodeToGTMDataLayer } from "../shared"
-import { general, contactForm } from "../localized_content"
+import { contactForm } from "../localized_content"
+import { getResultsScreenId } from "../utils"
+import "../stylesheets/accordion.css"
+
+const responseCodeGTMEvent = "covid-19-sat-submit-response-code"
 
 const ContactForm = ({ lang }) => {
   const state = useContext(GlobalStateContext)
@@ -22,19 +26,13 @@ const ContactForm = ({ lang }) => {
 
   const { register, handleSubmit, errors, getValues } = useForm()
 
-  const getResultsScreenId = () => {
-    const url = typeof window !== "undefined" ? window.location.pathname : ""
-    const basePathLength = general[lang].basePath.length
-    return url.substring(basePathLength, basePathLength + 2)
-  }
-
   const onSubmit = data => {
     const { dob_day, dob_month, dob_year, email, first_name, last_name, phone, postal_code, sex_at_birth } = data
     const dob = `${dob_year}-${("" + (months[lang].indexOf(dob_month) + 1)).padStart(2, "0")}-${dob_day.padStart(
       2,
       "0"
     )}`
-    const outcome = getResultsScreenId()
+    const outcome = getResultsScreenId(lang)
     const personalInfo = { first_name, last_name, dob, phone, postal_code, outcome, lang }
     const payload = {
       ...state,
@@ -57,7 +55,7 @@ const ContactForm = ({ lang }) => {
           duration: 1000,
         })
 
-        addSubmitResponseCodeToGTMDataLayer(200)
+        addSubmitResponseCodeToGTMDataLayer(200, responseCodeGTMEvent)
       })
       .catch(err => {
         dispatch({ type: "CONTACT_FORM_SUBMITTED_WITH_ERRORS", error: err })
@@ -67,8 +65,12 @@ const ContactForm = ({ lang }) => {
           duration: 1000,
         })
 
-        addSubmitResponseCodeToGTMDataLayer((err.response && err.response.status) || 500)
+        addSubmitResponseCodeToGTMDataLayer((err.response && err.response.status) || 500, responseCodeGTMEvent)
       })
+
+    if (!process.env.GATSBY_IS_PROD_ENV) {
+      console.log(`Dispatched payload: ${JSON.stringify(payload)}`)
+    }
   }
 
   const handleSubmitClick = e => {
@@ -110,7 +112,11 @@ const ContactForm = ({ lang }) => {
   return (
     <>
       {!state.contact_form_submitted_ok && (
-        <form onSubmit={handleSubmit(onSubmit)} className="ontario-row ontario-form" id="contact-form">
+        <form
+          onSubmit={handleSubmit(onSubmit)}
+          className="ontario-row ontario-form ontario-hide-for-print"
+          id="contact-form"
+        >
           <div className="ontario-small-12 ontario-columns">
             <div className="ontario-callout--double ontario-background-grey ontario-margin-top-0-!" id="top">
               {submitClicked && errors && Object.keys(errors).length > 0 && (
@@ -447,6 +453,7 @@ const ContactForm = ({ lang }) => {
                       type="text"
                       id="postal_code"
                       name="postal_code"
+                      defaultValue={state.q4 || ""}
                       ref={register({
                         required: true,
                         pattern: {
@@ -511,7 +518,7 @@ const ContactForm = ({ lang }) => {
                       name="email"
                       ref={register({
                         pattern: {
-                          value: /^\S+@\S+$/i,
+                          value: /^[a-z0-9_.+-]+@[a-z0-9-]+\.([a-z]+)$/i,
                           message: contactForm[lang].form.email.invalid_message,
                         },
                       })}
@@ -527,7 +534,7 @@ const ContactForm = ({ lang }) => {
               <div className="ontario-callout ontario-callout--white ontario-margin-top-16-!">
                 <div className="ontario-row">
                   <div className="ontario-small-12 ontario-columns">
-                    <i className="ontario-icon ontario-icon__info" aria-hidden="true"></i>
+                    <i className="ontario-icon__info" aria-hidden="true"></i>
                     <span className="ontario-callout__title--info">{contactForm[lang].form.term_of_use.heading}</span>
                   </div>
                 </div>

@@ -8,20 +8,16 @@ export default {
     fr: "symptômes",
   },
   q3: {
-    en: "symptoms-onset",
-    fr: "apparition-des-symptômes",
+    en: "age-range",
+    fr: "tranche-d-âge",
   },
   q4: {
-    en: "health-worker",
-    fr: "agent-de-santé",
+    en: "postal-code",
+    fr: "code-postal",
   },
   q5: {
-    en: "essential-worker",
-    fr: "travailleur-essentiel",
-  },
-  q6: {
-    en: "congregate-setting",
-    fr: "rassemblement",
+    en: "symptoms-onset",
+    fr: "apparition-des-symptômes",
   },
   q7: {
     en: "risk-factors",
@@ -43,14 +39,6 @@ export default {
     en: "respiratory-exposure-date",
     fr: "date-d-exposition-respiratoire",
   },
-  q12: {
-    en: "cross-border-worker",
-    fr: "travailleur-transfrontalier",
-  },
-  q13: {
-    en: "rural-or-indigenous",
-    fr: "rural-ou-indigène",
-  },
   q14: {
     en: "travel",
     fr: "voyage",
@@ -58,6 +46,10 @@ export default {
   q15: {
     en: "travel-return",
     fr: "voyage-retour",
+  },
+  q16: {
+    en: "symptoms-confirm",
+    fr: "symptomes-confirmer",
   },
   r1: {
     en: "r1",

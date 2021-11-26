@@ -10,13 +10,19 @@ import "../stylesheets/theme.css"
 import "../stylesheets/sat-style.css"
 import "../stylesheets/print.css"
 
-const Layout = ({ lang, hideFooter, isResultsPage, children }) => {
+const Layout = ({ lang, hideFooter, isResultsPage, isLandingPage, altHeaderLink, children }) => {
   const state = useContext(GlobalStateContext)
 
-  // This restricts direct access to pages and
-  // redirects any such request back to the start
   useEffect(() => {
-    if (!state.in_progress) {
+    if (
+      typeof window !== "undefined" &&
+      (window.location.pathname.startsWith("/assessment-centre-locations") ||
+        window.location.pathname.startsWith("/emplacements-centres-devaluation"))
+    ) {
+      return
+    }
+
+    if (process.env.GATSBY_IS_PROD_ENV && !state.in_progress) {
       navigate(general[lang].basePath, {
         replace: true,
       })
@@ -25,12 +31,12 @@ const Layout = ({ lang, hideFooter, isResultsPage, children }) => {
 
   return (
     <>
-      <div className="ontario-text-center">
+      <div className="ontario-text-center ontario-hide-for-print">
         <SkipNavLink>{general[lang].skipNavText}</SkipNavLink>
       </div>
-      <Header lang={lang} />
+      <Header lang={lang} link={altHeaderLink} />
       <main id="main-content">
-        {isResultsPage ? (
+        {isResultsPage || isLandingPage ? (
           children
         ) : (
           <div className="ontario-row">

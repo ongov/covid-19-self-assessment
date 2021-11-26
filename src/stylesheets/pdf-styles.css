@@ -1,0 +1,112 @@
+/* -------------------------------
+    For the results page PDF export
+--------------------------------- */
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/open-sans-400/open-sans-400.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-weight: bold;
+  src: url("../fonts/open-sans-600/open-sans-600.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/raleway-modified-400/raleway-modified-400.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Raleway";
+  font-weight: 700;
+  src: url("../fonts/raleway-modified-700/raleway-modified-700.ttf") format("truetype");
+}
+
+.k-pdf-export div, .k-pdf-export span {
+  background: none;
+}
+
+.k-pdf-export .ontario-hide-for-print {
+  display: none;
+}
+
+.k-pdf-export div.ontario-show-for-print {
+  display: block;
+}
+
+.k-pdf-export span.ontario-show-for-print {
+  display: inline-block;
+}
+
+.k-pdf-export a::after{
+  content: " (" attr(href) ") ";
+}
+
+.k-pdf-export .ontario-breadcrumbs {
+  display: none;
+}
+
+.k-pdf-export .ontario-results__callout__arrow-down {
+  display: none;
+}
+
+.k-pdf-export .ontario-results__callout {
+  top: 0;
+}
+
+.k-pdf-export button {
+  display: none;
+}
+
+.k-pdf-export footer {
+  display: none;
+}
+
+.k-pdf-export .ontario-main-header {
+  background: none;
+  margin-bottom: 0;
+}
+
+.k-pdf-export .ontario-site-logo-print {
+  display: block;
+  height: 30px;
+  margin: 1rem 0 0.5rem 0;
+}
+
+.k-pdf-export .ontario-main-header__logo-link {
+  display: none;
+}
+
+.k-pdf-export .ontario-main-header__link {
+  display: none;
+}
+
+.k-pdf-export[class^='ontario-icon'], .k-pdf-export[class*='ontario-icon'] {
+  display: none;
+}
+
+.k-pdf-export .ontario-results__callout {
+  padding-bottom: 0;
+}
+
+.k-pdf-export .ontario-results__callout .ontario-results__timestamp {
+  margin-bottom: 0.5rem;
+}
+
+
+
+@media screen and (max-width: 72.9375em) {
+  .k-pdf-export div:not(.ontario-infographic-number) {
+    width: 100vw;
+    min-width: 51.000em;
+  }
+  .k-pdf-export p, .k-pdf-export ul li {
+    display: block;
+    width: 51.000em;
+  }
+
+  .k-pdf-export a::after{
+   display: block;
+  }
+}

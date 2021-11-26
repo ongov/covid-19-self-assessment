@@ -13,20 +13,23 @@ const contactForm = {
     },
     submit_error_server: {
       title: "Server Issue",
-      content: "Try pressing submit again. We’re sorry, our servers may be temporarily overloaded.",
+      content: "We’re sorry, our servers may be temporarily overloaded.",
     },
     form: {
-      heading: "Sign up for a follow-up call about your result",
+      heading: "Sign up for an optional follow-up call about this self-assessment result",
       instructions: (
         <>
-          <p>Enter your contact information and details below.</p>
+          <p>Enter your contact information and details below to discuss this self-assessment result and next steps.</p>
+
+          <p><strong>This is optional. You do not need to fill out your details every time you take a self-assessment.</strong></p>
+
           <p>
-            A medical student volunteer representing the Ministry of Health will call you over the phone in the next few
+            A volunteer representing the Ministry of Health will call you over the phone in the next few
             days to:
           </p>
           <ul>
             <li>review your current health and symptoms</li>
-            <li>give self-isolation advice</li>
+            <li>give advice on self-isolation or self-monitoring</li>
             <li>provide guidance on how to protect the health of other people</li>
           </ul>
           <p>
@@ -60,7 +63,7 @@ const contactForm = {
         heading: "Date of birth",
         accordion_heading: "Why am I being asked this?",
         accordion_content:
-          "COVID-19 carries a different amount of risk for people of different ages. Older adults that get COVID-19 are more at risk of complications so it is important for public health to closely monitor infection rates across age groups.",
+          "This is to help the volunteer confirm it is you when they call on the phone.",
         day: {
           label: "Day (dd)",
           empty_message: "Enter the day you were born (use only numbers). ",
@@ -87,10 +90,10 @@ const contactForm = {
         ],
       },
       postal_code: {
-        heading: "Postal code",
+        heading: "Postal code (all 6 characters)",
         accordion_heading: "Why am I being asked this?",
         accordion_content:
-          "Public health can send more resources, health practitioners, and supplies to communities more heavily impacted by COVID-19.",
+          "This is to help the volunteer confirm it is you when they call on the phone. ",
         label: "Postal code",
         empty_message: "Enter your postal code.",
         invalid_message: "Enter a valid postal code in a letter-number format like M7A 1A2.",
@@ -148,20 +151,23 @@ const contactForm = {
     submit_error_server: {
       title: "Problème de serveur",
       content:
-        "Essayez d’appuyer de nouveau sur le bouton de transmission. Nous sommes désolés, nos serveurs peuvent être temporairement surchargés.",
+        "Nous sommes désolés, nos serveurs peuvent être temporairement surchargés.",
     },
     form: {
-      heading: "Inscrivez-vous pour recevoir un appel de suivi à propos de votre résultat",
+      heading: "Inscrivez-vous pour recevoir un appel de suivi facultatif concernant le résultat de cette auto-évaluation",
       instructions: (
         <>
-          <p>Saisissez vos coordonnées et renseignements ci-dessous.</p>
+          <p>Saisissez vos coordonnées et renseignements ci-dessous pour discuter du résultat de cette auto-évaluation et des prochaines étapes.</p>
+
+          <p><strong>Cela est facultatif. Vous n’avez pas besoin de donner vos coordonnées chaque fois que vous faites une auto-évaluation.</strong></p>
+
           <p>
-            Un étudiant en médecine bénévole représentant le ministère de la Santé vous téléphonera au cours des
+            Un bénévole représentant le ministère de la Santé vous téléphonera au cours des
             prochains jours pour :
           </p>
           <ul>
             <li>examiner votre état de santé et vos symptômes actuels </li>
-            <li>vous donner des conseils sur l’auto-isolement</li>
+            <li>donner des conseils sur l’auto-isolement ou l’auto-surveillance</li>
             <li>vous donner des conseils sur la façon de protéger la santé des autres personnes </li>
           </ul>
           <p>
@@ -195,7 +201,7 @@ const contactForm = {
         heading: "Date de naissance",
         accordion_heading: "Pourquoi me demande-t-on ce renseignement?",
         accordion_content:
-          "La COVID-19 présente un degré de risque différent pour les gens de différents âges. Les adultes plus âgés qui contractent la COVID-19 sont plus à risque de souffrir de complications; il est donc important pour la santé publique de surveiller étroitement les taux d’infection dans les différents groupes d’âge.",
+          "Cela aidera le bénévole à confirmer votre identité lorsqu’il vous appellera au téléphone.",
         day: {
           label: "Jour (jj)",
           empty_message: "Saisissez votre jour de naissance (utilisez uniquement des chiffres).",
@@ -222,10 +228,10 @@ const contactForm = {
         ],
       },
       postal_code: {
-        heading: "Code postal",
+        heading: "Code postal (les 6 caractères)",
         accordion_heading: "Pourquoi me demande-t-on ce renseignement?",
         accordion_content:
-          "La santé publique peut envoyer plus de ressources, de praticiens de la santé et de fournitures dans les collectivités plus durement touchées par la COVID-19.",
+          "Cela aidera le bénévole à confirmer votre identité lorsqu’il vous appellera au téléphone. ",
         label: "Postal code",
         empty_message: "Saisissez votre code postal.",
         invalid_message: "Saisissez un code postal valide dans le format alphanumérique M7A 1A2.",

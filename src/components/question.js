@@ -16,7 +16,7 @@ const Question = ({ lang, title, buttons, children }) => {
         type="button"
         onClick={() => navigate(-1)}
       >
-        <i className="ontario-icon ontario-icon__back-blue" aria-hidden="true"></i>
+        <i className="ontario-icon__back-blue" aria-hidden="true"></i>
         {` ${general[lang].backButtonText}`}
       </button>
       <SkipNavContent>

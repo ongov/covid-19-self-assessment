@@ -30,13 +30,17 @@ function reducer(state, action) {
     }
     case "SYMPTOMS_CONTINUE_CLICKED": {
       let updatedState = { ...state }
-      if (!state.q2) updatedState = { ...state, q2: { noSymptoms: 0 }, symptomScore: 0 }
+      if (!state.q2 || !Object.keys(state.q2).length) {
+        updatedState = { ...state, q2: {}, symptomScore: 0 }
+        updatedState.q2[noSymptomsId] = "0"
+      }
 
       return updatedState
     }
     case "RETURN_DATE_CONTINUE_CLICKED": {
       return { ...state, q15: action.returnDate }
     }
+    case "POSTALCODE-X1X":
     case "ONSET_RADIO_SELECTED":
     case "YES_NO_RESPONSE": {
       const updatedState = { ...state }

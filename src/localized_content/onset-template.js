@@ -22,7 +22,7 @@ export default {
       id: "more-than-two-weeks-ago",
     },
     {
-      labelText: "I don't remember",
+      labelText: "I don't know or remember",
       id: "i-dont-remember",
     },
   ],
@@ -49,7 +49,7 @@ export default {
       id: "more-than-two-weeks-ago",
     },
     {
-      labelText: "Je ne me souviens pas",
+      labelText: "Je ne sais pas ou je ne m’en souviens pas",
       id: "i-dont-remember",
     },
   ],

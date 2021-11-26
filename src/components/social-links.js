@@ -5,7 +5,7 @@ const SocialLinks = ({ lang }) => {
   const ShareLink = ({ share }) => (
     <a target="_blank" rel="noopener noreferrer" href={social[lang].links[share]}>
       <span className="ontario-show-for-sr">{share}</span>
-      <i className={`ontario-icon ontario-icon__${share}`}></i>
+      <i className={`ontario-icon__${share}`}></i>
     </a>
   )
 

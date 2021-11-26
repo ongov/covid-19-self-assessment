@@ -6,10 +6,8 @@ const RiskFactors = () => (
   <QuestionTemplate lang="en" yesLink={logic.q7.yes} noLink={logic.q7.no}>
     <h2>Are you in any of these at-risk groups?</h2>
     <ul>
-      <li>65 years old or older</li>
-      <li>pregnant or recently gave birth</li>
       <li>
-        getting treatment that compromises (weakens) your immune system
+        Getting treatment that compromises (weakens) your immune system
         <br />
         <span className="ontario-hint">
           (for example, chemotherapy, medication for transplants, corticosteroids,{" "}
@@ -17,17 +15,17 @@ const RiskFactors = () => (
         </span>
       </li>
       <li>
-        having a condition that compromises (weakens) your immune system
+        Having a condition that compromises (weakens) your immune system
         <br />
-        <span className="ontario-hint">(for example, lupus, rheumatoid arthritis, other autoimmune disorder)</span>
+        <span className="ontario-hint">(for example, lupus, rheumatoid arthritis, immunodeficiency disorder)</span>
       </li>
       <li>
-        having a chronic (long-lasting) health condition
+        Having a chronic (long-lasting) health condition
         <br />
-        <span className="ontario-hint">(for example, diabetes, emphysema, asthma, heart condition)</span>
+        <span className="ontario-hint">(for example, diabetes, emphysema, asthma, heart condition, <abbr title="Chronic obstructive pulmonary disease">COPD</abbr>)</span>
       </li>
       <li>
-        regularly going to a hospital or health care setting for a treatment
+        Regularly going to a hospital or health care setting for a treatment
         <br />
         <span className="ontario-hint">(for example, dialysis, surgery, cancer treatment)</span>
       </li>

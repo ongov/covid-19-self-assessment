@@ -8,7 +8,7 @@ const SymptomsOnset = () => (
   <OnsetTemplate
     lang={lang}
     questionId="q11"
-    question="When did you last have close physical contact with them?"
+    question="When did you last have close physical contact with that person?"
     title="Last time of contact"
     choices={onsetTemplateChoices[lang].filter(item => item.id !== "more-than-two-weeks-ago")}
   />

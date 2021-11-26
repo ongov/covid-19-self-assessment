@@ -117,7 +117,7 @@ const TermsOfUse = () => {
 
           <h3>Pour des renseignements généraux</h3>
 
-          <p>Si vous avez des questions d’ordre général à propos de l’outil d’autoévaluation pour la COVID-19, téléphonez au <a href="tel:4162120822">416-212-0822</a>.</p>
+          <p>Composez le <a href="tel:4162120822">416 212 0822</a> pour de plus amples renseignements sur la gestion, l’utilisation ou la divulgation de vos renseignements personnels sur la santé (RPS).</p>
 
           <h3>À propos de vos renseignements et de la protection de votre vie privée</h3>
 

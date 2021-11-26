@@ -7,21 +7,21 @@ const RespiratoryExposure = () => (
     <h2>Au cours des 14 derniers jours, avez-vous été en contact physique étroit avec une personne qui : </h2>
     <div className="ontario-bulleted-list">
       <span className="ontario-bullet"> • </span>{" "}
-      <span className="ontario-list-item">est actuellement malade et présente une nouvelle toux, fait de la fièvre ou a de la difficulté à respirer? </span>
+      <span className="ontario-list-item">
+        est actuellement malade et présente une nouvelle toux, de la fièvre, des difficultés respiratoires ou d’autres
+        symptômes associés à la COVID-19?
+      </span>
       <div className="ontario-margin-top-8-! ontario-margin-bottom-4-!">
         <span className="ontario-margin-right-16-!">&nbsp;</span>ou
       </div>
       <span className="ontario-bullet"> • </span>
-      <span className="ontario-list-item">qui est revenue d’un séjour à l’extérieur du Canada au cours des 2 dernières semaines?  </span>
+      <span className="ontario-list-item">est rentrée de l’étranger au cours des deux dernières semaines?</span>
     </div>
-    <p className="ontario-margin-top-32-!">
-      Par contact physique étroit, on entend :
-    </p>
+    <p className="ontario-margin-top-32-!">Par contact physique étroit, on entend :</p>
     <ul>
-      <li>avoir une conversation face à face pendant 15 minutes </li>
-      <li>se trouver dans la même pièce pendant deux heures </li>
-      <li>vivre dans la même demeure </li>
-      <li>travailler au même endroit</li>
+      <li>être à moins de 2 mètres dans la même pièce, le même espace de travail ou la même zone</li>
+      <li>vivre dans la même demeure</li>
+      <li>être dans la même classe</li>
     </ul>
   </QuestionTemplate>
 )

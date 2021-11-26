@@ -4,10 +4,12 @@ import { logic } from "../../shared"
 
 const RespiratoryExposure = () => (
   <QuestionTemplate lang="en" yesLink={logic.q10.yes} noLink={logic.q10.no}>
-    <h2>In the last 14 days, have you been in close physical contact with a person who either: </h2>
+    <h2>In the last 14 days, have you been in close physical contact with someone who either: </h2>
     <div className="ontario-bulleted-list">
       <span className="ontario-bullet"> • </span>{" "}
-      <span className="ontario-list-item">is currently sick with a new cough, fever, or difficulty breathing? </span>
+      <span className="ontario-list-item">
+        is currently sick with a new cough, fever, difficulty breathing, or other symptoms associated with COVID-19?
+      </span>
       <div className="ontario-margin-top-8-! ontario-margin-bottom-4-!">
         <span className="ontario-margin-right-16-!">&nbsp;</span>or
       </div>
@@ -16,10 +18,9 @@ const RespiratoryExposure = () => (
     </div>
     <p className="ontario-margin-top-32-!">Close physical contact means:</p>
     <ul>
-      <li>a face-to-face conversation for 15 minutes</li>
-      <li>being in the same room for 2 hours </li>
+      <li>being less than 2 metres away in the same room, workspace, or area</li>
       <li>living in the same home</li>
-      <li>working in the same workplace</li>
+      <li>being in the same classroom</li>
     </ul>
   </QuestionTemplate>
 )

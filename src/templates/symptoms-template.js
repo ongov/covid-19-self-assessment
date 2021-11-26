@@ -30,7 +30,8 @@ const SymptomsTemplate = ({ lang }) => {
       >
         <div className="ontario-form-group">
           <fieldset className="ontario-fieldset">
-            <legend>{symptomsTitle[lang]}</legend>
+            <legend>{symptomsTitle[lang].text}</legend>
+            <p>{symptomsTitle[lang].sup_text}</p>
             <div className="ontario-question__options">
               <div className="ontario-checkboxes">
                 {Object.keys(symptoms).map(id => (

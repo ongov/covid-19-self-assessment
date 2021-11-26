@@ -24,6 +24,7 @@ module.exports = {
   assetPrefix: "covid-19-sat-assets",
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-build-date`,
     {
       resolve: `gatsby-plugin-react-helmet-canonical-urls`,
       options: {

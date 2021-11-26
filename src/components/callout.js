@@ -6,7 +6,7 @@ const Callout = ({ title, message }) => (
     <div className="ontario-row ontario-row--collapse">
       <div className="ontario-small-12 ontario-columns">
         <i
-          className="ontario-icon ontario-icon__warning"
+          className="ontario-icon__warning"
           aria-hidden="true"
         ></i>
         <span className="ontario-callout__title--warning">{title}</span>

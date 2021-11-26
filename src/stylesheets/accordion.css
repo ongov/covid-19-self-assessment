@@ -10,7 +10,8 @@
   }
 }
 
-[id*="open-accordion"], [id*="close-accordion"] {
+[id*="open-accordion"],
+[id*="close-accordion"] {
   line-height: 40px;
   display: block;
   margin: 0;
@@ -19,7 +20,8 @@
 }
 
 @media screen and (max-width: 39.9375em) {
-  [id*="open-accordion"], [id*="close-accordion"] {
+  [id*="open-accordion"],
+  [id*="close-accordion"] {
     margin-top: 1rem;
     line-height: 25px;
   }
@@ -29,18 +31,22 @@
   display: none;
 }
 
-.ontario-accordion a, .ontario-accordion a:visited {
+.ontario-accordion a,
+.ontario-accordion a:visited {
   color: #0066cc;
   font-weight: normal;
-  text-decoration: underline;
-}
-
-.ontario-accordion a:hover, .ontario-accordion a:focus, .ontario-accordion a:active {
-  color: #00478F;
   text-decoration: none;
 }
 
-[id*="open-accordion"]:after, [id*="close-accordion"]:after {
+.ontario-accordion a:hover,
+.ontario-accordion a:focus,
+.ontario-accordion a:active {
+  color: #00478f;
+  text-decoration: underline;
+}
+
+[id*="open-accordion"]:after,
+[id*="close-accordion"]:after {
   background-image: url("../images/ontario-icon-chevron.svg");
   content: " ";
   display: inline-block;
@@ -55,12 +61,12 @@
 }
 
 @media screen and (max-width: 39.9375em) {
-  [id*="open-accordion"]:after, [id*="close-accordion"]:after {
+  [id*="open-accordion"]:after,
+  [id*="close-accordion"]:after {
     right: 0;
     top: 5px;
   }
 }
-
 
 .ontario-target-fix {
   display: block;
@@ -70,7 +76,7 @@
 }
 
 .ontario-accordion-content {
-  border-left: 4px solid #3193CC;
+  border-left: 4px solid #3193cc;
   height: 0;
   padding-left: 1.5rem;
   position: relative;

@@ -13,20 +13,22 @@ const TermsOfUse = () => {
 
           <p>Learn what you’re agreeing to when you enter your personal health information and contact information into the COVID-19 self-assessment. </p>
 
-          <p>On this page:</p>
-            <ol>
-            <li><AnchorLink to="/self-assessment/terms-of-use#about">About the self-assessment</AnchorLink></li>
-            <li><AnchorLink to="/self-assessment/terms-of-use#how-we-use">How we use your information</AnchorLink></li>
-            <li><AnchorLink to="/self-assessment/terms-of-use#entering-info">Entering information on behalf of someone</AnchorLink></li>
-            <li><AnchorLink to="/self-assessment/terms-of-use#proper-use">Proper use of the self-assessment</AnchorLink></li>
-            <li><AnchorLink to="/self-assessment/terms-of-use#terminating">Terminating your use</AnchorLink></li>
-            <li><AnchorLink to="/self-assessment/terms-of-use#security">Security</AnchorLink></li>
-            <li><AnchorLink to="/self-assessment/terms-of-use#audit">Audit</AnchorLink></li>
-            <li><AnchorLink to="/self-assessment/terms-of-use#disclaimer">Disclaimer</AnchorLink></li>
-            <li><AnchorLink to="/self-assessment/terms-of-use#no-liability">No liability</AnchorLink></li>
-            <li><AnchorLink to="/self-assessment/terms-of-use#privacy">Privacy</AnchorLink></li>
-            <li><AnchorLink to="/self-assessment/terms-of-use#contact-ministry">Contacting the ministry</AnchorLink></li>
-          </ol>
+          <div className="ontario-hide-for-print">
+            <p>On this page:</p>
+              <ol>
+              <li><AnchorLink to="/self-assessment/terms-of-use#about">About the self-assessment</AnchorLink></li>
+              <li><AnchorLink to="/self-assessment/terms-of-use#how-we-use">How we use your information</AnchorLink></li>
+              <li><AnchorLink to="/self-assessment/terms-of-use#entering-info">Entering information on behalf of someone</AnchorLink></li>
+              <li><AnchorLink to="/self-assessment/terms-of-use#proper-use">Proper use of the self-assessment</AnchorLink></li>
+              <li><AnchorLink to="/self-assessment/terms-of-use#terminating">Terminating your use</AnchorLink></li>
+              <li><AnchorLink to="/self-assessment/terms-of-use#security">Security</AnchorLink></li>
+              <li><AnchorLink to="/self-assessment/terms-of-use#audit">Audit</AnchorLink></li>
+              <li><AnchorLink to="/self-assessment/terms-of-use#disclaimer">Disclaimer</AnchorLink></li>
+              <li><AnchorLink to="/self-assessment/terms-of-use#no-liability">No liability</AnchorLink></li>
+              <li><AnchorLink to="/self-assessment/terms-of-use#privacy">Privacy</AnchorLink></li>
+              <li><AnchorLink to="/self-assessment/terms-of-use#contact-ministry">Contacting the ministry</AnchorLink></li>
+            </ol>
+          </div>
 
           <h2 id="about">About the self-assessment</h2>
           <p>The online COVID-19 self-assessment tool allows you to enter certain identifying and personal health information related to your potential COVID-19 symptoms. It is not intended to provide medical advice. Consult a health practitioner or your local public health unit if you have medical questions.</p>
@@ -105,7 +107,7 @@ const TermsOfUse = () => {
 
           <h3>For general information</h3>
 
-          <p>Call <a href="tel:4162120822">416-212-0822</a> if you have general questions about the COVID-19 self-assessment tool.</p>
+          <p>Call <a href="tel:4162120822">416-212-0822</a> for more information about the management, use, or disclosure of your Personal Health Information (<abbr>PHI</abbr>).</p>
 
           <h3>For your information and privacy</h3>
 

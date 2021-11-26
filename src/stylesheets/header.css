@@ -18,16 +18,16 @@
   margin: 1rem 1rem 1rem 0;
 }
 
-.ontario-main-header__logo-link {
-  display: block;
-  line-height: 0;
-}
-
 @media screen and (max-width: 39.9375em) {
   .ontario-header-logo {
     width: 112px;
     margin: 0.85rem 0;
   }
+}
+
+.ontario-main-header__logo-link {
+  display: block;
+  line-height: 0;
 }
 
 @media screen and (max-width: 39.9375em) {
@@ -52,5 +52,3 @@
 .ontario-main-header__link a:focus {
   text-decoration: underline;
 }
-
-/* Footer */

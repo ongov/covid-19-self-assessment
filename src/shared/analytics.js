@@ -8,10 +8,10 @@ const addSymptomsToGTMDataLayer = state => {
   }
 }
 
-const addSubmitResponseCodeToGTMDataLayer = responseCode => {
+const addSubmitResponseCodeToGTMDataLayer = (responseCode, event) => {
   if (window && window.dataLayer) {
     window.dataLayer.push({
-      event: "covid-19-sat-submit-response-code",
+      event,
       responseCode,
     })
   }

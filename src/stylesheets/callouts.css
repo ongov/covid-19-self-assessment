@@ -1,12 +1,12 @@
 /* -------------------------------
     Callouts
 --------------------------------- */
-.ontario-callout  {
+.ontario-callout {
   padding: 0.9375rem 2rem 0.9375rem 0.9375rem;
   margin: 2.5rem 0;
 }
 
-.ontario-callout--double  {
+.ontario-callout--double {
   padding: 2rem;
   margin: 2.5rem 0;
 }
@@ -25,12 +25,6 @@
 }
 
 /** Callout typography **/
-.ontario-callout__title {
-  font-weight: bold;
-  position: relative;
-  top: 0.2rem;
-}
-
 .ontario-callout h2,
 .ontario-callout h3,
 .ontario-callout h4 {
@@ -42,29 +36,7 @@
   line-height: 1.3;
 }
 
-.ontario-callout__list {
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-}
-
-.ontario-callout__list li {
-  margin-bottom: 1rem;
-}
-
-.ontario-callout__list li a,
-.ontario-callout__list li a:visited {
-  text-decoration: underline;
-}
-
-.ontario-callout__list li a:hover,
-.ontario-callout__list li a:active {
-  text-decoration: none;
-}
-
 /** Callout types **/
-
-/* General*/
 .ontario-callout--no-bg { /* navy border */
   background: none;
   border-left: 4px solid #1080A6;
@@ -76,7 +48,7 @@
 }
 
 /* Error callout with icon positioning */
-.ontario-callout--alert {
+.ontario-callout--alert { /* light red */
   background-color: #FFECEE;
   border-left: 4px solid #CD0000;
 }
@@ -114,39 +86,6 @@
   display: inline-block;
   margin: 0 1rem 0 0;
   float: left;
-}
-
-/* Success callout with icon positioning */
-.ontario-callout--success {
-  background: rgba(17, 136, 71, 0.12);
-  border-left: 4px solid #118847;
-}
-
-.ontario-callout__title--success {
-  font-size: 1.25rem;
-  font-weight: bold;
-}
-
-@media screen and (max-width: 39.9375em) {
-  .ontario-callout__title--success {
-    display: block;
-    float: left;
-    width: 70%;
-  }
-}
-
-.ontario-callout__icon-success {
-  display: inline-block;
-  margin-right: 1rem;
-  float: left;
-}
-
-@media screen and (max-width: 39.9375em) {
-  .ontario-callout__icon-success {
-    width: 25px;
-    height: 25px;
-    margin: auto;
-  }
 }
 
 /* general info callout with icon positioning (light blue) */
@@ -195,7 +134,7 @@
   width: 90%;
 }
 
-.ontario-callout--warning__message--bottom {
+.ontario-callout--warning__message--bottom { /* for longer text */
   display: table-cell;
   padding-left: 0.5rem;
   vertical-align: bottom;
@@ -207,11 +146,6 @@
   }
 }
 
-.ontario-callout--warning-solid { /* appears in the results header */
-  background-color: #FEF6D6;
-  border-left: 4px solid #FFD440;
-}
-
 .ontario-callout__title--warning {
   font-weight: bold;
   position: relative;
@@ -219,12 +153,7 @@
   margin-left: 0.5rem;
 }
 
-.ontario-callout--results-warning {
-  background-color: #F8E5C3;
-  border-left: 4px solid #FCAF17;
-}
-
-.ontario-callout--message {
-  background-color: #E5F0E9;
-  border-left: 4px solid #118847;
+.ontario-callout--grey {
+  padding: 1.5rem 2rem;
+  background-color: #F2F2F2;
 }

@@ -10,7 +10,7 @@ const CalloutSignUp = ({ lang }) => {
   return (
     <>
       {!state.contact_form_submitted_ok && (
-        <div className="ontario-row">
+        <div className="ontario-row ontario-hide-for-print">
           <div className="ontario-small-12 ontario-columns">
             <div className="ontario-callout ontario-callout--info ontario-margin-top-0-! ontario-padding-top-32-! ontario-padding-left-0-!">
               <div className="ontario-row">

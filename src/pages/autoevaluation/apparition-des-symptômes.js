@@ -7,8 +7,8 @@ const lang = "fr"
 const SymptomsOnset = () => (
   <OnsetTemplate
     lang={lang}
-    questionId="q3"
-    question="À quel moment vos symptômes sont-ils apparus?"
+    questionId="q5"
+    question="Quand vos symptômes sont-ils apparus?"
     choices={onsetTemplateChoices[lang]}
   />
 )
