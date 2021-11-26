@@ -5,7 +5,6 @@ import { SkipNavContent } from "@reach/skip-nav"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import SocialLinks from "../components/social-links"
-import ContactForm from "../components/contact-form"
 import CalloutFeedback from "../components/callout-feedback"
 import CalloutSubmissionSuccess from "../components/callout-submission-success"
 import TimeStamp from "../components/results-timestamp"
@@ -14,25 +13,17 @@ import SaveToPDFButton from "../components/save-to-pdf-button"
 
 import { general } from "../localized_content"
 import { GlobalDispatchContext, GlobalStateContext } from "../context/global-context-provider"
-import { sendNonPhiData } from "../utils"
 
 import "../stylesheets/callouts.css"
 import "../stylesheets/results.css"
 import "../stylesheets/pdf-styles.css"
 
-const ResultsTemplate = ({
-  lang,
-  showContactForm = true,
-  showFindAssessmentCentres = false,
-  elToPrintRef,
-  children,
-}) => {
+const ResultsTemplate = ({ lang, showFindAssessmentCentres = false, elToPrintRef, children }) => {
   const state = useContext(GlobalStateContext)
   const dispatch = useContext(GlobalDispatchContext)
 
   useEffect(() => {
     dispatch({ type: "SAT_DONE" })
-    sendNonPhiData(state, lang)
   }, [])
 
   return (
@@ -43,7 +34,7 @@ const ResultsTemplate = ({
         <div className="ontario-results__callout">
           <div className="ontario-row">
             <div className="ontario-small-1 ontario-medium-1 ontario-large-1 ontario-columns">
-              <div className="ontario-icon__clipboard ontario-hide-for-print"></div>
+              <div className="ontario-icon__clipboard ontario-hide-for-print" />
             </div>
             <div className="ontario-small-10 ontario-medium-11 ontario-large-9 ontario-end ontario-columns">
               <h1>{general[lang].resultsTitle}</h1>
@@ -59,13 +50,13 @@ const ResultsTemplate = ({
                   navigate(-1)
                 }}
               >
-                <i className="ontario-icon__back-blue" aria-hidden="true"></i>
+                <i className="ontario-icon__back-blue" aria-hidden="true" />
                 {` ${general[lang].backButtonText}`}
               </button>
             </div>
           </div>
         </div>
-        <div className="ontario-results__callout__arrow-down"></div>
+        <div className="ontario-results__callout__arrow-down" />
         <SkipNavContent>{children}</SkipNavContent>
         <div className="ontario-row ontario-results__content">
           <div className="ontario-large-1 ontario-columns ontario-show-for-large-only">&nbsp;</div>
@@ -87,7 +78,6 @@ const ResultsTemplate = ({
             <div className="ontario-infographic-number">&nbsp;</div>
           </div>
           <div className="ontario-small-12 ontario-large-10 ontario-end ontario-columns ontario-margin-bottom-24-!">
-            <span id="sign-up-follow-up">{showContactForm && <ContactForm lang={lang} />}</span>
             <CalloutFeedback lang={lang} />
             <SocialLinks lang={lang} />
           </div>

@@ -18,7 +18,7 @@ const resourcesContent = {
           <strong>do not</strong> need to get tested before an <strong>outdoor</strong> visit with a loved one.
         </>
       ),
-      linkText: "Find an assessment centre near you to get a test",
+      linkText: "Find a testing location near you to get a test",
       link: "https://covid-19.ontario.ca/assessment-centre-locations/",
     },
     resource_three: {

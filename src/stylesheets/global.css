@@ -1,0 +1,394 @@
+/* -------------------------------
+        Global design elements
+--------------------------------- */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* Skip nav link */
+:root {
+  --reach-skip-nav: 1;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  color: #1a1a1a;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: white;
+  color: black;
+  margin: 0;
+  position: relative;
+}
+
+p {
+  font-size: inherit;
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+  text-rendering: optimizeLegibility;
+}
+
+cite {
+  font-style: italic;
+  line-height: inherit;
+}
+
+strong {
+  font-weight: bold;
+  line-height: inherit;
+}
+
+hr {
+  border: 0;
+  padding: 0;
+  margin: 2.5rem 0;
+  border-bottom: 4px solid #cccccc;
+}
+
+hr.ontario-hr-short {
+  max-width: 40rem;
+  border: none;
+  border-top: 4px solid #ededed;
+  margin: 0 auto 2.5rem auto;
+}
+
+@media screen and (max-width: 39.9375em) {
+  hr.ontario-hr-short {
+    max-width: 20rem;
+  }
+}
+
+@media screen and (min-width: 40em) and (max-width: 72.9375em) {
+  hr.ontario-hr-short {
+    max-width: 30rem;
+  }
+}
+
+/* -------------------------------
+        Fonts
+--------------------------------- */
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-style: normal;
+  src: local("Open Sans"), local("Open-Sans-regular"), url("../fonts/open-sans-400/open-sans-400.woff2") format("woff2"),
+    url("../fonts/open-sans-400/open-sans-400.woff") format("woff"),
+    url("../fonts/open-sans-400/open-sans-400.svg#OpenSans") format("svg");
+}
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-style: normal;
+  src: local("Open Sans Semibold"), local("Open-Sans-600"),
+    url("../fonts/open-sans-600/open-sans-600.woff2") format("woff2"),
+    url("../fonts/open-sans-600/open-sans-600.woff") format("woff"),
+    url("../fonts/open-sans-600/open-sans-600.svg#OpenSans") format("svg");
+}
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-style: italic;
+  src: local("Open Sans Italic"), local("Open-Sans-italic"),
+    url("../fonts/open-sans-400--italic/open-sans-400--italic.woff2") format("woff2"),
+    url("../fonts/open-sans-400--italic/open-sans-400--italic.woff") format("woff"),
+    url("/../fonts/open-sans-400--italic/open-sans-400--italic.svg#OpenSans") format("svg");
+}
+@font-face {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/raleway-modified-400/raleway-modified-400.woff2") format("woff2"),
+    url("../fonts/raleway-modified-400/raleway-modified-400.woff") format("woff"),
+    url("../fonts/raleway-modified-400/raleway-modified-400.svg") format("svg"), local("Raleway"), local("Raleway-400");
+}
+@font-face {
+  font-family: "Raleway";
+  font-weight: 600;
+  font-style: normal;
+  src: url("../fonts/raleway-modified-600/raleway-modified-600.woff2") format("woff2"),
+    url("../fonts/raleway-modified-600/raleway-modified-600.woff") format("woff"),
+    url("../fonts/raleway-modified-600/raleway-modified-600.svg") format("svg"), local("Raleway SemiBold"),
+    local("Raleway-600");
+}
+@font-face {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../fonts/raleway-modified-700/raleway-modified-700.woff2") format("woff2"),
+    url("../fonts/raleway-modified-700/raleway-modified-700.woff") format("woff"),
+    url("/../fonts/raleway-modified-700/raleway-modified-700.svg") format("svg"), local("Raleway Bold"),
+    local("Raleway-700");
+}
+
+/* -------------------------------
+        Typography
+--------------------------------- */
+a {
+  color: #0066cc;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #551a8b;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #00478f;
+}
+
+a:active {
+  color: #002142;
+}
+
+a:focus {
+  -moz-box-shadow: 0 0 0 4px #009adb;
+  -webkit-box-shadow: 0 0 0 4px #009adb;
+  box-shadow: 0 0 0 4px #009adb;
+  outline: 4px solid transparent;
+  transition: all 0.1s ease-in-out;
+}
+
+a:hover,
+a:focus,
+a:active {
+  text-decoration: underline;
+}
+
+​p {
+  margin: 0 0 1.5rem 0;
+}
+
+​p + h1,
+p + h2,
+p + h3,
+p + h4,
+p + h5,
+p + h6,
+ul + h1,
+ul + h2,
+ul + h3,
+ul + h4,
+ul + h5,
+ul + h6,
+ol + h1,
+ol + h2,
+ol + h3,
+ol + h4,
+ol + h5,
+ol + h6,
+h1 + h2,
+h2 + h3,
+h3 + h4,
+h4 + h5,
+h5 + h6 {
+  margin-top: 2rem;
+}
+
+abbr[title] {
+  text-decoration: none;
+}
+
+/* -------------------------------
+        Forms
+--------------------------------- */
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="date"],
+input[type="color"],
+input[type="search"],
+input[type="tel"],
+textarea {
+  background-origin: initial;
+  height: auto;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+input[type="checkbox"] + label,
+input[type="radio"] + label {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  page-break-inside: avoid;
+}
+
+legend,
+label {
+  display: block;
+  margin: 0;
+}
+
+select {
+  background-origin: initial;
+  height: auto;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+​.ontario-lead-statement {
+  line-height: 1.6;
+}
+
+/* -------------------------------
+        Lists
+--------------------------------- */
+ul,
+ol {
+  padding: 0;
+}
+
+ul {
+  margin-left: 2rem;
+}
+
+ul li {
+  padding: 0 0 0.75rem 0;
+}
+
+ol {
+  margin-left: 1.75rem;
+}
+
+ol li {
+  padding: 0 0 0.75rem 0.25rem;
+}
+
+ul li:last-child,
+ol li:last-child {
+  padding-bottom: 0;
+}
+
+ul ul,
+ol ul {
+  margin: 0.5rem 0 0.5rem 2rem;
+}
+
+ul ol,
+ol ol {
+  margin: 0.5rem 0 0.5rem 1.75rem;
+}
+
+p + ul,
+p + ol {
+  margin-top: -0.75rem;
+}
+
+@media screen and (min-width: 40em) {
+  ul {
+    margin: 0.5rem 0 1.5rem 3rem;
+  }
+
+  ol {
+    margin: 0.5rem 0 1.5rem 2.75rem;
+  }
+
+  ul ul,
+  ol ul {
+    margin: 0.5rem 0 0.5rem 3rem;
+  }
+
+  ul ol,
+  ol ol {
+    margin: 0.5rem 0 0.5rem 2.75rem;
+  }
+}
+
+.ontario-list--inline {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.ontario-list--inline li {
+  display: block;
+  float: left;
+}
+
+.ontario-bulleted-list {
+  margin-left: 1rem;
+}
+
+.ontario-bullet {
+  font-weight: 700;
+  text-align: center;
+  font-size: 23px;
+  margin-right: 0.5rem;
+}
+
+/* -------------------------------
+        Visibility
+--------------------------------- */
+.ontario-show-for-sr,
+.ontario-show-on-focus,
+[data-reach-skip-nav-link] {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.ontario-show-on-focus:active,
+.ontario-show-on-focus:focus,
+[data-reach-skip-nav-link]:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .ontario-hide-for-small-only {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 40em) {
+  .ontario-show-for-small-only {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 73em) {
+  .ontario-hide-for-large-only {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 72.9375em) {
+  .ontario-show-for-large-only {
+    display: none;
+  }
+}

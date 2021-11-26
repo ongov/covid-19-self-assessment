@@ -5,24 +5,25 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Question from "../components/question"
 import ContinueButton from "../components/continue-button"
+import Callout from "../components/callout-blue"
 import { GlobalStateContext, GlobalDispatchContext } from "../context/global-context-provider"
-import { general, questions, ages } from "../localized_content"
+import { general, questions } from "../localized_content"
 import Radio from "../components/radio"
 import { logic } from "../shared"
 
 const AgeTemplate = ({ lang, question, questionId, title, choices }) => {
-  const radioButtonGroup = `${questionId}-onset`
+  const radioButtonGroup = `${questionId}-age`
 
   const state = useContext(GlobalStateContext)
   const dispatch = useContext(GlobalDispatchContext)
 
   const [continueDisabled, setContinueDisabled] = useState(true)
 
-  const handleOptionSelect = e => {
+  const handleOptionSelect = (e) => {
     setContinueDisabled(false)
 
     dispatch({
-      type: "ONSET_RADIO_SELECTED",
+      type: "AGE_RADIO_SELECTED",
       question: questionId,
       response: e.target.id,
     })
@@ -44,10 +45,17 @@ const AgeTemplate = ({ lang, question, questionId, title, choices }) => {
         <div className="ontario-form-group">
           <fieldset className="ontario-fieldset">
             {title}
+
+            <Callout
+              heading={general[lang].screeningCalloutHeading}
+              link={general[lang].screeningCalloutLink}
+              linkText={general[lang].screeningCalloutText}
+            />
+
             <div className="ontario-question__options">
               <div className="ontario-radios">
                 {choices &&
-                  choices.map(item => (
+                  choices.map((item) => (
                     <Radio
                       key={item.id}
                       labelText={item.labelText}

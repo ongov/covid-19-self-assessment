@@ -4,10 +4,10 @@ import ReactDOM from "react-dom"
 
 import { general, formatDate } from "../localized_content"
 
-const SaveToPDFButton = forwardRef(({ lang }, ref) => (
+const SaveToPDFButton = forwardRef(({ lang, classname }, ref) => (
   <>
     <button
-      className="ontario-button ontario-button--secondary"
+      className={`ontario-button ontario-button--secondary ${classname}`}
       onClick={() =>
         savePDF(ReactDOM.findDOMNode(ref.current), {
           paperSize: "auto",

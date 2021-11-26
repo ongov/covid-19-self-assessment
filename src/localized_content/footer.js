@@ -8,6 +8,7 @@ const footer = {
       text: "confidentialité",
     },
     { link: "https://www.ontario.ca/fr/page/conditions-dutilisation", text: "conditions d’utilisation" },
+    { link: "https://www.ontario.ca/fr/commentaires/pour-nous-joindre?id=25812&nid=130424", text: "contactez-nous" },
   ],
   en: [
     { link: "https://www.ontario.ca/page/about-ontario", text: "about Ontario" },
@@ -15,16 +16,17 @@ const footer = {
     { link: "http://news.ontario.ca/newsroom/en", text: "news" },
     { link: "https://www.ontario.ca/page/privacy-statement", text: "privacy" },
     { link: "https://www.ontario.ca/page/terms-use", text: "terms of use" },
+    { link: "https://www.ontario.ca/feedback/contact-us?id=25811&nid=130423", text: "contact us" },
   ],
 }
 
 const queensPrinter = {
   en: {
-    text: "© Queen’s Printer for Ontario, 2012–20 ",
+    text: "© Queen’s Printer for Ontario, 2012–2021",
     link: "https://www.ontario.ca/page/copyright-information-c-queens-printer-ontario",
   },
   fr: {
-    text: "© Imprimeur de la Reine pour l’Ontario, 2012‑20 ",
+    text: "© Imprimeur de la Reine pour l’Ontario, 2012–2021",
     link: "https://www.ontario.ca/fr/page/droits-dauteur-imprimeur-de-la-reine-pour-lontarioc",
   },
 }

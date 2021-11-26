@@ -3,18 +3,10 @@ import QuestionTemplate from "../../templates/yes-no-question-template"
 import { logic } from "../../shared"
 
 const CovidExposure = () => (
-  <QuestionTemplate lang="en" yesLink={logic.q8.yes} noLink={logic.q8.no}>
-    <h2>
-      In the last 14 days, have you been in close physical contact with someone who currently has COVID-19?
-    </h2>
-    <p>This includes getting a COVID Alert exposure notification.</p>
+  <QuestionTemplate lang="en" yesLink={logic.q6.yes} noLink={logic.q6.no}>
+    <h2>In the last 10 days, have you been identified as a “close contact” of someone who currently has COVID-19?</h2>
 
-    <p>Close physical contact means:</p>
-    <ul>
-      <li>being less than 2 metres away in the same room, workspace, or area</li>
-      <li>living in the same home</li>
-      <li>being in the same classroom</li>
-    </ul>
+    <p>If public health has advised you that you do not need to self-isolate, select “No.” </p>
   </QuestionTemplate>
 )
 

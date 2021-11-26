@@ -3,10 +3,8 @@ import QuestionTemplate from "../../templates/yes-no-question-template"
 import { logic } from "../../shared"
 
 const SevereSymptoms = () => (
-  <QuestionTemplate lang="en" yesLink={logic.q1.yes} noLink={logic.q1.no}>
-    <h2>
-      Are you currently experiencing any of these issues? Call 911 if you are.
-    </h2>
+  <QuestionTemplate lang="en" yesLink={logic.q2.yes} noLink={logic.q2.no}>
+    <h2>Are you currently experiencing any of these issues? Call 911 if you are.</h2>
     <ul>
       <li>
         Severe difficulty breathing

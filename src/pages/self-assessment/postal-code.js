@@ -7,11 +7,8 @@ export default () => (
   <Postalcode
     lang={lang}
     questionId="q4"
-    lang={lang}
     question="What are the first 3 characters of your postal code?"
-    title={`Help us locate
-    where the virus is potentially spreading by providing this anonymous information.
-    The first 3 characters only tell us your general area and not your street name or number.
-    `}
+    title={`The first 3 characters only tell us your general area and not your street name or number. 
+    We use them to find nearby testing locations for you.`}
   />
 )

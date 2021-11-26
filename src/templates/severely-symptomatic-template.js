@@ -2,17 +2,14 @@ import React, { useContext, useEffect } from "react"
 import { SkipNavContent } from "@reach/skip-nav"
 
 import Layout from "../components/layout"
-import { GlobalDispatchContext, GlobalStateContext } from "../context/global-context-provider"
-import { sendNonPhiData } from "../utils"
+import { GlobalDispatchContext } from "../context/global-context-provider"
 import "../stylesheets/results.css"
 
 const SeverelySymptomaticTemplate = ({ children, lang }) => {
   const dispatch = useContext(GlobalDispatchContext)
-  const state = useContext(GlobalStateContext)
 
   useEffect(() => {
     dispatch({ type: "SAT_DONE" })
-    sendNonPhiData(state, lang)
   }, [])
 
   return (

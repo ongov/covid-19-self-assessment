@@ -1,4 +1,4 @@
-import sendNonPhiData from "./send-non-phi-data"
 import getResultsScreenId from "./get-results-screen-id"
+import { sortAssessmentCentresByDistance, assessmentCentreServiceAvailable } from "./assessment-centres"
 
-export { sendNonPhiData, getResultsScreenId }
+export { getResultsScreenId, sortAssessmentCentresByDistance, assessmentCentreServiceAvailable }

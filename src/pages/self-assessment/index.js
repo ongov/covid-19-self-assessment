@@ -7,28 +7,43 @@ import { SkipNavContent } from "@reach/skip-nav"
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 import Button from "../../components/button"
-import { smallWidth } from "../../components/callout-styles.js"
-import CalloutNoTitle from "../../components/callout-no-title"
+import { CalloutGrey } from "../../components/callout-styles"
 import CalloutNoBg from "../../components/callout-no-bg"
-import CalloutCovidLanding from "../../components/callout-covid-app-landing"
+import Callout from "../../components/callout-with-border"
+// import CalloutCovidLanding from "../../components/callout-get-vaccine-landing"
 import CalloutTested from "../../components/callout-have-you-been-tested"
 import CalloutVistingLTC from "../../components/callout-visiting-ltc"
-import Callout from "../../components/callout-blue"
 
 import { GlobalDispatchContext } from "../../context/global-context-provider"
-import { formatDate } from "../../localized_content"
+import { formatDate, general, questions } from "../../localized_content"
 
-const lang = "en"
+import Warning from "../../images/ontario-icon-warning.svg"
 
-const CalloutGrey = styled.div`
-  padding: 1.5rem 2rem;
-  margin-bottom: -1rem;
-  background-color: #f2f2f2;
-  overflow: hidden;
-  @media screen and (${smallWidth}) {
-    padding: 1rem;
+const iconBase = (IconComponent) => `
+  background-image: url(${IconComponent});
+  background-size: 100%;
+  display: inline-block;
+`
+
+const IconWarning = styled.span`
+  ${iconBase(Warning)}
+  width: 23px;
+  height: 22px;
+  margin-left: -0.25rem;
+  @media screen and (max-width: 39.9375em) {
+    margin-top: 0.5rem;
   }
 `
+
+const CalloutContent = styled.div`
+  display: inline-block;
+  margin: -1.8rem 0.85rem 0 1rem;
+  @media screen and (max-width: 39.9375em) {
+    margin: 0;
+  }
+`
+
+const lang = "en"
 
 const IndexPage = () => {
   const {
@@ -45,12 +60,12 @@ const IndexPage = () => {
 
   const handleClick = () => {
     dispatch({ type: "SAT_START" })
-    navigate("/self-assessment/severe-symptoms")
+    navigate(`${general[lang].basePath}${questions.q1[lang]}`)
   }
 
   return (
     <Layout lang={lang} isLandingPage>
-      <CalloutCovidLanding lang="en" />
+      {/* <CalloutCovidLanding lang="en" /> */}
       <SEO lang={lang} />
       <nav role="navigation">
         <div className="ontario-row">
@@ -77,34 +92,27 @@ const IndexPage = () => {
                     <strong>{`Last updated: ${formatDate(new Date(Date.parse(currentDate)), lang)}`}</strong>
                     <br />
                     <br />
-                    <strong>Version 4.0</strong>
-                    <br />
-                    Updated questions and results to align with newest public health guidance.
+                    <strong>Version 5.4</strong>
                   </p>
+                  <p>Updates made to clarify reason for vaccination status question and to reiterate the need to stay home if you are sick with any symptoms.</p>
                 </>
               }
             />
             <p className="ontario-lead-statement">
-              Take this self-assessment if you’re worried you were exposed to COVID-19 (novel coronavirus) or have
-              symptoms.
+              Take this self-assessment if you were exposed to COVID-19 (novel coronavirus) or have symptoms.
             </p>
             <p className="ontario-lead-statement">You will get a recommendation on what to do next.</p>
-            <p className="ontario-lead-statement">You can also take it on behalf of someone else.</p>
-            <CalloutNoTitle
-              messagemain="If this is a medical emergency, call 911."
-              message="Advise them of your symptoms and if you have recently travelled."
-            />
+            <p className="ontario-lead-statement ontario-margin-bottom-32-!">
+              You can also take it on behalf of someone else.
+            </p>
 
-            <Callout
-              heading="Students, parents, and school staff"
-              message="Answer a few questions before leaving for school."
-              linkText="COVID-19 school screening"
-              link="https://covid-19.ontario.ca/school-screening"
-            />
+            <Callout bgColor="#fef6dc" borderColor="#ffd440" icon={<IconWarning />}>
+              <CalloutContent>{general[lang].landingCallout}</CalloutContent>
+            </Callout>
 
             <p className="ontario-margin-top-32-!">
-              The self-assessment is only meant as an aid and cannot diagnose you. Consult a health care provider if you
-              have medical questions.
+              The self-assessment is only meant as an aid and cannot diagnose you. Anyone who is sick or has any symptoms of illness, including those not listed in this screening tool, should stay home and seek assessment from a health care provider if needed. 
+              Consult a health care provider if you have medical questions.
             </p>
             <div className="ontario-text-center ontario-margin-top-40-! ontario-margin-bottom-40-! ontario-landing__button">
               <Button text="Start self-assessment" clickHandler={handleClick} />

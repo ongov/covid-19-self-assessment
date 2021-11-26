@@ -3,26 +3,27 @@ import QuestionTemplate from "../../templates/yes-no-question-template"
 import { logic } from "../../shared"
 
 const RespiratoryExposure = () => (
-  <QuestionTemplate lang="fr" yesLink={logic.q10.yes} noLink={logic.q10.no}>
-    <h2>Au cours des 14 derniers jours, avez-vous été en contact physique étroit avec une personne qui : </h2>
+  <QuestionTemplate lang="fr" yesLink={logic.q8.yes} noLink={logic.q8.no}>
+    <h2>Avez-vous été en <a href="https://www.ontario.ca/fr/page/freinez-la-propagation-de-la-covid-19#contact" target="_blank" rel="noopener">contact physique étroit</a> (sans porter l’équipement de protection individuelle approprié) avec une personne avec qui vous n'habitez pas et qui : </h2>
     <div className="ontario-bulleted-list">
       <span className="ontario-bullet"> • </span>{" "}
       <span className="ontario-list-item">
-        est actuellement malade et présente une nouvelle toux, de la fièvre, des difficultés respiratoires ou d’autres
-        symptômes associés à la COVID-19?
+        est malade et présente les symptômes associés à la COVID-19 (énumérés ci-dessous) au cours des 10 derniers jours?
       </span>
-      <div className="ontario-margin-top-8-! ontario-margin-bottom-4-!">
-        <span className="ontario-margin-right-16-!">&nbsp;</span>ou
-      </div>
+
+      <p className="ontario-margin-top-8-! ontario-margin-bottom-8-!">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ou</p>
+
       <span className="ontario-bullet"> • </span>
-      <span className="ontario-list-item">est rentrée de l’étranger au cours des deux dernières semaines?</span>
+      <span className="ontario-list-item">est rentrée de l’étranger au cours des 14 derniers jours?</span>
     </div>
-    <p className="ontario-margin-top-32-!">Par contact physique étroit, on entend :</p>
-    <ul>
-      <li>être à moins de 2 mètres dans la même pièce, le même espace de travail ou la même zone</li>
-      <li>vivre dans la même demeure</li>
-      <li>être dans la même classe</li>
-    </ul>
+    <p className="ontario-margin-top-32-!">
+      <strong>Enfants (17 ans ou moins) :</strong> fièvre et/ou frissons, toux ou toux aboyante, essoufflement, diminution ou perte du goût ou de l'odorat, nausées, vomissements et/ou diarrhée 
+    </p>
+    <p>
+      <strong>Adultes (18 ans ou plus) :</strong> fièvre et/ou frissons, toux ou toux aboyante, essoufflement, diminution ou perte du goût ou de l'odorat, fatigue, douleurs musculaires 
+    </p>
+    
+    <p>Si la personne présentant des symptômes a reçu un vaccin contre la COVID-19 et/ou vaccin contre la grippe au cours des 48 dernières heures et ressent une fatigue légère, des douleurs musculaires ou articulaires qui ont commencé seulement après la vaccination, sélectionnez « Non ».</p>
   </QuestionTemplate>
 )
 

@@ -3,11 +3,15 @@ import { navigate } from "@reach/router"
 import { GlobalStateContext } from "../context/global-context-provider"
 import { SkipNavLink } from "@reach/skip-nav"
 
+import CriticalAlert from "./critical-alert-banner"
 import Header from "./header"
 import Footer from "./footer"
 import { general } from "../localized_content"
-import "../stylesheets/theme.css"
-import "../stylesheets/sat-style.css"
+
+import "../stylesheets/global.css"
+import "../stylesheets/layout.css"
+import "../stylesheets/headings.css"
+import "../stylesheets/icons.css"
 import "../stylesheets/print.css"
 
 const Layout = ({ lang, hideFooter, isResultsPage, isLandingPage, altHeaderLink, children }) => {
@@ -34,17 +38,20 @@ const Layout = ({ lang, hideFooter, isResultsPage, isLandingPage, altHeaderLink,
       <div className="ontario-text-center ontario-hide-for-print">
         <SkipNavLink>{general[lang].skipNavText}</SkipNavLink>
       </div>
-      <Header lang={lang} link={altHeaderLink} />
-      <main id="main-content">
-        {isResultsPage || isLandingPage ? (
-          children
-        ) : (
-          <div className="ontario-row">
-            <div className="ontario-small-12 ontario-columns">{children}</div>
-          </div>
-        )}
-      </main>
-      {!hideFooter && <Footer lang={lang} />}
+      {isLandingPage ? <CriticalAlert isLandingPage>{general[lang].lockdownAlert}</CriticalAlert> : null}
+      <div className="content-wrapper">
+        <Header lang={lang} link={altHeaderLink} />
+        <main id="main-content">
+          {isResultsPage || isLandingPage ? (
+            children
+          ) : (
+            <div className="ontario-row">
+              <div className="ontario-small-12 ontario-columns">{children}</div>
+            </div>
+          )}
+        </main>
+        {!hideFooter && <Footer lang={lang} />}
+      </div>
     </>
   )
 }

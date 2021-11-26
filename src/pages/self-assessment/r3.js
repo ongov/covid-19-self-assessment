@@ -1,107 +1,123 @@
 import React, { forwardRef, useRef } from "react"
-import { AnchorLink } from "gatsby-plugin-anchor-links"
+import { general } from "../../localized_content"
 
 import ResultsTemplate from "../../templates/results-template"
 import SaveToPDFButton from "../../components/save-to-pdf-button"
-import CalloutCovidApp from "../../components/callout-covid-app"
-import ButtonFindCentre from "../../components/button-find-centre"
-
-const lang = "en"
+import PrintPageButton from "../../components/print-page-button"
+import CalloutGetVaccine from "../../components/callout-get-vaccine"
 
 const ResultsContent = forwardRef(({ lang }, ref) => (
   <>
     <div className="ontario-row">
       <div className="ontario-small-1 ontario-medium-1 ontario-large-1 ontario-columns ontario-hide-for-print">
-        <div className="ontario-icon__self-isolate"></div>
+        <div className="ontario-icon__self-isolate" />
       </div>
       <div className="ontario-small-10 ontario-medium-11 ontario-large-10 ontario-end ontario-columns ontario-results__content">
         <h2 className="ontario-results--subtitle">
-          Based on your answers, <strong>you do not seem to have symptoms or be part of an at-risk group.</strong> We
-          recommend that you{" "}
-          <strong>be cautious when outside and keep a distance from others as much as possible.</strong>
+          Based on your answers, you <strong>do not need to self-isolate or get tested</strong>.
         </h2>
+        <p className="ontario-results--subtitle">
+          If you feel sick or not well, please stay
+          home. Talk with a doctor if necessary.
+        </p>
+        <p className="ontario-results--subtitle">
+          To protect your community and the health care system,{" "}
+          <strong>
+            wear a face covering or mask when required, keep a physical distance from others, and wash your hands as
+            much as possible.
+          </strong>
+        </p>
+        <p className="ontario-results--subtitle">
+          <a href="https://covid-19.ontario.ca/zones-and-restrictions" target="_blank" rel="noopener">
+            Get the latest restriction and closure information.
+          </a>
+        </p>
 
-        <div className="ontario-margin-top-40-! ontario-hide-for-print">
-          <SaveToPDFButton ref={ref} lang={lang} />
+        <div className="ontario-row ontario-row--collapse ontario-margin-top-40-! ontario-hide-for-print">
+          <div className="ontario-small-12 ontario-columns">
+            <SaveToPDFButton ref={ref} lang={lang} classname="print-save-button" />
+          </div>
+          <div className="ontario-small-12 ontario-columns">
+            <PrintPageButton lang={lang} classname="print-save-button" />
+          </div>
         </div>
 
         <div className="ontario-hide-for-print">
-          <p>On this page:</p>
-          <ol>
-            <li>
-              <AnchorLink to="/self-assessment/r3#your-health">Your health and testing </AnchorLink>
-            </li>
-            <li>
-              <AnchorLink to="/self-assessment/r3#community">Your community</AnchorLink>
-            </li>
-            <li>
-              <AnchorLink to="/self-assessment/r3#activities">Your activities </AnchorLink>
-            </li>
-          </ol>
-
-          <CalloutCovidApp lang="en" />
+          <CalloutGetVaccine lang="en" />
         </div>
       </div>
     </div>
 
     <div className="ontario-row ontario-results__content" id="your-health">
       <div className="ontario-small-1 ontario-medium-1 ontario-large-1 ontario-columns ontario-hide-for-print">
-        <div className="ontario-infographic-number">1.</div>
+        <div className="ontario-infographic-number">&nbsp;</div>
       </div>
       <div className="ontario-small-10 ontario-medium-11 ontario-large-10 ontario-end ontario-columns">
-        <h3>
-          <span className="ontario-show-for-print ontario-infographic-number">1.</span> Your health and testing
-        </h3>
+        <h3>Your health and testing</h3>
+        <p>
+          Pay attention to your health and note if anything changes. This is called{" "}
+          <a
+            href="https://www.publichealthontario.ca/-/media/documents/ncov/factsheet-covid-19-self-monitor.pdf?la=en"
+            target="_blank"
+            rel="noopener"
+          >
+            self-monitoring
+          </a>
+          .
+        </p>
+
+        <h4>
+          People who are “at risk” should pay extra close attention to their health and be extra cautious when outside
+          their home. This includes people:
+        </h4>
+        <ul>
+          <li>older than 70 </li>
+          <li>with an existing health condition</li>
+          <li>with a compromised (weakened) immune system</li>
+        </ul>
 
         <h4>Physical distancing and hand washing</h4>
         <ul>
-          <li>keep a distance of at least 2 metres from people who are not in your household or social circle</li>
+          <li>keep a distance of at least 2 metres from people you do not live with</li>
           <li>wash or sanitize your hands often </li>
           <li>
             <a href="https://www.ontario.ca/page/covid-19-stop-spread#section-1" target="_blank" rel="noopener">
               learn how to reduce your exposure to the virus{" "}
-              <span className="ontario-show-for-sr">This link will open in a new window.</span>
+              <span className="ontario-show-for-sr">{general[lang].newWindow}</span>
             </a>
           </li>
         </ul>
 
         <h4>Face coverings and masks</h4>
+
         <ul>
+          <li>wear one in public indoor spaces, like stores and transit vehicles</li>
           <li>
-            wear one in public indoor spaces, like stores and transit vehicles (some regions and communities have made
-            this mandatory){" "}
+            wear one outdoors when you cannot keep a distance of at least 2 metres from people you do not live with
           </li>
-          <li>
-            wear one outdoors when you cannot keep a distance of at least 2 metres from people who are not in your
-            household or social circle{" "}
-          </li>
-          <li>cover both your mouth and nose</li>
+          <li>cover your mouth, nose, and chin</li>
           <li>
             <strong>do not</strong> touch it without washing or sanitizing your hands first
           </li>
           <li>
             <a href="https://www.ontario.ca/page/face-coverings-and-face-masks" target="_blank" rel="noopener">
               learn how to wear and use face coverings and masks{" "}
-              <span className="ontario-show-for-sr">This link will open in a new window.</span>
+              <span className="ontario-show-for-sr">{general[lang].newWindow}</span>
             </a>
           </li>
         </ul>
 
-        <h4>Get tested at an assessment centre if you: </h4>
-        <ul>
-          <li>start feeling sick</li>
-          <li>
-            come into close physical contact with someone who has symptoms or has recently been diagnosed with COVID-19
-          </li>
-          <li>need a test to visit a nursing or long-term care home </li>
-        </ul>
-
-        <p className="ontario-margin-top-40-!">
-          Pay attention to your health and note if anything changes. This is called self-monitoring.
-        </p>
-
-        <div className="ontario-margin-top-40-! ontario-hide-for-print">
-          <ButtonFindCentre lang={lang} />
+        <h4>Getting tested</h4>
+        <p>There are certain situations for when you should get a COVID-19 test.</p>
+        <div className="ontario-row ontario-hide-for-print">
+          <div className="ontario-small-12 ontario-columns">
+            <a
+              href="https://covid-19.ontario.ca/covid-19-test-and-testing-location-information"
+              className="ontario-button ontario-button--primary"
+            >
+              Find out about testing
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -111,108 +127,15 @@ const ResultsContent = forwardRef(({ lang }, ref) => (
         <hr className="ontario-hr-short" aria-hidden="true" />
       </div>
     </div>
-
-    <div className="ontario-row ontario-results__content" id="community">
-      <div className="ontario-small-1 ontario-medium-1 ontario-large-1 ontario-columns ontario-hide-for-print">
-        <div className="ontario-infographic-number">2.</div>
-      </div>
-      <div className="ontario-small-10 ontario-medium-11 ontario-large-10 ontario-end ontario-columns">
-        <h3>
-          <span className="ontario-show-for-print ontario-infographic-number">2.</span> Your community
-        </h3>
-
-        <h4>Social circles</h4>
-        <ul>
-          <li>choose up to 10 people to form a circle with (including people you live with)</li>
-          <li>the 10 of you can interact without physical distancing (like giving hugs, being closer than 2 metres)</li>
-          <li>
-            you or others in your circle <strong>cannot</strong> be in more than 1 circle
-          </li>
-          <li>
-            <a href="https://www.ontario.ca/page/create-social-circle-during-covid-19" target="_blank" rel="noopener">
-              learn how to create a social circle{" "}
-              <span className="ontario-show-for-sr">This link will open in a new window.</span>
-            </a>
-          </li>
-        </ul>
-
-        <h4>Social gatherings</h4>
-        <ul>
-          <li>this includes gatherings in people’s homes and backyards, parks, and other recreational areas</li>
-          <li>you can have indoor gatherings with up to 10 people and outdoor gatherings with up to 25 people</li>
-          <li>
-            <strong>you cannot</strong> combine indoor and outdoor gatherings
-          </li>
-
-          <li>
-            <strong>you must</strong> keep a distance of at least 2 metres from people who are not in your household or
-            social circle{" "}
-          </li>
-        </ul>
-
-        <h4>Roommates and family you live with</h4>
-        <ul>
-          <li>they should pay attention to their health and note if anything changes</li>
-          <li>young children might have less specific symptoms like sluggishness or lack of appetite </li>
-        </ul>
-      </div>
-    </div>
-
-    <div className="ontario-row ontario-hide-for-print">
-      <div className="ontario-small-12 ontario-columns">
-        <hr className="ontario-hr-short" aria-hidden="true" />
-      </div>
-    </div>
-
-    <div className="ontario-row ontario-results__content" id="activities">
-      <div className="ontario-small-1 ontario-medium-1 ontario-large-1 ontario-columns ontario-hide-for-print">
-        <div className="ontario-infographic-number">3.</div>
-      </div>
-      <div className="ontario-small-10 ontario-medium-11 ontario-large-10 ontario-end ontario-columns">
-        <h3>
-          <span className="ontario-show-for-print ontario-infographic-number">3.</span> Your activities
-        </h3>
-
-        <h4>Shops and stores</h4>
-        <ul>
-          <li>use curbside pickup or get items delivered as much as you can</li>
-          <li>wear a face covering or mask if you go into retail or grocery stores</li>
-          <li>keep a distance of at least 2 metres from people who are not in your household or social circle</li>
-        </ul>
-
-        <h4>Work and workspaces</h4>
-        <ul>
-          <li>work from home or reduce the number of days you are at work in person (if possible)</li>
-          <li>
-            if you cannot work from home, make sure you and your company are taking the right safety precautions to
-            avoid the spread of the virus
-          </li>
-          <li>discuss with your manager and occupational health and safety representative </li>
-        </ul>
-
-        <h4>Walks, exercise, parks, and squares</h4>
-        <ul>
-          <li>you can go on walks, runs, and bike rides</li>
-          <li>you can take the dog out and have picnics and barbeques</li>
-          <li>keep a distance of at least 2 metres from people who are not in your household or social circle </li>
-        </ul>
-
-        <p className="ontario-margin-top-40-!">
-          <a href="https://www.ontario.ca/page/reopening-ontario-stages#section-3" target="_blank" rel="noopener">
-            Learn more about Stage 3 reopening.{" "}
-            <span className="ontario-show-for-sr">This link will open in a new window.</span>
-          </a>
-        </p>
-      </div>
-    </div>
   </>
 ))
 
 const R3 = () => {
+  const lang = "en"
   const elToPrintRef = useRef(null)
 
   return (
-    <ResultsTemplate lang={lang} showContactForm={false} elToPrintRef={elToPrintRef}>
+    <ResultsTemplate lang={lang} elToPrintRef={elToPrintRef}>
       <ResultsContent ref={elToPrintRef} lang={lang} />
     </ResultsTemplate>
   )

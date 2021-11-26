@@ -1,5 +1,9 @@
-import React from "react"
-import styled from "styled-components";
+import styled from "styled-components"
+
+const smallWidth = "max-width: 39.9375em"
+const medWidth = "min-width: 40em"
+const medWidthMax = "max-width: 72.9375em"
+const largeWidth = "min-width: 73em"
 
 const Column = styled.div`
   position: relative;
@@ -24,9 +28,14 @@ const Icon = styled.div`
   text-align: center;
 `
 
-const smallWidth = "max-width: 39.9375em"
-const medWidth = "min-width: 40em"
-const medWidthMax = "max-width: 72.9375em"
-const largeWidth = "min-width: 73em"
+const CalloutGrey = styled.div`
+  padding: 1.5rem 2rem;
+  margin-bottom: -1rem;
+  background-color: #f2f2f2;
+  overflow: hidden;
+  @media screen and (${smallWidth}) {
+    padding: 1rem;
+  }
+`
 
-export { Column, Row, Icon, smallWidth, medWidth, medWidthMax, largeWidth}
+export { CalloutGrey, Column, Row, Icon, smallWidth, medWidth, medWidthMax, largeWidth }

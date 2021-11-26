@@ -1,0 +1,165 @@
+/* -------------------------------
+        Headings
+--------------------------------- */
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  font-style: normal;
+  font-weight: 700;
+  text-rendering: optimizeLegibility;
+  margin-bottom: 1rem;
+  -webkit-font-feature-settings: normal;
+  font-feature-settings: normal;
+  font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 0.75rem 0;
+}
+
+h1,
+.h1 {
+  font-size: 2rem;
+  letter-spacing: 0.04rem;
+  line-height: 1.2;
+  margin: 0 0 1.5rem 0;
+}
+
+@media screen and (min-width: 40em) {
+  h1,
+  .h1 {
+    font-size: 2.5rem;
+    letter-spacing: 0.04rem;
+    line-height: 1.29;
+  }
+}
+
+h2,
+.h2 {
+  font-size: 1.6875rem;
+  letter-spacing: 0.03rem;
+  line-height: 1.33;
+  margin: 0 0 1rem 0;
+}
+
+@media screen and (min-width: 40em) {
+  h2,
+  .h2 {
+    font-size: 2.0625rem;
+    letter-spacing: 0.02rem;
+    line-height: 1.37;
+  }
+}
+
+h3,
+.h3 {
+  font-size: 1.4375rem;
+  letter-spacing: 0.02rem;
+  line-height: 1.43;
+  margin: 0 0 1rem 0;
+}
+
+@media screen and (min-width: 40em) {
+  h3,
+  .h3 {
+    font-size: 1.75rem;
+    letter-spacing: 0.02rem;
+    line-height: 1.39;
+  }
+}
+
+h4,
+.h4 {
+  font-size: 1.25rem;
+  letter-spacing: 0.03rem;
+  line-height: 1.5;
+  margin: 0 0 1rem 0;
+}
+
+@media screen and (min-width: 40em) {
+  h4,
+  .h4 {
+    font-size: 1.5rem;
+    letter-spacing: 0.0313rem;
+    line-height: 1.5;
+  }
+}
+
+h5,
+.h5 {
+  font-size: 1.125rem;
+  letter-spacing: 0.03rem;
+  line-height: 1.5;
+  margin: 0 0 1rem 0;
+}
+
+@media screen and (min-width: 40em) {
+  h5,
+  .h5 {
+    font-size: 1.1875rem;
+    letter-spacing: 0.025rem;
+    line-height: 1.56;
+  }
+}
+
+h6,
+.h6 {
+  font-size: 1rem;
+  letter-spacing: 0.03rem;
+  line-height: 1.5;
+  margin: 0 0 1rem 0;
+}
+
+@media screen and (min-width: 40em) {
+  h6,
+  .h6 {
+    font-size: 1rem;
+    letter-spacing: 0.025rem;
+    line-height: 1.56;
+  }
+}
+
+.ontario-lead-statement {
+  font: 1.375rem "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.4;
+}
+
+h3.h4-style,
+.h4-style {
+  font-size: 1.2375rem;
+  letter-spacing: 0.0313rem;
+  line-height: 1.5;
+}
+
+/* -------------------------------
+        Infographics
+--------------------------------- */
+
+.ontario-infographic-number {
+  font: 1.75rem "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.02rem;
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .ontario-infographic-number {
+    font-size: 1.25rem;
+    line-height: 1.43;
+  }
+}

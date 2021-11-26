@@ -1,39 +1,560 @@
 /* -------------------------------
-    Forms
+    Form elements
 --------------------------------- */
-.ontario-form h3 {
+
+/* -------------------------------
+    Buttons
+--------------------------------- */
+.ontario-button,
+button,
+input[type="submit"],
+input[type="button"],
+.ontario-button.alert {
+  border: none;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  display: inline-block;
   font-size: 1.125rem;
-  margin-bottom: 0.5rem;
+  font-weight: 600;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: calc(14 / 9);
+  margin: 0 calc(1rem + 0.75rem) 1.5rem 0;
+  min-width: 10rem;
+  padding: calc((1rem + 0.25rem) / 2) 1.5rem;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
 }
 
-.ontario-label {
-  color: #666;
-  font: 1rem "Open Sans", Arial, Helvetica, sans-serif !important;
-  font-weight: normal;
-  margin-bottom: 0.5rem;
-}
-
-.ontario-form input[type="checkbox"] + label {
-  font-weight: bold;
-}
-
-@media screen and (max-width: 39.9375em) {
-  .ontario-form-group:last-of-type {
-    margin-bottom: 1rem;
+@media screen and (max-width: 40em) {
+  .ontario-button,
+  button,
+  input[type="submit"],
+  input[type="button"],
+  .ontario-button.alert {
+    margin-right: 0;
+    display: block;
+    width: 100%;
   }
 }
 
+.ontario-button .icon,
+button .icon,
+input[type="submit"] .icon,
+input[type="button"] .icon {
+  margin-right: 4px;
+}
+
+.ontario-button--primary,
+.ontario-button,
+button,
+input[type="submit"],
+input[type="button"],
+.ontario-button.alert,
+.ontario-button.primary,
+button.primary,
+input.primary[type="submit"],
+input.primary[type="button"] {
+  background-color: #0066cc;
+  color: #ffffff;
+}
+
+.ontario-button--primary:hover,
+.ontario-button:hover,
+button:hover,
+input:hover[type="submit"],
+input:hover[type="button"],
+button.primary:hover {
+  background-color: #00478f;
+  color: #ffffff;
+}
+
+.ontario-button--primary:focus,
+.ontario-button:focus,
+button:focus,
+input:focus[type="submit"],
+input:focus[type="button"],
+button.primary:focus {
+  background-color: #00478f;
+  color: #ffffff;
+  -webkit-transition: background-color 0.2s ease-out, -webkit-box-shadow 0.1s ease-in-out;
+  transition: background-color 0.2s ease-out, -webkit-box-shadow 0.1s ease-in-out;
+  transition: background-color 0.2s ease-out, box-shadow 0.1s ease-in-out;
+  transition: background-color 0.2s ease-out, box-shadow 0.1s ease-in-out, -webkit-box-shadow 0.1s ease-in-out;
+}
+
+.ontario-button--primary:active,
+.ontario-button:active,
+button:active,
+input:active[type="submit"],
+input:active[type="button"],
+button.primary:active {
+  background-color: #002142;
+  color: #ffffff;
+  -webkit-transition: background-color 0s, -webkit-box-shadow 0.1s ease-in-out;
+  transition: background-color 0s, -webkit-box-shadow 0.1s ease-in-out;
+  transition: background-color 0s, box-shadow 0.1s ease-in-out;
+  transition: background-color 0s, box-shadow 0.1s ease-in-out, -webkit-box-shadow 0.1s ease-in-out;
+}
+
+.ontario-button--primary:visited,
+.ontario-button:visited,
+button:visited,
+input:visited[type="submit"],
+input:visited[type="button"],
+button.primary:visited {
+  color: #ffffff;
+}
+
+.ontario-button--secondary,
+.ontario-button.secondary,
+button.secondary,
+input.secondary[type="submit"],
+input.secondary[type="button"] {
+  background-color: #ffffff;
+  border: 2px solid #0066cc;
+  color: #0066cc;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.ontario-button--secondary:hover,
+.ontario-button.secondary:hover,
+button.secondary:hover,
+input.secondary:hover[type="submit"],
+input.secondary:hover[type="button"] {
+  background-color: #e0f0ff;
+  border-color: #00478f;
+  color: #00478f;
+}
+
+.ontario-button--secondary:focus,
+.ontario-button.secondary:focus,
+button.secondary:focus,
+input.secondary:focus[type="submit"],
+input.secondary:focus[type="button"] {
+  background-color: #e0f0ff;
+  border-color: #00478f;
+  color: #00478f;
+  -webkit-transition: background-color 0.2s ease-out, -webkit-box-shadow 0.1s ease-in-out;
+  transition: background-color 0.2s ease-out, -webkit-box-shadow 0.1s ease-in-out;
+  transition: background-color 0.2s ease-out, box-shadow 0.1s ease-in-out;
+  transition: background-color 0.2s ease-out, box-shadow 0.1s ease-in-out, -webkit-box-shadow 0.1s ease-in-out;
+}
+
+.ontario-button--secondary:active,
+.ontario-button.secondary:active,
+button.secondary:active,
+input.secondary:active[type="submit"],
+input.secondary:active[type="button"] {
+  background-color: #c2e0ff;
+  border-color: #002142;
+  color: #002142;
+  -webkit-transition: background-color 0s, -webkit-box-shadow 0.1s ease-in-out;
+  transition: background-color 0s, -webkit-box-shadow 0.1s ease-in-out;
+  transition: background-color 0s, box-shadow 0.1s ease-in-out;
+  transition: background-color 0s, box-shadow 0.1s ease-in-out, -webkit-box-shadow 0.1s ease-in-out;
+}
+
+.ontario-button--secondary:visited,
+.ontario-button.secondary:visited,
+.ontario-buttonsecondary:visited,
+input.secondary:visited[type="submit"],
+input.secondary:visited[type="button"] {
+  color: #0066cc;
+}
+
+.ontario-button--tertiary,
+.ontario-button.quiet,
+button.quiet,
+input.quiet[type="submit"],
+input.quiet[type="button"] {
+  background-color: transparent;
+  color: #0066cc;
+  text-decoration: underline;
+}
+
+.ontario-button--tertiary:hover,
+.ontario-button.quiet:hover,
+button.quiet:hover,
+input.quiet:hover[type="submit"],
+input.quiet:hover[type="button"] {
+  background-color: #e8e8e8;
+  color: #00478f;
+  text-decoration: underline;
+}
+
+.ontario-button--tertiary:focus,
+.ontario-button.quiet:focus,
+button.quiet:focus,
+input.quiet:focus[type="submit"],
+input.quiet:focus[type="button"] {
+  background-color: #e8e8e8;
+  color: #00478f;
+  text-decoration: underline;
+  -webkit-transition: background-color 0.2s ease-out, -webkit-box-shadow 0.1s ease-in-out;
+  transition: background-color 0.2s ease-out, -webkit-box-shadow 0.1s ease-in-out;
+  transition: background-color 0.2s ease-out, box-shadow 0.1s ease-in-out;
+  transition: background-color 0.2s ease-out, box-shadow 0.1s ease-in-out, -webkit-box-shadow 0.1s ease-in-out;
+}
+
+.ontario-button--tertiary:active,
+.ontario-button.quiet:active,
+button.quiet:active,
+input.quiet:active[type="submit"],
+input.quiet:active[type="button"] {
+  background-color: #d1d1d1;
+  color: #002142;
+  text-decoration: underline;
+  -webkit-transition: background-color 0s, -webkit-box-shadow 0.1s ease-in-out;
+  transition: background-color 0s, -webkit-box-shadow 0.1s ease-in-out;
+  transition: background-color 0s, box-shadow 0.1s ease-in-out;
+  transition: background-color 0s, box-shadow 0.1s ease-in-out, -webkit-box-shadow 0.1s ease-in-out;
+}
+
+.ontario-button--tertiary:visited,
+.ontario-button.quiet:visited,
+button.quiet:visited,
+input.quiet:visited[type="submit"],
+input.quiet:visited[type="button"] {
+  color: #0066cc;
+}
+
+.button:focus,
+button:focus,
+input:focus[type="submit"],
+input:focus[type="button"],
+.button:active,
+button:active,
+input:active[type="submit"],
+input:active[type="button"],
+.input:focus,
+.input:active {
+  -webkit-box-shadow: 0 0 0 4px #009adb;
+  box-shadow: 0 0 0 4px #009adb;
+  outline: 4px solid transparent;
+  -webkit-transition: -webkit-box-shadow 0.1s ease-in-out;
+  transition: -webkit-box-shadow 0.1s ease-in-out;
+  transition: box-shadow 0.1s ease-in-out;
+  transition: box-shadow 0.1s ease-in-out, -webkit-box-shadow 0.1s ease-in-out;
+}
+
+/* -------------------------------
+    Checkboxes
+--------------------------------- */
+.ontario-checkboxes {
+  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
+}
+.ontario-checkboxes__item {
+  position: relative;
+  margin: 0 0 1rem;
+  padding: 0 2rem 0;
+  min-height: 28px;
+}
+.ontario-checkboxes__item:last-of-type {
+  margin: 0;
+}
+@media screen and (max-width: 40em) {
+  .ontario-checkboxes__item {
+    padding: 0 2.5rem 0;
+    min-height: 32px;
+  }
+}
+.ontario-checkboxes__input {
+  cursor: pointer;
+  margin: 0;
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  opacity: 0;
+  width: 36px;
+  height: 36px;
+  z-index: 1;
+  -webkit-tap-highlight-color: transparent;
+}
+@media screen and (max-width: 40em) {
+  .ontario-checkboxes__input {
+    width: 40px;
+    height: 40px;
+  }
+}
+.ontario-checkboxes__label {
+  display: inline-block;
+  cursor: pointer;
+  line-height: 1.5;
+  margin: 0.25rem 0;
+  padding: 0 1rem;
+}
+@media screen and (max-width: 40em) {
+  .ontario-checkboxes__label {
+    margin: 0.33rem 0;
+  }
+}
+.ontario-checkboxes__label:before {
+  content: "";
+  border: 2px solid #1a1a1a;
+  border-radius: 4px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 28px;
+  height: 28px;
+  -webkit-transition: border 0.1s ease-in-out;
+  transition: border 0.1s ease-in-out;
+}
+@media screen and (max-width: 40em) {
+  .ontario-checkboxes__label:before {
+    width: 32px;
+    height: 32px;
+  }
+}
+.ontario-checkboxes__label:after {
+  content: "";
+  background-image: url("../images/ontario-checkbox-background-no-width.svg");
+  background-repeat: no-repeat;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+}
+@media screen and (max-width: 40em) {
+  .ontario-checkboxes__label:after {
+    height: 34px;
+    width: 34px;
+  }
+}
+@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
+  .ontario-checkboxes__label:before {
+    height: 32px;
+    width: 32px;
+  }
+}
+@media screen and (-ms-high-contrast: active) and (max-width: 40em),
+  screen and (-ms-high-contrast: none) and (max-width: 40em) {
+  .ontario-checkboxes__label:before {
+    height: 36px;
+    width: 36px;
+  }
+}
+.ontario-checkboxes__input:focus + .ontario-checkboxes__label:before {
+  box-shadow: 0 0 0 4px #009adb;
+  outline: 4px solid transparent;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+.ontario-checkboxes__input:checked + .ontario-checkboxes__label:after {
+  opacity: 1;
+}
+.ontario-checkboxes__input:checked + .ontario-checkboxes__label:before {
+  background-color: #1a1a1a;
+}
+
+/* -------------------------------
+    Dropdown
+--------------------------------- */
 .ontario-dropdown {
   background-color: #fff;
-  background-image: url(../images/ontario-material-dropdown-arrow-48px.svg);
+  background-image: url("../images/ontario-material-dropdown-arrow-48px.svg");
   background-position: right 0.5rem center;
   background-repeat: no-repeat;
   background-size: 2rem;
   padding-right: calc(1rem * 2.25);
 }
+.ontario-dropdown::-ms-expand {
+  display: none;
+}
+.ontario-dropdown option {
+  font-weight: normal;
+}
 
-.ontario-fieldset__legend {
+/* -------------------------------
+    Hint text
+--------------------------------- */
+.ontario-hint {
+  color: #666;
+  display: inline-block;
+  margin: 0 0 1rem 0;
+  width: 100%;
+}
+
+/* -------------------------------
+    Label
+--------------------------------- */
+.ontario-label {
+  cursor: pointer;
+  color: #1a1a1a;
+  font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.1875rem;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0 0 1rem 0;
+  max-width: 38.75em;
+  width: 100%;
+}
+@media screen and (max-width: 40em) {
+  .ontario-label {
+    font-size: 1.125rem;
+    line-height: 1.56;
+  }
+}
+
+/* -------------------------------
+   Radio button
+--------------------------------- */
+.ontario-radios {
+  padding: 0 0 0 0.125rem;
   margin-bottom: 2.5rem;
+}
+.ontario-radios__item {
+  position: relative;
+  display: block;
+  margin: 0 0 1rem;
+  padding: 0 2rem 0;
+}
+.ontario-radios__input {
+  cursor: pointer;
+  margin: 0;
+  position: absolute;
+  opacity: 0;
+  top: -2px;
+  left: -2px;
+  width: 36px;
+  height: 36px;
+  z-index: 1;
+}
+@media screen and (max-width: 40em) {
+  .ontario-radios__input {
+    width: 40px;
+    height: 40px;
+    top: -1.5px;
+    left: -1.5px;
+  }
+}
+.ontario-radios__label {
+  display: inline-block;
+  font-size: 1rem;
+  margin: 0.2rem 0;
+  padding: 0 0.75rem;
+  touch-action: manipulation;
+}
+@media screen and (max-width: 40em) {
+  .ontario-radios__label {
+    margin: 0.3rem 0;
+    padding: 0 1rem;
+  }
+}
+.ontario-radios__label:before {
+  content: "";
+  border: 2px solid #1a1a1a;
+  border-radius: 50%;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 32px;
+  height: 32px;
+  -webkit-transition: border 0.1s ease-in-out;
+  transition: border 0.1s ease-in-out;
+}
+@media screen and (max-width: 40em) {
+  .ontario-radios__label:before {
+    width: 36px;
+    height: 36px;
+  }
+}
+.ontario-radios__label:after {
+  content: "";
+  border-radius: 50%;
+  border: 10px solid #1a1a1a;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transform: translate(6px, 6px);
+  transform: translate(6px, 6px);
+  opacity: 0;
+}
+@media screen and (max-width: 40em) {
+  .ontario-radios__label:after {
+    border: 12px solid #1a1a1a;
+  }
+}
+.ontario-radios__input:focus + .ontario-radios__label:before {
+  box-shadow: 0 0 0 4px #009adb;
+  outline: 4px solid transparent;
+  -webkit-transition: box-shadow 0.1s ease-in-out;
+  transition: box-shadow 0.1s ease-in-out;
+}
+.ontario-radios__input:checked + .ontario-radios__label:after {
+  opacity: 1;
+}
+
+/* -------------------------------
+    Input
+--------------------------------- */
+[class^="ontario-input"]:focus,
+[class^="ontario-input"]:active {
+  box-shadow: 0 0 0 4px #009adb;
+  outline: 4px solid transparent;
+  -webkit-transition: box-shadow 0.1s ease-in-out;
+  transition: box-shadow 0.1s ease-in-out;
+}
+[class^="ontario-input"] {
+  border: 2px solid #1a1a1a;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #1a1a1a;
+  display: block;
+  font-size: 1rem;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  margin: 0 0 2.5rem;
+  max-width: 46em;
+  width: 100%;
+  padding: 0.625rem 1rem;
+  -webkit-transition: box-shadow 0.1s ease-in-out;
+  transition: box-shadow 0.1s ease-in-out;
+}
+.ontario-input--3-char-width {
+  max-width: 10ex;
+}
+.ontario-form-group:last-of-type {
+  margin-bottom: 3rem;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  page-break-inside: avoid;
+}
+legend,
+label {
+  display: block;
+  margin: 0;
+}
+select {
+  background-origin: initial;
+  height: auto;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+/* -------------------------------
+    Custom form styles
+--------------------------------- */
+@media screen and (max-width: 39.9375em) {
+  .ontario-form-group:last-of-type {
+    margin-bottom: 1rem;
+  }
 }
 
 .ontario-checkboxes__label--large,
@@ -69,17 +590,13 @@
   text-decoration: underline;
 }
 
-.ontario-input--error {
-  border: 4px solid #cd0000;
+.ontario-button--secondary.ontario-button--noBG {
+  background: none;
 }
 
-.ontario-form__message-error {
-  background-color: #ffecee;
-  border-left: 4px solid #cd0000;
-  color: #cd0000;
-  padding: 1rem;
-  position: relative;
-  top: -1.5rem;
+.ontario-button--secondary.ontario-button--noBG:visited,
+.ontario-button--secondary.ontario-button--noBG:focus {
+  color: #06c;
 }
 
 .ontario-form__message-success {
@@ -115,17 +632,4 @@
     height: 25px;
     margin: auto;
   }
-}
-
-.ontario-form__title {
-  font: 1.5rem "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-  font-weight: 700 !important;
-  letter-spacing: 0.0313rem;
-  line-height: 1.5;
-}
-
-.ontario-form__message-success--title{
-  font-size: 1.25rem;
-  font-weight: bold;
-  margin-top: 0;
 }

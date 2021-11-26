@@ -58,23 +58,12 @@ module.exports = {
         path: `${__dirname}/src/fonts`,
       },
     },
+    `gatsby-plugin-styled-components`,
     {
       resolve: "gatsby-plugin-anchor-links",
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `covid-19-self-assessment-tool-v3`,
-        short_name: `covid-19-sat-v3`,
-        start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
-        icon: `src/images/ontario-icon.png`, // This path is relative to the root of the site.
-      },
-    },
     {
       resolve: "gatsby-plugin-asset-path",
       options: {
@@ -82,6 +71,7 @@ module.exports = {
         fileTypes: ["js", "map", "css", "png"],
       },
     },
+    `gatsby-plugin-remove-trailing-slashes`,
     {
       resolve: "gatsby-plugin-google-tagmanager",
       options: {

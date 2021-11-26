@@ -1,0 +1,4104 @@
+[
+  {
+    "pcd": "P0R",
+    "loc": "Algoma Southwest (Blind River)",
+    "loc_fr": "Algoma Sud-Ouest(Blind River)",
+    "mun": "Algoma",
+    "lat": "46.5984",
+    "lng": "-83.0385"
+  },
+  {
+    "pcd": "N3P",
+    "loc": "Brantford Northeast",
+    "loc_fr": "Brantford Nord-Est",
+    "mun": "Brant",
+    "lat": "43.1818",
+    "lng": "-80.2367"
+  },
+  {
+    "pcd": "N3R",
+    "loc": "Brantford Central",
+    "loc_fr": "Brantford Central",
+    "mun": "Brant",
+    "lat": "43.1692",
+    "lng": "-80.2684"
+  },
+  {
+    "pcd": "N3S",
+    "loc": "Brantford Southeast",
+    "loc_fr": "Brantford Sud-Est",
+    "mun": "Brant",
+    "lat": "43.1394",
+    "lng": "-80.2357"
+  },
+  {
+    "pcd": "N3T",
+    "loc": "Brantford Southwest",
+    "loc_fr": "Brantford Sud-Ouest",
+    "mun": "Brant",
+    "lat": "43.131",
+    "lng": "-80.3254"
+  },
+  {
+    "pcd": "N3V",
+    "loc": "Brantford Northwest",
+    "loc_fr": "Brantford Nord-Ouest",
+    "mun": "Brant",
+    "lat": "43.1734",
+    "lng": "-80.298"
+  },
+  {
+    "pcd": "L0N",
+    "loc": "Dufferin County (Shelburne)",
+    "loc_fr": "Dufferin County (Shelburne)",
+    "mun": "Dufferin County",
+    "lat": "44.0317",
+    "lng": "-80.2068"
+  },
+  {
+    "pcd": "K0H",
+    "loc": "Frontenac County, Addington County, Loyalist Shores and Southwest Leeds (Inverary)",
+    "loc_fr": "Frontenac County, Addington County, Loyalist Shores and Sud-OuestLeeds (Inverary)",
+    "mun": "Frontenac County",
+    "lat": "44.7208",
+    "lng": "-76.8334"
+  },
+  {
+    "pcd": "L0P",
+    "loc": "Halton Regional Municipality (Campbellville)",
+    "loc_fr": "Halton Regional Municipality (Campbellville)",
+    "mun": "Halton",
+    "lat": "43.4906",
+    "lng": "-79.9998"
+  },
+  {
+    "pcd": "L9E",
+    "loc": "Milton",
+    "loc_fr": "Milton",
+    "mun": "Halton",
+    "lat": "43.5168",
+    "lng": "-79.8829"
+  },
+  {
+    "pcd": "L8E",
+    "loc": "Hamilton (Confederation Park / Nashdale / East Kentley / Riverdale / Lakely / Grayside / North Stoney Creek)",
+    "loc_fr": "Hamilton (Confederation Park / Nashdale / Est Kentley / Riverdale / Lakely / Grayside / Nord Stoney Creek)",
+    "mun": "Hamilton",
+    "lat": "43.2245",
+    "lng": "-79.6988"
+  },
+  {
+    "pcd": "L8G",
+    "loc": "Hamilton (Greenford / North Gershome / West Stoney Creek)",
+    "loc_fr": "Hamilton (Greenford / Nord Gershome / Ouest Stoney Creek)",
+    "mun": "Hamilton",
+    "lat": "43.2164",
+    "lng": "-79.7423"
+  },
+  {
+    "pcd": "L8H",
+    "loc": "Hamilton (West Kentley / McQuesten / Parkview / Hamilton Beach / East Industrial Sector / Normanhurst / Homeside / East Crown Point)",
+    "loc_fr": "Hamilton (Ouest Kentley / McQuesten / Parkview / Hamilton Beach / Est Industrial Sector / Normanhurst / Homeside / Est Crown Point)",
+    "mun": "Hamilton",
+    "lat": "43.2596",
+    "lng": "-79.7925"
+  },
+  {
+    "pcd": "L8J",
+    "loc": "Hamilton (East Albion Falls / South Stoney Creek)",
+    "loc_fr": "Hamilton (Est Albion Falls / Sud Stoney Creek)",
+    "mun": "Hamilton",
+    "lat": "43.1836",
+    "lng": "-79.721"
+  },
+  {
+    "pcd": "L8K",
+    "loc": "Hamilton (East Delta / Bartonville / Glenview / Rosedale / Lower King's Forest / Red Hill / Corman / Vincent / South Gershome)",
+    "loc_fr": "Hamilton (Est Delta / Bartonville / Glenview / Rosedale / Lower King's Forest / Red Hill / Corman / Vincent / Sud Gershome)",
+    "mun": "Hamilton",
+    "lat": "43.2211",
+    "lng": "-79.7994"
+  },
+  {
+    "pcd": "L8L",
+    "loc": "Hamilton (West Industrial Sector / West Crown Point / North Stipley / North Gibson / Landsdale / Keith / North End / Beasley)",
+    "loc_fr": "Hamilton (Ouest Industrial Sector / Ouest Crown Point / Nord Stipley / Nord Gibson / Landsdale / Keith / Nord End / Beasley)",
+    "mun": "Hamilton",
+    "lat": "43.2783",
+    "lng": "-79.8344"
+  },
+  {
+    "pcd": "L8M",
+    "loc": "Hamilton (West Delta / Blakeley / South Stipley / South Gibson / St. Clair)",
+    "loc_fr": "Hamilton (Ouest Delta / Blakeley / Sud Stipley / Sud Gibson / St. Clair)",
+    "mun": "Hamilton",
+    "lat": "43.2441",
+    "lng": "-79.8359"
+  },
+  {
+    "pcd": "L8N",
+    "loc": "Hamilton (Stinson / Corktown)",
+    "loc_fr": "Hamilton (Stinson / Corktown)",
+    "mun": "Hamilton",
+    "lat": "43.4017",
+    "lng": "-80.017"
+  },
+  {
+    "pcd": "L8P",
+    "loc": "Hamilton (Durand / Kirkendall / Chedoke Park)",
+    "loc_fr": "Hamilton (Durand / Kirkendall / Chedoke Park)",
+    "mun": "Hamilton",
+    "lat": "43.2514",
+    "lng": "-79.8925"
+  },
+  {
+    "pcd": "L8R",
+    "loc": "Hamilton (Central / Strathcona / South Dundurn)",
+    "loc_fr": "Hamilton (Central / Strathcona / Sud Dundurn)",
+    "mun": "Hamilton",
+    "lat": "43.2726",
+    "lng": "-79.8792"
+  },
+  {
+    "pcd": "L8S",
+    "loc": "Hamilton (Westdale / Cootes Paradise / Ainslie Wood)",
+    "loc_fr": "Hamilton (Ouestdale / Cootes Paradise / Ainslie Wood)",
+    "mun": "Hamilton",
+    "lat": "43.2606",
+    "lng": "-79.9161"
+  },
+  {
+    "pcd": "L8T",
+    "loc": "Hamilton (Sherwood / Huntington / Upper King's Forest / Lisgar / Berrisfield / Hampton Heights / Sunninghill)",
+    "loc_fr": "Hamilton (Sherwood / Huntington / Upper King's Forest / Lisgar / Berrisfield / Hampton Heights / Sunninghill)",
+    "mun": "Hamilton",
+    "lat": "43.2199",
+    "lng": "-79.8286"
+  },
+  {
+    "pcd": "L8V",
+    "loc": "Hamilton (Raleigh / Macassa / Lawfield / Thorner / Burkholme / Eastmount)",
+    "loc_fr": "Hamilton (Raleigh / Macassa / Lawfield / Thorner / Burkholme / Estmount)",
+    "mun": "Hamilton",
+    "lat": "43.2266",
+    "lng": "-79.8499"
+  },
+  {
+    "pcd": "L8W",
+    "loc": "Hamilton (West Albion Falls / Hannon / Rymal / Trenholme / Quinndale / Templemead / Broughton / Eleanor / Randall / Rushdale / Butler / East Chappel)",
+    "loc_fr": "Hamilton (Ouest Albion Falls / Hannon / Rymal / Trenholme / Quinndale / Templemead / Broughton / Eleanor / Randall / Rushdale / Butler / Est Chappel)",
+    "mun": "Hamilton",
+    "lat": "43.1958",
+    "lng": "-79.8458"
+  },
+  {
+    "pcd": "L9A",
+    "loc": "Hamilton (Crerar / Bruleville / Hill Park / Inch Park / Centremount / Balfour / Greeningdon / Jerome)",
+    "loc_fr": "Hamilton (Crerar / Bruleville / Hill Park / Inch Park / Centremount / Balfour / Greeningdon / Jerome)",
+    "mun": "Hamilton",
+    "lat": "43.2271",
+    "lng": "-79.871"
+  },
+  {
+    "pcd": "L9B",
+    "loc": "Hamilton (Barnstown / West Chappel / Allison / Ryckmans / Mewburn / Sheldon / Falkirk / Carpenter / Kennedy / Southwest Outskirts)",
+    "loc_fr": "Hamilton (Barnstown / Ouest Chappel / Allison / Ryckmans / Mewburn / Sheldon / Falkirk / Carpenter / Kennedy / Sud-OuestOutskirts)",
+    "mun": "Hamilton",
+    "lat": "43.2055",
+    "lng": "-79.9004"
+  },
+  {
+    "pcd": "L9C",
+    "loc": "Hamilton (Southam / Bonnington / Yeoville / Kernighan / Gourley / Rolston / Buchanan / Mohawk / Westcliffe / Gilbert / Gilkson / Gurnett / Fessenden / Mountview)",
+    "loc_fr": "Hamilton (Sudam / Bonnington / Yeoville / Kernighan / Gourley / Rolston / Buchanan / Mohawk / Ouestcliffe / Gilbert / Gilkson / Gurnett / Fessenden / Mountview)",
+    "mun": "Hamilton",
+    "lat": "43.2313",
+    "lng": "-79.9049"
+  },
+  {
+    "pcd": "K0L",
+    "loc": "Peterborough County and North Hastings County (Lakefield)",
+    "loc_fr": "Peterborough County and Nord Hastings County (Lakefield)",
+    "mun": "Peterborough County",
+    "lat": "44.7767",
+    "lng": "-77.9687"
+  },
+  {
+    "pcd": "K0J",
+    "loc": "Renfrew County and Lanark Highlands Township (Deep River)",
+    "loc_fr": "Renfrew County and Lanark Highlands Township (Deep River)",
+    "mun": "Renfrew County",
+    "lat": "45.6606",
+    "lng": "-77.5886"
+  },
+  {
+    "pcd": "M3K",
+    "loc": "Downsview East (CFB Toronto)",
+    "loc_fr": "Downsview Est (CFB Toronto)",
+    "mun": "Toronto",
+    "lat": "43.739",
+    "lng": "-79.4692"
+  },
+  {
+    "pcd": "M4E",
+    "loc": "East Toronto (The Beaches)",
+    "loc_fr": "Est Toronto (The Beaches)",
+    "mun": "Toronto",
+    "lat": "43.6784",
+    "lng": "-79.2941"
+  },
+  {
+    "pcd": "M4J",
+    "loc": "East Toronto (The Danforth East)",
+    "loc_fr": "Est Toronto (The Danforth Est)",
+    "mun": "Toronto",
+    "lat": "43.6872",
+    "lng": "-79.3368"
+  },
+  {
+    "pcd": "M4K",
+    "loc": "East Toronto (The Danforth West / Riverdale)",
+    "loc_fr": "Est Toronto (The Danforth Ouest / Riverdale)",
+    "mun": "Toronto",
+    "lat": "43.6803",
+    "lng": "-79.3538"
+  },
+  {
+    "pcd": "M4L",
+    "loc": "East Toronto (India Bazaar / The Beaches West)",
+    "loc_fr": "Est Toronto (India Bazaar / The Beaches Ouest)",
+    "mun": "Toronto",
+    "lat": "43.6693",
+    "lng": "-79.3155"
+  },
+  {
+    "pcd": "M4M",
+    "loc": "East Toronto (Studio District)",
+    "loc_fr": "Est Toronto (Studio District)",
+    "mun": "Toronto",
+    "lat": "43.6561",
+    "lng": "-79.3406"
+  },
+  {
+    "pcd": "M4N",
+    "loc": "Central Toronto (Lawrence Park East)",
+    "loc_fr": "Central Toronto (Lawrence Park Est)",
+    "mun": "Toronto",
+    "lat": "43.7301",
+    "lng": "-79.3935"
+  },
+  {
+    "pcd": "M4P",
+    "loc": "Central Toronto (Davisville North)",
+    "loc_fr": "Central Toronto (Davisville Nord)",
+    "mun": "Toronto",
+    "lat": "43.7135",
+    "lng": "-79.3887"
+  },
+  {
+    "pcd": "M4R",
+    "loc": "Central Toronto (North Toronto West)",
+    "loc_fr": "Central Toronto (Nord Toronto Ouest)",
+    "mun": "Toronto",
+    "lat": "43.7143",
+    "lng": "-79.4065"
+  },
+  {
+    "pcd": "M4S",
+    "loc": "Central Toronto (Davisville)",
+    "loc_fr": "Central Toronto (Davisville)",
+    "mun": "Toronto",
+    "lat": "43.702",
+    "lng": "-79.3853"
+  },
+  {
+    "pcd": "M4T",
+    "loc": "Central Toronto (Moore Park / Summerhill East)",
+    "loc_fr": "Central Toronto (Moore Park / Summerhill Est)",
+    "mun": "Toronto",
+    "lat": "43.6899",
+    "lng": "-79.3853"
+  },
+  {
+    "pcd": "M4V",
+    "loc": "Central Toronto (Summerhill West / Rathnelly / South Hill / Forest Hill SE / Deer Park)",
+    "loc_fr": "Central Toronto (Summerhill Ouest / Rathnelly / Sud Hill / Forest Hill SE / Deer Park)",
+    "mun": "Toronto",
+    "lat": "43.6861",
+    "lng": "-79.4025"
+  },
+  {
+    "pcd": "M4W",
+    "loc": "Downtown Toronto (Rosedale)",
+    "loc_fr": "Centre-ville de Toronto (Rosedale)",
+    "mun": "Toronto",
+    "lat": "43.6827",
+    "lng": "-79.373"
+  },
+  {
+    "pcd": "M4X",
+    "loc": "Downtown Toronto (St. James Town / Cabbagetown)",
+    "loc_fr": "Centre-ville de Toronto (St. James Town / Cabbagetown)",
+    "mun": "Toronto",
+    "lat": "43.6684",
+    "lng": "-79.3689"
+  },
+  {
+    "pcd": "M4Y",
+    "loc": "Downtown Toronto (Church and Wellesley)",
+    "loc_fr": "Centre-ville de Toronto (Church and Wellesley)",
+    "mun": "Toronto",
+    "lat": "43.6656",
+    "lng": "-79.383"
+  },
+  {
+    "pcd": "M5A",
+    "loc": "Downtown Toronto (Regent Park / Port of Toronto)",
+    "loc_fr": "Centre-ville de Toronto (Regent Park / Port of Toronto)",
+    "mun": "Toronto",
+    "lat": "43.6555",
+    "lng": "-79.3626"
+  },
+  {
+    "pcd": "M5B",
+    "loc": "Downtown Toronto (Ryerson)",
+    "loc_fr": "Centre-ville de Toronto (Ryerson)",
+    "mun": "Toronto",
+    "lat": "43.6572",
+    "lng": "-79.3783"
+  },
+  {
+    "pcd": "M5C",
+    "loc": "Downtown Toronto (St. James Park)",
+    "loc_fr": "Centre-ville de Toronto (St. James Park)",
+    "mun": "Toronto",
+    "lat": "43.6513",
+    "lng": "-79.3756"
+  },
+  {
+    "pcd": "M5E",
+    "loc": "Downtown Toronto (Berczy Park)",
+    "loc_fr": "Centre-ville de Toronto (Berczy Park)",
+    "mun": "Toronto",
+    "lat": "43.6456",
+    "lng": "-79.3754"
+  },
+  {
+    "pcd": "M5G",
+    "loc": "Downtown Toronto (Central Bay Street)",
+    "loc_fr": "Centre-ville de Toronto (Central Bay Street)",
+    "mun": "Toronto",
+    "lat": "43.6564",
+    "lng": "-79.386"
+  },
+  {
+    "pcd": "M5H",
+    "loc": "Downtown Toronto (Richmond / Adelaide / King)",
+    "loc_fr": "Centre-ville de Toronto (Richmond / Adelaide / King)",
+    "mun": "Toronto",
+    "lat": "43.6496",
+    "lng": "-79.3833"
+  },
+  {
+    "pcd": "M5J",
+    "loc": "Downtown Toronto (Harbourfront East / Union Station / Toronto Island)",
+    "loc_fr": "Centre-ville de Toronto (Harbourfront Est / Union Station / Toronto Island)",
+    "mun": "Toronto",
+    "lat": "43.623",
+    "lng": "-79.3936"
+  },
+  {
+    "pcd": "M5K",
+    "loc": "Downtown Toronto (Toronto Dominion Centre / Design Exchange)",
+    "loc_fr": "Centre-ville de Toronto (Toronto Dominion Centre / Design Exchange)",
+    "mun": "Toronto",
+    "lat": "43.6469",
+    "lng": "-79.3823"
+  },
+  {
+    "pcd": "M5L",
+    "loc": "Downtown Toronto (Commerce Court / Victoria Hotel)",
+    "loc_fr": "Centre-ville de Toronto (Commerce Court / Victoria Hotel)",
+    "mun": "Toronto",
+    "lat": "43.6492",
+    "lng": "-79.3823"
+  },
+  {
+    "pcd": "M5N",
+    "loc": "Central Toronto (Roselawn)",
+    "loc_fr": "Central Toronto (Roselawn)",
+    "mun": "Toronto",
+    "lat": "43.7113",
+    "lng": "-79.4195"
+  },
+  {
+    "pcd": "M5P",
+    "loc": "Central Toronto (Forest Hill North & West)",
+    "loc_fr": "Central Toronto (Forest Hill Nord & Ouest)",
+    "mun": "Toronto",
+    "lat": "43.6966",
+    "lng": "-79.412"
+  },
+  {
+    "pcd": "M5R",
+    "loc": "Central Toronto (The Annex / North Midtown / Yorkville)",
+    "loc_fr": "Central Toronto (The Annex / Nord Midtown / Yorkville)",
+    "mun": "Toronto",
+    "lat": "43.6736",
+    "lng": "-79.4035"
+  },
+  {
+    "pcd": "M5S",
+    "loc": "Downtown Toronto (University of Toronto / Harbord)",
+    "loc_fr": "Centre-ville de Toronto (University of Toronto / Harbord)",
+    "mun": "Toronto",
+    "lat": "43.6629",
+    "lng": "-79.3987"
+  },
+  {
+    "pcd": "M5T",
+    "loc": "Downtown Toronto (Kensington Market / Chinatown / Grange Park)",
+    "loc_fr": "Centre-ville de Toronto (Kensington Market / Chinatown / Grange Park)",
+    "mun": "Toronto",
+    "lat": "43.6541",
+    "lng": "-79.3978"
+  },
+  {
+    "pcd": "M5V",
+    "loc": "Downtown Toronto (CN Tower / King and Spadina / Railway Lands / Harbourfront West / Bathurst Quay / South Niagara / YTZ)",
+    "loc_fr": "Centre-ville de Toronto (CN Tower / King and Spadina / Railway Lands / Harbourfront Ouest / Bathurst Quay / Sud Niagara / YTZ)",
+    "mun": "Toronto",
+    "lat": "43.6404",
+    "lng": "-79.3995"
+  },
+  {
+    "pcd": "M5W",
+    "loc": "Downtown Toronto Stn A PO Boxes 25 The Esplanade (Enclave of M5E)",
+    "loc_fr": "Centre-ville de Toronto Stn A PO Boxes 25 The Esplanade (Enclave of M5E)",
+    "mun": "Toronto",
+    "lat": "43.6437",
+    "lng": "-79.3787"
+  },
+  {
+    "pcd": "M5X",
+    "loc": "Downtown Toronto (Underground city)",
+    "loc_fr": "Centre-ville de Toronto (Underground city)",
+    "mun": "Toronto",
+    "lat": "43.6492",
+    "lng": "-79.3823"
+  },
+  {
+    "pcd": "M6G",
+    "loc": "Downtown Toronto (Christie)",
+    "loc_fr": "Centre-ville de Toronto (Christie)",
+    "mun": "Toronto",
+    "lat": "43.6683",
+    "lng": "-79.4205"
+  },
+  {
+    "pcd": "M6H",
+    "loc": "West Toronto (Dufferin / Dovercourt Village)",
+    "loc_fr": "Ouest Toronto (Dufferin / Dovercourt Village)",
+    "mun": "Toronto",
+    "lat": "43.6655",
+    "lng": "-79.4378"
+  },
+  {
+    "pcd": "M6J",
+    "loc": "West Toronto (Rua Aþores / Trinity)",
+    "loc_fr": "Ouest Toronto (Rua Aþores / Trinity)",
+    "mun": "Toronto",
+    "lat": "43.648",
+    "lng": "-79.4177"
+  },
+  {
+    "pcd": "M6K",
+    "loc": "West Toronto (Brockton / Parkdale Village / Exhibition Place)",
+    "loc_fr": "Ouest Toronto (Brockton / Parkdale Village / Exhibition Place)",
+    "mun": "Toronto",
+    "lat": "43.6383",
+    "lng": "-79.4301"
+  },
+  {
+    "pcd": "M6P",
+    "loc": "West Toronto (High Park / The Junction South)",
+    "loc_fr": "Ouest Toronto (High Park / The Junction Sud)",
+    "mun": "Toronto",
+    "lat": "43.6605",
+    "lng": "-79.4633"
+  },
+  {
+    "pcd": "M6R",
+    "loc": "West Toronto (Parkdale / Roncesvalles Village)",
+    "loc_fr": "Ouest Toronto (Parkdale / Roncesvalles Village)",
+    "mun": "Toronto",
+    "lat": "43.6469",
+    "lng": "-79.4521"
+  },
+  {
+    "pcd": "M6S",
+    "loc": "West Toronto (Bloor West Village / Swansea)",
+    "loc_fr": "Ouest Toronto (Bloor Ouest Village / Swansea)",
+    "mun": "Toronto",
+    "lat": "43.6512",
+    "lng": "-79.4828"
+  },
+  {
+    "pcd": "M7Y",
+    "loc": "East Toronto Business Reply Mail Processing Centre 969 Eastern (Enclave of M4L)",
+    "loc_fr": "Est Toronto Business Reply Mail Processing Centre 969 Estern (Enclave of M4L)",
+    "mun": "Toronto",
+    "lat": "43.7804",
+    "lng": "-79.2505"
+  },
+  {
+    "pcd": "M8V",
+    "loc": "Etobicoke (New Toronto / Mimico South / Humber Bay Shores)",
+    "loc_fr": "Etobicoke (New Toronto / Mimico Sud / Humber Bay Shores)",
+    "mun": "Toronto",
+    "lat": "43.6075",
+    "lng": "-79.5013"
+  },
+  {
+    "pcd": "K1A",
+    "loc": "Government of Canada Ottawa and Gatineau offices",
+    "loc_fr": "Government of Canada Ottawa and Gatineau offices",
+    "mun": "Ottawa",
+    "lat": "45.4207",
+    "lng": "-75.7023"
+  },
+  {
+    "pcd": "K1G",
+    "loc": "Ottawa (Riverview / Hawthorne)",
+    "loc_fr": "Ottawa (Riverview / Hawthorne)",
+    "mun": "Ottawa",
+    "lat": "45.3548",
+    "lng": "-75.5773"
+  },
+  {
+    "pcd": "K1H",
+    "loc": "Ottawa (Alta Vista)",
+    "loc_fr": "Ottawa (Alta Vista)",
+    "mun": "Ottawa",
+    "lat": "45.3876",
+    "lng": "-75.6593"
+  },
+  {
+    "pcd": "K1K",
+    "loc": "Ottawa (Overbrook)",
+    "loc_fr": "Ottawa (Overbrook)",
+    "mun": "Ottawa",
+    "lat": "45.4448",
+    "lng": "-75.6431"
+  },
+  {
+    "pcd": "K1L",
+    "loc": "Ottawa (Vanier)",
+    "loc_fr": "Ottawa (Vanier)",
+    "mun": "Ottawa",
+    "lat": "45.44",
+    "lng": "-75.663"
+  },
+  {
+    "pcd": "K1M",
+    "loc": "Ottawa (Rockcliffe Park / New Edinburgh)",
+    "loc_fr": "Ottawa (Rockcliffe Park / New Edinburgh)",
+    "mun": "Ottawa",
+    "lat": "45.4491",
+    "lng": "-75.6818"
+  },
+  {
+    "pcd": "K1N",
+    "loc": "Ottawa (Lower Town / Sandy Hill / University of Ottawa)",
+    "loc_fr": "Ottawa (Lower Town / Sandy Hill / University of Ottawa)",
+    "mun": "Ottawa",
+    "lat": "45.4289",
+    "lng": "-75.6844"
+  },
+  {
+    "pcd": "K1P",
+    "loc": "Ottawa (Parliament Hill)",
+    "loc_fr": "Ottawa (Parliament Hill)",
+    "mun": "Ottawa",
+    "lat": "45.4225",
+    "lng": "-75.7026"
+  },
+  {
+    "pcd": "K1R",
+    "loc": "Ottawa (West Downtown area)",
+    "loc_fr": "Ottawa (Ouest Centre-ville de area)",
+    "mun": "Ottawa",
+    "lat": "45.4123",
+    "lng": "-75.7108"
+  },
+  {
+    "pcd": "K1S",
+    "loc": "Ottawa (The Glebe / Ottawa South / Ottawa East)",
+    "loc_fr": "Ottawa (The Glebe / Ottawa Sud / Ottawa Est)",
+    "mun": "Ottawa",
+    "lat": "45.399",
+    "lng": "-75.6871"
+  },
+  {
+    "pcd": "K1V",
+    "loc": "Ottawa (Riverside Park / Hunt Club West / Riverside South / YOW)",
+    "loc_fr": "Ottawa (Riverside Park / Hunt Club Ouest / Riverside Sud / YOW)",
+    "mun": "Ottawa",
+    "lat": "45.3281",
+    "lng": "-75.6719"
+  },
+  {
+    "pcd": "K1Y",
+    "loc": "Ottawa West",
+    "loc_fr": "Ottawa Ouest",
+    "mun": "Ottawa",
+    "lat": "45.4023",
+    "lng": "-75.7329"
+  },
+  {
+    "pcd": "K1Z",
+    "loc": "Ottawa (Westboro)",
+    "loc_fr": "Ottawa (Ouestboro)",
+    "mun": "Ottawa",
+    "lat": "45.3867",
+    "lng": "-75.7405"
+  },
+  {
+    "pcd": "K2A",
+    "loc": "Ottawa (Highland Park / Carlingwood)",
+    "loc_fr": "Ottawa (Highland Park / Carlingwood)",
+    "mun": "Ottawa",
+    "lat": "45.3805",
+    "lng": "-75.7636"
+  },
+  {
+    "pcd": "K2B",
+    "loc": "Ottawa (Britannia / Pinecrest)",
+    "loc_fr": "Ottawa (Britannia / Pinecrest)",
+    "mun": "Ottawa",
+    "lat": "45.3645",
+    "lng": "-75.7934"
+  },
+  {
+    "pcd": "K2C",
+    "loc": "Ottawa (Queensway / Copeland / Carlington / Carleton Heights)",
+    "loc_fr": "Ottawa (Queensway / Copeland / Carlington / Carleton Heights)",
+    "mun": "Ottawa",
+    "lat": "45.3679",
+    "lng": "-75.7381"
+  },
+  {
+    "pcd": "K2P",
+    "loc": "Ottawa (Centre Town)",
+    "loc_fr": "Ottawa (Centre Town)",
+    "mun": "Ottawa",
+    "lat": "45.4166",
+    "lng": "-75.6904"
+  },
+  {
+    "pcd": "K0A",
+    "loc": "National Capital Region (Almonte)",
+    "loc_fr": "National Capital Region (Almonte)",
+    "lat": "45.2557",
+    "lng": "-76.2754"
+  },
+  {
+    "pcd": "K0B",
+    "loc": "Prescott and Russell United Counties (Alfred)",
+    "loc_fr": "Prescott and Russell United Counties (Alfred)",
+    "lat": "45.5029",
+    "lng": "-74.7479"
+  },
+  {
+    "pcd": "K0C",
+    "loc": "Stormont, Dundas and Glengarry United Counties (Alexandria)",
+    "loc_fr": "Stormont, Dundas and Glengarry United Counties (Alexandria)",
+    "lat": "45.1686",
+    "lng": "-74.8966"
+  },
+  {
+    "pcd": "K0E",
+    "loc": "South Leeds and Grenville United Counties (Prescott)",
+    "loc_fr": "Sud Leeds and Grenville United Counties (Prescott)",
+    "lat": "44.8734",
+    "lng": "-75.4416"
+  },
+  {
+    "pcd": "K0G",
+    "loc": "Rideau Lakes area (Kemptville)",
+    "loc_fr": "Rideau Lakes area (Kemptville)",
+    "lat": "45.0466",
+    "lng": "-76.4757"
+  },
+  {
+    "pcd": "K0K",
+    "loc": "Quinte Shores, East Northumberland County & Prince Edward County (Picton)",
+    "loc_fr": "Quinte Shores, Est Nordumberland County & Prince Edward County (Picton)",
+    "lat": "44.3261",
+    "lng": "-77.4318"
+  },
+  {
+    "pcd": "K0M",
+    "loc": "Kawartha lakes and Haliburton County (Bobcaygeon)",
+    "loc_fr": "Kawartha lakes and Haliburton County (Bobcaygeon)",
+    "lat": "44.8645",
+    "lng": "-78.6553"
+  },
+  {
+    "pcd": "K1B",
+    "loc": "Gloucester (Blackburn Hamlet / Pine View)",
+    "loc_fr": "Gloucester (Blackburn Hamlet / Pine View)",
+    "mun": "Gloucester",
+    "lat": "45.4284",
+    "lng": "-75.5875"
+  },
+  {
+    "pcd": "K1C",
+    "loc": "Gloucester (West Orleans)",
+    "loc_fr": "Gloucester (Ouest Orleans)",
+    "mun": "Gloucester",
+    "lat": "45.4677",
+    "lng": "-75.5399"
+  },
+  {
+    "pcd": "K1E",
+    "loc": "Orleans (Queenswood)",
+    "loc_fr": "Orleans (Queenswood)",
+    "lat": "45.4771",
+    "lng": "-75.5046"
+  },
+  {
+    "pcd": "K1J",
+    "loc": "Gloucester (Beacon Hill / Cyrville)",
+    "loc_fr": "Gloucester (Beacon Hill / Cyrville)",
+    "mun": "Gloucester",
+    "lat": "45.4519",
+    "lng": "-75.6036"
+  },
+  {
+    "pcd": "K1T",
+    "loc": "Gloucester (Blossom Park / Hunt Club East / Leitrim)",
+    "loc_fr": "Gloucester (Blossom Park / Hunt Club Est / Leitrim)",
+    "mun": "Gloucester",
+    "lat": "45.3295",
+    "lng": "-75.6156"
+  },
+  {
+    "pcd": "K1W",
+    "loc": "Gloucester (South Orleans)",
+    "loc_fr": "Gloucester (Sud Orleans)",
+    "mun": "Gloucester",
+    "lat": "45.4365",
+    "lng": "-75.5158"
+  },
+  {
+    "pcd": "K1X",
+    "loc": "Gloucester South",
+    "loc_fr": "Gloucester Sud",
+    "mun": "Gloucester",
+    "lat": "45.2756",
+    "lng": "-75.6283"
+  },
+  {
+    "pcd": "K2E",
+    "loc": "Nepean East",
+    "loc_fr": "Nepean Est",
+    "mun": "Nepean",
+    "lat": "45.3438",
+    "lng": "-75.7157"
+  },
+  {
+    "pcd": "K2G",
+    "loc": "Nepean (Davidson Heights)",
+    "loc_fr": "Nepean (Davidson Heights)",
+    "mun": "Nepean",
+    "lat": "45.3211",
+    "lng": "-75.7391"
+  },
+  {
+    "pcd": "K2H",
+    "loc": "Nepean (Bells Corners)",
+    "loc_fr": "Nepean (Bells Corners)",
+    "mun": "Nepean",
+    "lat": "45.3433",
+    "lng": "-75.8265"
+  },
+  {
+    "pcd": "K2J",
+    "loc": "Nepean (Barrhaven)",
+    "loc_fr": "Nepean (Barrhaven)",
+    "mun": "Nepean",
+    "lat": "45.2691",
+    "lng": "-75.7518"
+  },
+  {
+    "pcd": "K2K",
+    "loc": "Kanata (Beaverbrook / South March)",
+    "loc_fr": "Kanata (Beaverbrook / Sud March)",
+    "mun": "Kanata",
+    "lat": "45.3704",
+    "lng": "-75.9198"
+  },
+  {
+    "pcd": "K2L",
+    "loc": "Kanata (Katimavik-Hazeldean / Glen Cairn)",
+    "loc_fr": "Kanata (Katimavik-Hazeldean / Glen Cairn)",
+    "mun": "Kanata",
+    "lat": "45.3001",
+    "lng": "-75.9244"
+  },
+  {
+    "pcd": "K2M",
+    "loc": "Kanata (Bridlewood)",
+    "loc_fr": "Kanata (Bridlewood)",
+    "mun": "Kanata",
+    "lat": "45.2861",
+    "lng": "-75.8562"
+  },
+  {
+    "pcd": "K2R",
+    "loc": "Nepean (Fallowfield Village / Cedarhill Estates / Orchard Estates)",
+    "loc_fr": "Nepean (Fallowfield Village / Cedarhill Estates / Orchard Estates)",
+    "mun": "Nepean",
+    "lat": "45.2899",
+    "lng": "-75.8126"
+  },
+  {
+    "pcd": "K2S",
+    "loc": "Stittsville",
+    "loc_fr": "Stittsville",
+    "lat": "45.2501",
+    "lng": "-75.9161"
+  },
+  {
+    "pcd": "K2T",
+    "loc": "Kanata (Marchwood)",
+    "loc_fr": "Kanata (Marchwood)",
+    "mun": "Kanata",
+    "lat": "45.317",
+    "lng": "-75.9367"
+  },
+  {
+    "pcd": "K2V",
+    "loc": "Kanata (Terry Fox / Palladium)",
+    "loc_fr": "Kanata (Terry Fox / Palladium)",
+    "mun": "Kanata",
+    "lat": "45.2854",
+    "lng": "-75.8928"
+  },
+  {
+    "pcd": "K2W",
+    "loc": "Kanata (North March)",
+    "loc_fr": "Kanata (Nord March)",
+    "mun": "Kanata",
+    "lat": "45.3699",
+    "lng": "-75.9887"
+  },
+  {
+    "pcd": "K4A",
+    "loc": "Orleans (Fallingbrook)",
+    "loc_fr": "Orleans (Fallingbrook)",
+    "lat": "45.4697",
+    "lng": "-75.4715"
+  },
+  {
+    "pcd": "K4B",
+    "loc": "Cumberland Township",
+    "loc_fr": "Cumberland Township",
+    "lat": "45.4101",
+    "lng": "-75.3638"
+  },
+  {
+    "pcd": "K4C",
+    "loc": "Cumberland",
+    "loc_fr": "Cumberland",
+    "lat": "45.498",
+    "lng": "-75.3916"
+  },
+  {
+    "pcd": "K4K",
+    "loc": "Rockland",
+    "loc_fr": "Rockland",
+    "lat": "45.5501",
+    "lng": "-75.291"
+  },
+  {
+    "pcd": "K4M",
+    "loc": "Manotick",
+    "loc_fr": "Manotick",
+    "lat": "45.2154",
+    "lng": "-75.6528"
+  },
+  {
+    "pcd": "K4P",
+    "loc": "Greely",
+    "loc_fr": "Greely",
+    "lat": "45.2434",
+    "lng": "-75.5674"
+  },
+  {
+    "pcd": "K4R",
+    "loc": "Russell",
+    "loc_fr": "Russell",
+    "lat": "45.2388",
+    "lng": "-75.3527"
+  },
+  {
+    "pcd": "K6A",
+    "loc": "Hawkesbury",
+    "loc_fr": "Hawkesbury",
+    "lat": "45.6001",
+    "lng": "-74.616"
+  },
+  {
+    "pcd": "K6H",
+    "loc": "Cornwall East",
+    "loc_fr": "Cornwall Est",
+    "mun": "Cornwall",
+    "lat": "45.0565",
+    "lng": "-74.6852"
+  },
+  {
+    "pcd": "K6J",
+    "loc": "Cornwall West",
+    "loc_fr": "Cornwall Ouest",
+    "mun": "Cornwall",
+    "lat": "45.0223",
+    "lng": "-74.7569"
+  },
+  {
+    "pcd": "K6K",
+    "loc": "Cornwall North",
+    "loc_fr": "Cornwall Nord",
+    "mun": "Cornwall",
+    "lat": "45.061",
+    "lng": "-74.7774"
+  },
+  {
+    "pcd": "K6T",
+    "loc": "Elizabethtown",
+    "loc_fr": "Elizabethtown",
+    "lat": "44.6301",
+    "lng": "-75.7448"
+  },
+  {
+    "pcd": "K6V",
+    "loc": "Brockville",
+    "loc_fr": "Brockville",
+    "lat": "44.6573",
+    "lng": "-75.7146"
+  },
+  {
+    "pcd": "K7A",
+    "loc": "Smiths Falls",
+    "loc_fr": "Smiths Falls",
+    "lat": "44.9001",
+    "lng": "-76.0161"
+  },
+  {
+    "pcd": "K7C",
+    "loc": "Carleton Place",
+    "loc_fr": "Carleton Place",
+    "lat": "45.1334",
+    "lng": "-76.1494"
+  },
+  {
+    "pcd": "K7G",
+    "loc": "Gananoque",
+    "loc_fr": "Gananoque",
+    "lat": "44.3334",
+    "lng": "-76.1661"
+  },
+  {
+    "pcd": "K7H",
+    "loc": "Perth",
+    "loc_fr": "Perth",
+    "lat": "44.9001",
+    "lng": "-76.2494"
+  },
+  {
+    "pcd": "K7K",
+    "loc": "Kingston (SW Pittsburgh Township)",
+    "loc_fr": "Kingston (SW Pittsburgh Township)",
+    "mun": "Kingston",
+    "lat": "44.2569",
+    "lng": "-76.4717"
+  },
+  {
+    "pcd": "K7L",
+    "loc": "Kingston (Downtown)",
+    "loc_fr": "Kingston (Centre-ville de)",
+    "mun": "Kingston",
+    "lat": "44.2955",
+    "lng": "-76.428"
+  },
+  {
+    "pcd": "K7M",
+    "loc": "Kingston (Reddendale / Cataraqui / Collins Bay)",
+    "loc_fr": "Kingston (Reddendale / Cataraqui / Collins Bay)",
+    "mun": "Kingston",
+    "lat": "44.2411",
+    "lng": "-76.5788"
+  },
+  {
+    "pcd": "K7N",
+    "loc": "Amherstview",
+    "loc_fr": "Amherstview",
+    "lat": "44.2224",
+    "lng": "-76.65"
+  },
+  {
+    "pcd": "K7P",
+    "loc": "Kingston (Westbrook / Cataraqui Woods / Cedarwood)",
+    "loc_fr": "Kingston (Ouestbrook / Cataraqui Woods / Cedarwood)",
+    "mun": "Kingston",
+    "lat": "44.2814",
+    "lng": "-76.6111"
+  },
+  {
+    "pcd": "K7R",
+    "loc": "Napanee",
+    "loc_fr": "Napanee",
+    "lat": "44.2501",
+    "lng": "-76.9494"
+  },
+  {
+    "pcd": "K7S",
+    "loc": "Arnprior",
+    "loc_fr": "Arnprior",
+    "lat": "45.4334",
+    "lng": "-76.3494"
+  },
+  {
+    "pcd": "K7V",
+    "loc": "Renfrew",
+    "loc_fr": "Renfrew",
+    "lat": "45.4668",
+    "lng": "-76.6827"
+  },
+  {
+    "pcd": "K8A",
+    "loc": "Pembroke Central and northern subdivisions",
+    "loc_fr": "Pembroke Central and Nordern subdivisions",
+    "mun": "Pembroke",
+    "lat": "45.7466",
+    "lng": "-77.2047"
+  },
+  {
+    "pcd": "K8B",
+    "loc": "Pembroke (Pleasant View / Fairview)",
+    "loc_fr": "Pembroke (Pleasant View / Fairview)",
+    "mun": "Pembroke",
+    "lat": "45.808",
+    "lng": "-77.0806"
+  },
+  {
+    "pcd": "K8H",
+    "loc": "Petawawa",
+    "loc_fr": "Petawawa",
+    "lat": "45.8945",
+    "lng": "-77.2801"
+  },
+  {
+    "pcd": "K8N",
+    "loc": "Belleville East",
+    "loc_fr": "Belleville Est",
+    "mun": "Belleville",
+    "lat": "44.1735",
+    "lng": "-77.3684"
+  },
+  {
+    "pcd": "K8P",
+    "loc": "Belleville West",
+    "loc_fr": "Belleville Ouest",
+    "mun": "Belleville",
+    "lat": "44.1665",
+    "lng": "-77.4037"
+  },
+  {
+    "pcd": "K8R",
+    "loc": "Belleville (SE Sidney Township / Avondale)",
+    "loc_fr": "Belleville (SE Sidney Township / Avondale)",
+    "mun": "Belleville",
+    "lat": "44.1399",
+    "lng": "-77.4683"
+  },
+  {
+    "pcd": "K8V",
+    "loc": "Trenton",
+    "loc_fr": "Trenton",
+    "lat": "44.0992",
+    "lng": "-77.5776"
+  },
+  {
+    "pcd": "K9A",
+    "loc": "Cobourg",
+    "loc_fr": "Cobourg",
+    "lat": "43.9598",
+    "lng": "-78.1651"
+  },
+  {
+    "pcd": "K9H",
+    "loc": "Peterborough North",
+    "loc_fr": "Peterborough Nord",
+    "mun": "Peterborough",
+    "lat": "44.3245",
+    "lng": "-78.3184"
+  },
+  {
+    "pcd": "K9J",
+    "loc": "Peterborough South",
+    "loc_fr": "Peterborough Sud",
+    "mun": "Peterborough",
+    "lat": "44.3104",
+    "lng": "-78.2396"
+  },
+  {
+    "pcd": "K9K",
+    "loc": "Peterborough (Fairbairn Meadows / Jackson Heights)",
+    "loc_fr": "Peterborough (Fairbairn Meadows / Jackson Heights)",
+    "mun": "Peterborough",
+    "lat": "44.3138",
+    "lng": "-78.3606"
+  },
+  {
+    "pcd": "K9L",
+    "loc": "Peterborough (Terra View Heights / Woodland Acres / Donwood)",
+    "loc_fr": "Peterborough (Terra View Heights / Woodland Acres / Donwood)",
+    "mun": "Peterborough",
+    "lat": "44.3552",
+    "lng": "-78.3199"
+  },
+  {
+    "pcd": "K9V",
+    "loc": "Lindsay",
+    "loc_fr": "Lindsay",
+    "lat": "44.3501",
+    "lng": "-78.7329"
+  },
+  {
+    "pcd": "L0A",
+    "loc": "West Northumberland County (Millbrook)",
+    "loc_fr": "Ouest Nordumberland County (Millbrook)",
+    "lat": "44.1263",
+    "lng": "-78.5193"
+  },
+  {
+    "pcd": "L0B",
+    "loc": "East Durham Regional Municipality (Orono)",
+    "loc_fr": "Est Durham Regional Municipality (Orono)",
+    "lat": "44.0773",
+    "lng": "-78.7465"
+  },
+  {
+    "pcd": "L0C",
+    "loc": "West Durham Regional Municipality (Sunderland)",
+    "loc_fr": "Ouest Durham Regional Municipality (Sunderland)",
+    "lat": "44.2094",
+    "lng": "-79.0725"
+  },
+  {
+    "pcd": "L0E",
+    "loc": "Lake Simcoe Southeast Shore (Sutton West)",
+    "loc_fr": "Lake Simcoe Sud-Est Shore (Sutton Ouest)",
+    "mun": "Lake Simcoe",
+    "lat": "44.3199",
+    "lng": "-79.2778"
+  },
+  {
+    "pcd": "L0G",
+    "loc": "Ontario Centre (Queensville)",
+    "loc_fr": "Ontario Centre (Queensville)",
+    "lat": "44.0586",
+    "lng": "-79.6235"
+  },
+  {
+    "pcd": "L0H",
+    "loc": "Whitby Region (Gormley)",
+    "loc_fr": "Whitby Region (Gormley)",
+    "lat": "43.9023",
+    "lng": "-79.1554"
+  },
+  {
+    "pcd": "L0J",
+    "loc": "North Peel Regional Municipality (Kleinburg)",
+    "loc_fr": "Nord Peel Regional Municipality (Kleinburg)",
+    "lat": "43.8566",
+    "lng": "-79.6485"
+  },
+  {
+    "pcd": "L0K",
+    "loc": "Lake Simcoe North Shore (Coldwater)",
+    "loc_fr": "Lake Simcoe Nord Shore (Coldwater)",
+    "mun": "Lake Simcoe",
+    "lat": "44.6233",
+    "lng": "-79.1235"
+  },
+  {
+    "pcd": "L0L",
+    "loc": "Lake Simcoe West Shore (Oro)",
+    "loc_fr": "Lake Simcoe Ouest Shore (Oro)",
+    "mun": "Lake Simcoe",
+    "lat": "44.4548",
+    "lng": "-79.7352"
+  },
+  {
+    "pcd": "L0M",
+    "loc": "Georgian Bay South Shore (Angus)",
+    "loc_fr": "Georgian Bay Sud Shore (Angus)",
+    "lat": "44.3269",
+    "lng": "-80.0333"
+  },
+  {
+    "pcd": "L0R",
+    "loc": "East Haldimand County (Waterdown)",
+    "loc_fr": "Est Haldimand County (Waterdown)",
+    "lat": "43.1607",
+    "lng": "-79.7463"
+  },
+  {
+    "pcd": "L0S",
+    "loc": "Niagara Regional Municipality (Fonthill)",
+    "loc_fr": "Niagara Regional Municipality (Fonthill)",
+    "lat": "42.9071",
+    "lng": "-79.0832"
+  },
+  {
+    "pcd": "L0V",
+    "loc": "Westminster Abbey",
+    "loc_fr": "Ouestminster Abbey",
+    "lat": "45.4689",
+    "lng": "-75.0079"
+  },
+  {
+    "pcd": "L1A",
+    "loc": "Port Hope",
+    "loc_fr": "Port Hope",
+    "lat": "44.0168",
+    "lng": "-78.3995"
+  },
+  {
+    "pcd": "L1B",
+    "loc": "Bowmanville East",
+    "loc_fr": "Bowmanville Est",
+    "mun": "Bowmanville",
+    "lat": "43.9235",
+    "lng": "-78.5457"
+  },
+  {
+    "pcd": "L1C",
+    "loc": "Bowmanville West",
+    "loc_fr": "Bowmanville Ouest",
+    "mun": "Bowmanville",
+    "lat": "43.9714",
+    "lng": "-78.7095"
+  },
+  {
+    "pcd": "L1E",
+    "loc": "Courtice",
+    "loc_fr": "Courtice",
+    "lat": "43.8969",
+    "lng": "-78.7683"
+  },
+  {
+    "pcd": "L1G",
+    "loc": "Oshawa Central",
+    "loc_fr": "Oshawa Central",
+    "mun": "Oshawa",
+    "lat": "43.9233",
+    "lng": "-78.8684"
+  },
+  {
+    "pcd": "L1H",
+    "loc": "Oshawa Southeast",
+    "loc_fr": "Oshawa Sud-Est",
+    "mun": "Oshawa",
+    "lat": "43.9721",
+    "lng": "-78.8837"
+  },
+  {
+    "pcd": "L1J",
+    "loc": "Oshawa Southwest",
+    "loc_fr": "Oshawa Sud-Ouest",
+    "mun": "Oshawa",
+    "lat": "43.8852",
+    "lng": "-78.8771"
+  },
+  {
+    "pcd": "L1K",
+    "loc": "Oshawa East",
+    "loc_fr": "Oshawa Est",
+    "mun": "Oshawa",
+    "lat": "43.9251",
+    "lng": "-78.8287"
+  },
+  {
+    "pcd": "L1L",
+    "loc": "Oshawa North",
+    "loc_fr": "Oshawa Nord",
+    "mun": "Oshawa",
+    "lat": "43.9581",
+    "lng": "-78.8972"
+  },
+  {
+    "pcd": "L1M",
+    "loc": "Whitby North",
+    "loc_fr": "Whitby Nord",
+    "mun": "Whitby",
+    "lat": "43.9566",
+    "lng": "-78.9779"
+  },
+  {
+    "pcd": "L1N",
+    "loc": "Whitby Southeast",
+    "loc_fr": "Whitby Sud-Est",
+    "mun": "Whitby",
+    "lat": "43.8721",
+    "lng": "-78.9273"
+  },
+  {
+    "pcd": "L1P",
+    "loc": "Whitby Southwest",
+    "loc_fr": "Whitby Sud-Ouest",
+    "mun": "Whitby",
+    "lat": "43.8866",
+    "lng": "-78.975"
+  },
+  {
+    "pcd": "L1R",
+    "loc": "Whitby Central",
+    "loc_fr": "Whitby Central",
+    "mun": "Whitby",
+    "lat": "43.9215",
+    "lng": "-78.9412"
+  },
+  {
+    "pcd": "L1S",
+    "loc": "Ajax Southwest",
+    "loc_fr": "Ajax Sud-Ouest",
+    "mun": "Ajax",
+    "lat": "43.8404",
+    "lng": "-79.0251"
+  },
+  {
+    "pcd": "L1T",
+    "loc": "Ajax Northwest",
+    "loc_fr": "Ajax Nord-Ouest",
+    "mun": "Ajax",
+    "lat": "43.8843",
+    "lng": "-79.0534"
+  },
+  {
+    "pcd": "L1V",
+    "loc": "Pickering Southwest",
+    "loc_fr": "Pickering Sud-Ouest",
+    "mun": "Pickering",
+    "lat": "43.8605",
+    "lng": "-79.1618"
+  },
+  {
+    "pcd": "L1W",
+    "loc": "Pickering South",
+    "loc_fr": "Pickering Sud",
+    "mun": "Pickering",
+    "lat": "43.8197",
+    "lng": "-79.0803"
+  },
+  {
+    "pcd": "L1X",
+    "loc": "Pickering Central",
+    "loc_fr": "Pickering Central",
+    "mun": "Pickering",
+    "lat": "43.8558",
+    "lng": "-79.0972"
+  },
+  {
+    "pcd": "L1Y",
+    "loc": "Pickering North",
+    "loc_fr": "Pickering Nord",
+    "mun": "Pickering",
+    "lat": "43.9555",
+    "lng": "-79.1194"
+  },
+  {
+    "pcd": "L1Z",
+    "loc": "Ajax East",
+    "loc_fr": "Ajax Est",
+    "mun": "Ajax",
+    "lat": "43.8773",
+    "lng": "-79.0055"
+  },
+  {
+    "pcd": "L2A",
+    "loc": "Fort Erie",
+    "loc_fr": "Fort Erie",
+    "lat": "42.9001",
+    "lng": "-78.9329"
+  },
+  {
+    "pcd": "L2E",
+    "loc": "Niagara Falls Central",
+    "loc_fr": "Niagara Falls Central",
+    "mun": "Niagara Falls",
+    "lat": "43.0537",
+    "lng": "-79.1018"
+  },
+  {
+    "pcd": "L2G",
+    "loc": "Niagara Falls Southeast",
+    "loc_fr": "Niagara Falls Sud-Est",
+    "mun": "Niagara Falls",
+    "lat": "43.0696",
+    "lng": "-79.0818"
+  },
+  {
+    "pcd": "L2H",
+    "loc": "Niagara Falls West",
+    "loc_fr": "Niagara Falls Ouest",
+    "mun": "Niagara Falls",
+    "lat": "43.1009",
+    "lng": "-79.1379"
+  },
+  {
+    "pcd": "L2J",
+    "loc": "Niagara Falls North",
+    "loc_fr": "Niagara Falls Nord",
+    "mun": "Niagara Falls",
+    "lat": "43.1296",
+    "lng": "-79.1034"
+  },
+  {
+    "pcd": "L2M",
+    "loc": "St. Catharines Northeast",
+    "loc_fr": "St. Catharines Nord-Est",
+    "mun": "St. Catharines",
+    "lat": "43.196",
+    "lng": "-79.2161"
+  },
+  {
+    "pcd": "L2N",
+    "loc": "St. Catharines Northwest",
+    "loc_fr": "St. Catharines Nord-Ouest",
+    "mun": "St. Catharines",
+    "lat": "43.1923",
+    "lng": "-79.2559"
+  },
+  {
+    "pcd": "L2P",
+    "loc": "St. Catharines East",
+    "loc_fr": "St. Catharines Est",
+    "mun": "St. Catharines",
+    "lat": "43.1527",
+    "lng": "-79.2091"
+  },
+  {
+    "pcd": "L2R",
+    "loc": "St. Catharines Central",
+    "loc_fr": "St. Catharines Central",
+    "mun": "St. Catharines",
+    "lat": "43.1419",
+    "lng": "-79.2966"
+  },
+  {
+    "pcd": "L2S",
+    "loc": "St. Catharines Southwest",
+    "loc_fr": "St. Catharines Sud-Ouest",
+    "mun": "St. Catharines",
+    "lat": "43.1447",
+    "lng": "-79.2634"
+  },
+  {
+    "pcd": "L2T",
+    "loc": "St. Catharines South",
+    "loc_fr": "St. Catharines Sud",
+    "mun": "St. Catharines",
+    "lat": "43.1313",
+    "lng": "-79.2317"
+  },
+  {
+    "pcd": "L2V",
+    "loc": "St. Catharines Southeast",
+    "loc_fr": "St. Catharines Sud-Est",
+    "mun": "St. Catharines",
+    "lat": "43.1142",
+    "lng": "-79.2035"
+  },
+  {
+    "pcd": "L2W",
+    "loc": "St. Catharines West",
+    "loc_fr": "St. Catharines Ouest",
+    "mun": "St. Catharines",
+    "lat": "43.1688",
+    "lng": "-79.2794"
+  },
+  {
+    "pcd": "L3B",
+    "loc": "Welland East",
+    "loc_fr": "Welland Est",
+    "mun": "Welland",
+    "lat": "42.9878",
+    "lng": "-79.2219"
+  },
+  {
+    "pcd": "L3C",
+    "loc": "Welland West",
+    "loc_fr": "Welland Ouest",
+    "mun": "Welland",
+    "lat": "42.9998",
+    "lng": "-79.2656"
+  },
+  {
+    "pcd": "L3K",
+    "loc": "Port Colborne",
+    "loc_fr": "Port Colborne",
+    "lat": "42.9001",
+    "lng": "-79.2329"
+  },
+  {
+    "pcd": "L3M",
+    "loc": "Grimsby",
+    "loc_fr": "Grimsby",
+    "lat": "43.2001",
+    "lng": "-79.5663"
+  },
+  {
+    "pcd": "L3P",
+    "loc": "Markham Central",
+    "loc_fr": "Markham Central",
+    "mun": "Markham",
+    "lat": "43.8769",
+    "lng": "-79.2686"
+  },
+  {
+    "pcd": "L3R",
+    "loc": "Markham Outer Southwest",
+    "loc_fr": "Markham Outer Sud-Ouest",
+    "mun": "Markham",
+    "lat": "43.8479",
+    "lng": "-79.3288"
+  },
+  {
+    "pcd": "L3S",
+    "loc": "Markham Southeast",
+    "loc_fr": "Markham Sud-Est",
+    "mun": "Markham",
+    "lat": "43.8486",
+    "lng": "-79.2617"
+  },
+  {
+    "pcd": "L3T",
+    "loc": "Thornhill East",
+    "loc_fr": "Thornhill Est",
+    "lat": "43.8227",
+    "lng": "-79.3946"
+  },
+  {
+    "pcd": "L3V",
+    "loc": "Orillia",
+    "loc_fr": "Orillia",
+    "lat": "44.6087",
+    "lng": "-79.4207"
+  },
+  {
+    "pcd": "L3X",
+    "loc": "Newmarket Southwest",
+    "loc_fr": "Newmarket Sud-Ouest",
+    "mun": "Newmarket",
+    "lat": "44.0433",
+    "lng": "-79.4912"
+  },
+  {
+    "pcd": "L3Y",
+    "loc": "Newmarket Northeast",
+    "loc_fr": "Newmarket Nord-Est",
+    "mun": "Newmarket",
+    "lat": "44.0565",
+    "lng": "-79.4555"
+  },
+  {
+    "pcd": "L3Z",
+    "loc": "Bradford",
+    "loc_fr": "Bradford",
+    "lat": "44.1168",
+    "lng": "-79.5663"
+  },
+  {
+    "pcd": "L4A",
+    "loc": "Stouffville",
+    "loc_fr": "Stouffville",
+    "lat": "43.9668",
+    "lng": "-79.2496"
+  },
+  {
+    "pcd": "L4B",
+    "loc": "Richmond Hill Southeast",
+    "loc_fr": "Richmond Hill Sud-Est",
+    "mun": "Richmond Hill",
+    "lat": "43.8582",
+    "lng": "-79.3985"
+  },
+  {
+    "pcd": "L4C",
+    "loc": "Richmond Hill Southwest",
+    "loc_fr": "Richmond Hill Sud-Ouest",
+    "mun": "Richmond Hill",
+    "lat": "43.8669",
+    "lng": "-79.4414"
+  },
+  {
+    "pcd": "L4E",
+    "loc": "Richmond Hill North",
+    "loc_fr": "Richmond Hill Nord",
+    "mun": "Richmond Hill",
+    "lat": "43.9394",
+    "lng": "-79.4349"
+  },
+  {
+    "pcd": "L4G",
+    "loc": "Aurora",
+    "loc_fr": "Aurora",
+    "lat": "44.0001",
+    "lng": "-79.4663"
+  },
+  {
+    "pcd": "L4H",
+    "loc": "Woodbridge North",
+    "loc_fr": "Woodbridge Nord",
+    "mun": "Woodbridge",
+    "lat": "43.8432",
+    "lng": "-79.5644"
+  },
+  {
+    "pcd": "L4J",
+    "loc": "Thornhill West",
+    "loc_fr": "Thornhill Ouest",
+    "lat": "43.8156",
+    "lng": "-79.4534"
+  },
+  {
+    "pcd": "L4K",
+    "loc": "Concord",
+    "loc_fr": "Concord",
+    "lat": "43.8001",
+    "lng": "-79.4829"
+  },
+  {
+    "pcd": "L4L",
+    "loc": "Woodbridge South",
+    "loc_fr": "Woodbridge Sud",
+    "mun": "Woodbridge",
+    "lat": "43.8064",
+    "lng": "-79.5995"
+  },
+  {
+    "pcd": "L4M",
+    "loc": "Barrie North",
+    "loc_fr": "Barrie Nord",
+    "mun": "Barrie",
+    "lat": "44.4001",
+    "lng": "-79.6663"
+  },
+  {
+    "pcd": "L4N",
+    "loc": "Barrie South",
+    "loc_fr": "Barrie Sud",
+    "mun": "Barrie",
+    "lat": "44.3572",
+    "lng": "-79.6929"
+  },
+  {
+    "pcd": "L4P",
+    "loc": "Keswick",
+    "loc_fr": "Keswick",
+    "lat": "44.2501",
+    "lng": "-79.4663"
+  },
+  {
+    "pcd": "L4R",
+    "loc": "Midland",
+    "loc_fr": "Midland",
+    "lat": "44.7501",
+    "lng": "-79.883"
+  },
+  {
+    "pcd": "L4S",
+    "loc": "Richmond Hill Central",
+    "loc_fr": "Richmond Hill Central",
+    "mun": "Richmond Hill",
+    "lat": "43.8985",
+    "lng": "-79.4143"
+  },
+  {
+    "pcd": "L4T",
+    "loc": "Mississauga (Malton)",
+    "loc_fr": "Mississauga (Malton)",
+    "mun": "Mississauga",
+    "lat": "43.7139",
+    "lng": "-79.6434"
+  },
+  {
+    "pcd": "L4V",
+    "loc": "Mississauga (Wildwood)",
+    "loc_fr": "Mississauga (Wildwood)",
+    "mun": "Mississauga",
+    "lat": "43.6935",
+    "lng": "-79.6069"
+  },
+  {
+    "pcd": "L4W",
+    "loc": "Mississauga (Matheson / East Rathwood)",
+    "loc_fr": "Mississauga (Matheson / Est Rathwood)",
+    "mun": "Mississauga",
+    "lat": "43.6413",
+    "lng": "-79.6296"
+  },
+  {
+    "pcd": "L4X",
+    "loc": "Mississauga (East Applewood / East Dixie / NE Lakeview)",
+    "loc_fr": "Mississauga (Est Applewood / Est Dixie / NE Lakeview)",
+    "mun": "Mississauga",
+    "lat": "43.6178",
+    "lng": "-79.5786"
+  },
+  {
+    "pcd": "L4Y",
+    "loc": "Mississauga (West Applewood / West Dixie / NW Lakeview)",
+    "loc_fr": "Mississauga (Ouest Applewood / Ouest Dixie / NW Lakeview)",
+    "mun": "Mississauga",
+    "lat": "43.6028",
+    "lng": "-79.5929"
+  },
+  {
+    "pcd": "L4Z",
+    "loc": "Mississauga (West Rathwood / East Hurontario / SE Gateway)",
+    "loc_fr": "Mississauga (Ouest Rathwood / Est Hurontario / SE Gateway)",
+    "mun": "Mississauga",
+    "lat": "43.6192",
+    "lng": "-79.6538"
+  },
+  {
+    "pcd": "L5A",
+    "loc": "Mississauga (Mississauga Valleys / East Cooksville)",
+    "loc_fr": "Mississauga (Mississauga Valleys / Est Cooksville)",
+    "mun": "Mississauga",
+    "lat": "43.5883",
+    "lng": "-79.6091"
+  },
+  {
+    "pcd": "L5B",
+    "loc": "Mississauga (West Cooksville / Fairview / City Centre / East Creditview)",
+    "loc_fr": "Mississauga (Ouest Cooksville / Fairview / City Centre / Est Creditview)",
+    "mun": "Mississauga",
+    "lat": "43.5771",
+    "lng": "-79.6306"
+  },
+  {
+    "pcd": "L5C",
+    "loc": "Mississauga (West Creditview / Mavis / Erindale)",
+    "loc_fr": "Mississauga (Ouest Creditview / Mavis / Erindale)",
+    "mun": "Mississauga",
+    "lat": "43.5624",
+    "lng": "-79.6504"
+  },
+  {
+    "pcd": "L5E",
+    "loc": "Mississauga (Central Lakeview)",
+    "loc_fr": "Mississauga (Central Lakeview)",
+    "mun": "Mississauga",
+    "lat": "43.5836",
+    "lng": "-79.561"
+  },
+  {
+    "pcd": "L5G",
+    "loc": "Mississauga (SW Lakeview / Mineola / East Port Credit)",
+    "loc_fr": "Mississauga (SW Lakeview / Mineola / Est Port Credit)",
+    "mun": "Mississauga",
+    "lat": "43.5647",
+    "lng": "-79.5852"
+  },
+  {
+    "pcd": "L5H",
+    "loc": "Mississauga (West Port Credit / Lorne Park / East Sheridan)",
+    "loc_fr": "Mississauga (Ouest Port Credit / Lorne Park / Est Sheridan)",
+    "mun": "Mississauga",
+    "lat": "43.5419",
+    "lng": "-79.6164"
+  },
+  {
+    "pcd": "L5J",
+    "loc": "Mississauga (Clarkson / Southdown)",
+    "loc_fr": "Mississauga (Clarkson / Suddown)",
+    "mun": "Mississauga",
+    "lat": "43.5102",
+    "lng": "-79.6296"
+  },
+  {
+    "pcd": "L5K",
+    "loc": "Mississauga (West Sheridan)",
+    "loc_fr": "Mississauga (Ouest Sheridan)",
+    "mun": "Mississauga",
+    "lat": "43.5272",
+    "lng": "-79.6617"
+  },
+  {
+    "pcd": "L5L",
+    "loc": "Mississauga (Erin Mills / Western Business Park)",
+    "loc_fr": "Mississauga (Erin Mills / Ouestern Business Park)",
+    "mun": "Mississauga",
+    "lat": "43.5373",
+    "lng": "-79.6903"
+  },
+  {
+    "pcd": "L5M",
+    "loc": "Mississauga (Churchill Meadows / Central Erin Mills / South Streetsville)",
+    "loc_fr": "Mississauga (Churchill Meadows / Central Erin Mills / Sud Streetsville)",
+    "mun": "Mississauga",
+    "lat": "43.5637",
+    "lng": "-79.7202"
+  },
+  {
+    "pcd": "L5N",
+    "loc": "Mississauga (Lisgar / Meadowvale)",
+    "loc_fr": "Mississauga (Lisgar / Meadowvale)",
+    "mun": "Mississauga",
+    "lat": "43.5924",
+    "lng": "-79.7611"
+  },
+  {
+    "pcd": "L5P",
+    "loc": "Mississauga (YYZ)",
+    "loc_fr": "Mississauga (YYZ)",
+    "mun": "Mississauga",
+    "lat": "43.6904",
+    "lng": "-79.6238"
+  },
+  {
+    "pcd": "L5R",
+    "loc": "Mississauga (West Hurontario / SW Gateway)",
+    "loc_fr": "Mississauga (Ouest Hurontario / SW Gateway)",
+    "mun": "Mississauga",
+    "lat": "43.606",
+    "lng": "-79.6708"
+  },
+  {
+    "pcd": "L5S",
+    "loc": "Mississauga (Cardiff / NE Gateway)",
+    "loc_fr": "Mississauga (Cardiff / NE Gateway)",
+    "mun": "Mississauga",
+    "lat": "43.6801",
+    "lng": "-79.6783"
+  },
+  {
+    "pcd": "L5T",
+    "loc": "Mississauga (Courtney Park / East Gateway)",
+    "loc_fr": "Mississauga (Courtney Park / Est Gateway)",
+    "mun": "Mississauga",
+    "lat": "43.6683",
+    "lng": "-79.6182"
+  },
+  {
+    "pcd": "L5V",
+    "loc": "Mississauga (East Credit)",
+    "loc_fr": "Mississauga (Est Credit)",
+    "mun": "Mississauga",
+    "lat": "43.5972",
+    "lng": "-79.6931"
+  },
+  {
+    "pcd": "L5W",
+    "loc": "Mississauga (Meadowvale Village / West Gateway)",
+    "loc_fr": "Mississauga (Meadowvale Village / Ouest Gateway)",
+    "mun": "Mississauga",
+    "lat": "43.6313",
+    "lng": "-79.7148"
+  },
+  {
+    "pcd": "L6A",
+    "loc": "Maple",
+    "loc_fr": "Maple",
+    "lat": "43.8501",
+    "lng": "-79.5163"
+  },
+  {
+    "pcd": "L6B",
+    "loc": "Markham East",
+    "loc_fr": "Markham Est",
+    "mun": "Markham",
+    "lat": "43.9007",
+    "lng": "-79.2175"
+  },
+  {
+    "pcd": "L6C",
+    "loc": "Markham Northwest",
+    "loc_fr": "Markham Nord-Ouest",
+    "mun": "Markham",
+    "lat": "43.9045",
+    "lng": "-79.3392"
+  },
+  {
+    "pcd": "L6E",
+    "loc": "Markham Northeast",
+    "loc_fr": "Markham Nord-Est",
+    "mun": "Markham",
+    "lat": "43.9002",
+    "lng": "-79.2676"
+  },
+  {
+    "pcd": "L6G",
+    "loc": "Markham Inner Southwest",
+    "loc_fr": "Markham Inner Sud-Ouest",
+    "mun": "Markham",
+    "lat": "43.8485",
+    "lng": "-79.3346"
+  },
+  {
+    "pcd": "L6H",
+    "loc": "Oakville North",
+    "loc_fr": "Oakville Nord",
+    "mun": "Oakville",
+    "lat": "43.4881",
+    "lng": "-79.7098"
+  },
+  {
+    "pcd": "L6J",
+    "loc": "Oakville Northeast",
+    "loc_fr": "Oakville Nord-Est",
+    "mun": "Oakville",
+    "lat": "43.4757",
+    "lng": "-79.6591"
+  },
+  {
+    "pcd": "L6K",
+    "loc": "Oakville East",
+    "loc_fr": "Oakville Est",
+    "mun": "Oakville",
+    "lat": "43.4396",
+    "lng": "-79.6878"
+  },
+  {
+    "pcd": "L6L",
+    "loc": "Oakville South",
+    "loc_fr": "Oakville Sud",
+    "mun": "Oakville",
+    "lat": "43.4032",
+    "lng": "-79.7186"
+  },
+  {
+    "pcd": "L6M",
+    "loc": "Oakville West",
+    "loc_fr": "Oakville Ouest",
+    "mun": "Oakville",
+    "lat": "43.4464",
+    "lng": "-79.7593"
+  },
+  {
+    "pcd": "L6P",
+    "loc": "Brampton North",
+    "loc_fr": "Brampton Nord",
+    "mun": "Brampton",
+    "lat": "43.7942",
+    "lng": "-79.7021"
+  },
+  {
+    "pcd": "L6R",
+    "loc": "Brampton Northwest",
+    "loc_fr": "Brampton Nord-Ouest",
+    "mun": "Brampton",
+    "lat": "43.7592",
+    "lng": "-79.7605"
+  },
+  {
+    "pcd": "L6S",
+    "loc": "Brampton North Central",
+    "loc_fr": "Brampton Nord Central",
+    "mun": "Brampton",
+    "lat": "43.7379",
+    "lng": "-79.726"
+  },
+  {
+    "pcd": "L6T",
+    "loc": "Brampton East",
+    "loc_fr": "Brampton Est",
+    "mun": "Brampton",
+    "lat": "43.7196",
+    "lng": "-79.6854"
+  },
+  {
+    "pcd": "L6V",
+    "loc": "Brampton Central",
+    "loc_fr": "Brampton Central",
+    "mun": "Brampton",
+    "lat": "43.7059",
+    "lng": "-79.7626"
+  },
+  {
+    "pcd": "L6W",
+    "loc": "Brampton Southeast",
+    "loc_fr": "Brampton Sud-Est",
+    "mun": "Brampton",
+    "lat": "43.68",
+    "lng": "-79.7273"
+  },
+  {
+    "pcd": "L6X",
+    "loc": "Brampton Southwest",
+    "loc_fr": "Brampton Sud-Ouest",
+    "mun": "Brampton",
+    "lat": "43.6665",
+    "lng": "-79.8054"
+  },
+  {
+    "pcd": "L6Y",
+    "loc": "Brampton South",
+    "loc_fr": "Brampton Sud",
+    "mun": "Brampton",
+    "lat": "43.6249",
+    "lng": "-79.7876"
+  },
+  {
+    "pcd": "L6Z",
+    "loc": "Brampton West Central",
+    "loc_fr": "Brampton Ouest Central",
+    "mun": "Brampton",
+    "lat": "43.7328",
+    "lng": "-79.7953"
+  },
+  {
+    "pcd": "L7A",
+    "loc": "Brampton West",
+    "loc_fr": "Brampton Ouest",
+    "lat": "43.6909",
+    "lng": "-79.8377"
+  },
+  {
+    "pcd": "L7B",
+    "loc": "King City",
+    "loc_fr": "King City",
+    "lat": "43.9286",
+    "lng": "-79.5269"
+  },
+  {
+    "pcd": "L7C",
+    "loc": "Caledon",
+    "loc_fr": "Caledon",
+    "lat": "43.8753",
+    "lng": "-79.8558"
+  },
+  {
+    "pcd": "L7E",
+    "loc": "Bolton",
+    "loc_fr": "Bolton",
+    "lat": "43.8795",
+    "lng": "-79.7379"
+  },
+  {
+    "pcd": "L7G",
+    "loc": "Georgetown",
+    "loc_fr": "Georgetown",
+    "lat": "43.6501",
+    "lng": "-79.9163"
+  },
+  {
+    "pcd": "L7J",
+    "loc": "Acton",
+    "loc_fr": "Acton",
+    "lat": "43.6297",
+    "lng": "-80.0415"
+  },
+  {
+    "pcd": "L7K",
+    "loc": "Caledon Village",
+    "loc_fr": "Caledon Village",
+    "lat": "43.8602",
+    "lng": "-79.996"
+  },
+  {
+    "pcd": "L7L",
+    "loc": "Burlington Northeast",
+    "loc_fr": "Burlington Nord-Est",
+    "mun": "Burlington",
+    "lat": "43.3799",
+    "lng": "-79.7668"
+  },
+  {
+    "pcd": "L7M",
+    "loc": "Burlington North",
+    "loc_fr": "Burlington Nord",
+    "mun": "Burlington",
+    "lat": "43.4342",
+    "lng": "-79.8701"
+  },
+  {
+    "pcd": "L7N",
+    "loc": "Burlington East",
+    "loc_fr": "Burlington Est",
+    "mun": "Burlington",
+    "lat": "43.3512",
+    "lng": "-79.784"
+  },
+  {
+    "pcd": "L7P",
+    "loc": "Burlington West",
+    "loc_fr": "Burlington Ouest",
+    "mun": "Burlington",
+    "lat": "43.3806",
+    "lng": "-79.886"
+  },
+  {
+    "pcd": "L7R",
+    "loc": "Burlington Southeast",
+    "loc_fr": "Burlington Sud-Est",
+    "mun": "Burlington",
+    "lat": "43.375",
+    "lng": "-79.8434"
+  },
+  {
+    "pcd": "L7S",
+    "loc": "Burlington South",
+    "loc_fr": "Burlington Sud",
+    "mun": "Burlington",
+    "lat": "43.323",
+    "lng": "-79.8092"
+  },
+  {
+    "pcd": "L7T",
+    "loc": "Burlington Southwest",
+    "loc_fr": "Burlington Sud-Ouest",
+    "mun": "Burlington",
+    "lat": "43.3081",
+    "lng": "-79.8507"
+  },
+  {
+    "pcd": "L8B",
+    "loc": "Waterdown",
+    "loc_fr": "Waterdown",
+    "lat": "43.3334",
+    "lng": "-79.8829"
+  },
+  {
+    "pcd": "L9G",
+    "loc": "Ancaster West",
+    "loc_fr": "Ancaster Ouest",
+    "mun": "Ancaster",
+    "lat": "43.1836",
+    "lng": "-79.9902"
+  },
+  {
+    "pcd": "L9H",
+    "loc": "Dundas",
+    "loc_fr": "Dundas",
+    "lat": "43.2638",
+    "lng": "-79.9524"
+  },
+  {
+    "pcd": "L9J",
+    "loc": "Barrie",
+    "loc_fr": "Barrie",
+    "lat": "44.3186",
+    "lng": "-79.6761"
+  },
+  {
+    "pcd": "L9K",
+    "loc": "Ancaster East",
+    "loc_fr": "Ancaster Est",
+    "mun": "Ancaster",
+    "lat": "43.225",
+    "lng": "-79.9427"
+  },
+  {
+    "pcd": "L9L",
+    "loc": "Port Perry",
+    "loc_fr": "Port Perry",
+    "lat": "44.1068",
+    "lng": "-78.9444"
+  },
+  {
+    "pcd": "L9M",
+    "loc": "Penetanguishene",
+    "loc_fr": "Penetanguishene",
+    "lat": "44.7834",
+    "lng": "-79.9164"
+  },
+  {
+    "pcd": "L9N",
+    "loc": "Holland Landing",
+    "loc_fr": "Holland Landing",
+    "lat": "44.1149",
+    "lng": "-79.5014"
+  },
+  {
+    "pcd": "L9P",
+    "loc": "Uxbridge",
+    "loc_fr": "Uxbridge",
+    "lat": "44.1001",
+    "lng": "-79.1163"
+  },
+  {
+    "pcd": "L9R",
+    "loc": "Alliston",
+    "loc_fr": "Alliston",
+    "lat": "44.1501",
+    "lng": "-79.8663"
+  },
+  {
+    "pcd": "L9S",
+    "loc": "Innisfil",
+    "loc_fr": "Innisfil",
+    "lat": "44.3001",
+    "lng": "-79.6496"
+  },
+  {
+    "pcd": "L9T",
+    "loc": "Milton",
+    "loc_fr": "Milton",
+    "lat": "43.5148",
+    "lng": "-79.884"
+  },
+  {
+    "pcd": "L9V",
+    "loc": "Orangeville North",
+    "loc_fr": "Orangeville Nord",
+    "mun": "Orangeville",
+    "lat": "43.9597",
+    "lng": "-80.1079"
+  },
+  {
+    "pcd": "L9W",
+    "loc": "Orangeville South",
+    "loc_fr": "Orangeville Sud",
+    "mun": "Orangeville",
+    "lat": "43.9702",
+    "lng": "-80.016"
+  },
+  {
+    "pcd": "L9X",
+    "loc": "Midhurst",
+    "loc_fr": "Midhurst",
+    "lat": "44.4438",
+    "lng": "-79.7318"
+  },
+  {
+    "pcd": "L9X",
+    "loc": "Minesing",
+    "loc_fr": "Minesing",
+    "lat": "44.4334",
+    "lng": "-79.833"
+  },
+  {
+    "pcd": "L9X",
+    "loc": "Springwater",
+    "loc_fr": "Springwater",
+    "lat": "44.4954",
+    "lng": "-79.8503"
+  },
+  {
+    "pcd": "L9X",
+    "loc": "Barrie",
+    "loc_fr": "Barrie",
+    "lat": "44.4001",
+    "lng": "-79.6663"
+  },
+  {
+    "pcd": "L9Y",
+    "loc": "Collingwood",
+    "loc_fr": "Collingwood",
+    "lat": "44.4834",
+    "lng": "-80.2164"
+  },
+  {
+    "pcd": "L9Z",
+    "loc": "Wasaga Beach",
+    "loc_fr": "Wasaga Beach",
+    "lat": "44.5168",
+    "lng": "-80.0164"
+  },
+  {
+    "pcd": "M1B",
+    "loc": "Scarborough (Malvern / Rouge River)",
+    "loc_fr": "Scarborough (Malvern / Rouge River)",
+    "mun": "Scarborough",
+    "lat": "43.8113",
+    "lng": "-79.193"
+  },
+  {
+    "pcd": "M1C",
+    "loc": "Scarborough (Rouge Hill / Port Union / Highland Creek)",
+    "loc_fr": "Scarborough (Rouge Hill / Port Union / Highland Creek)",
+    "mun": "Scarborough",
+    "lat": "43.7878",
+    "lng": "-79.1564"
+  },
+  {
+    "pcd": "M1E",
+    "loc": "Scarborough (Guildwood / Morningside / Ellesmere)",
+    "loc_fr": "Scarborough (Guildwood / Morningside / Ellesmere)",
+    "mun": "Scarborough",
+    "lat": "43.7678",
+    "lng": "-79.1866"
+  },
+  {
+    "pcd": "M1G",
+    "loc": "Scarborough (Woburn)",
+    "loc_fr": "Scarborough (Woburn)",
+    "mun": "Scarborough",
+    "lat": "43.7712",
+    "lng": "-79.2144"
+  },
+  {
+    "pcd": "M1H",
+    "loc": "Scarborough (Cedarbrae)",
+    "loc_fr": "Scarborough (Cedarbrae)",
+    "mun": "Scarborough",
+    "lat": "43.7686",
+    "lng": "-79.2389"
+  },
+  {
+    "pcd": "M1J",
+    "loc": "Scarborough (Eglinton)",
+    "loc_fr": "Scarborough (Eglinton)",
+    "mun": "Scarborough",
+    "lat": "43.7464",
+    "lng": "-79.2323"
+  },
+  {
+    "pcd": "M1K",
+    "loc": "Scarborough (Kennedy Park / Ionview / East Birchmount Park)",
+    "loc_fr": "Scarborough (Kennedy Park / Ionview / Est Birchmount Park)",
+    "mun": "Scarborough",
+    "lat": "43.7298",
+    "lng": "-79.2639"
+  },
+  {
+    "pcd": "M1L",
+    "loc": "Scarborough (The Golden Mile / Clairlea / Oakridge / Birchmount Park East)",
+    "loc_fr": "Scarborough (The Golden Mile / Clairlea / Oakridge / Birchmount Park Est)",
+    "mun": "Scarborough",
+    "lat": "43.7122",
+    "lng": "-79.2843"
+  },
+  {
+    "pcd": "M1M",
+    "loc": "Scarborough (Cliffside / Cliffcrest / Scarborough Village West)",
+    "loc_fr": "Scarborough (Cliffside / Cliffcrest / Scarborough Village Ouest)",
+    "mun": "Scarborough",
+    "lat": "43.7247",
+    "lng": "-79.2312"
+  },
+  {
+    "pcd": "M1N",
+    "loc": "Scarborough (Birch Cliff / Cliffside West)",
+    "loc_fr": "Scarborough (Birch Cliff / Cliffside Ouest)",
+    "mun": "Scarborough",
+    "lat": "43.6952",
+    "lng": "-79.2646"
+  },
+  {
+    "pcd": "M1P",
+    "loc": "Scarborough (Dorset Park / Wexford Heights / Scarborough Town Centre)",
+    "loc_fr": "Scarborough (Dorset Park / Wexford Heights / Scarborough Town Centre)",
+    "mun": "Scarborough",
+    "lat": "43.7612",
+    "lng": "-79.2707"
+  },
+  {
+    "pcd": "M1R",
+    "loc": "Scarborough (Wexford / Maryvale)",
+    "loc_fr": "Scarborough (Wexford / Maryvale)",
+    "mun": "Scarborough",
+    "lat": "43.7507",
+    "lng": "-79.3003"
+  },
+  {
+    "pcd": "M1S",
+    "loc": "Scarborough (Agincourt)",
+    "loc_fr": "Scarborough (Agincourt)",
+    "mun": "Scarborough",
+    "lat": "43.7946",
+    "lng": "-79.2644"
+  },
+  {
+    "pcd": "M1T",
+    "loc": "Scarborough (Clarks Corners / Tam O'Shanter / Sullivan)",
+    "loc_fr": "Scarborough (Clarks Corners / Tam O'Shanter / Sullivan)",
+    "mun": "Scarborough",
+    "lat": "43.7812",
+    "lng": "-79.3036"
+  },
+  {
+    "pcd": "M1V",
+    "loc": "Scarborough (Milliken / Agincourt North / Steeles East / L'Amoreaux East)",
+    "loc_fr": "Scarborough (Milliken / Agincourt Nord / Steeles Est / L'Amoreaux Est)",
+    "mun": "Scarborough",
+    "lat": "43.8177",
+    "lng": "-79.2819"
+  },
+  {
+    "pcd": "M1W",
+    "loc": "Scarborough (Steeles West / L'Amoreaux West)",
+    "loc_fr": "Scarborough (Steeles Ouest / L'Amoreaux Ouest)",
+    "mun": "Scarborough",
+    "lat": "43.8016",
+    "lng": "-79.3216"
+  },
+  {
+    "pcd": "M1X",
+    "loc": "Scarborough (Upper Rouge)",
+    "loc_fr": "Scarborough (Upper Rouge)",
+    "mun": "Scarborough",
+    "lat": "43.834",
+    "lng": "-79.2069"
+  },
+  {
+    "pcd": "M2H",
+    "loc": "North York (Hillcrest Village)",
+    "loc_fr": "Nord York (Hillcrest Village)",
+    "mun": "North York",
+    "lat": "43.8015",
+    "lng": "-79.3577"
+  },
+  {
+    "pcd": "M2J",
+    "loc": "North York (Fairview / Henry Farm / Oriole)",
+    "loc_fr": "Nord York (Fairview / Henry Farm / Oriole)",
+    "mun": "North York",
+    "lat": "43.7801",
+    "lng": "-79.3479"
+  },
+  {
+    "pcd": "M2K",
+    "loc": "North York (Bayview Village)",
+    "loc_fr": "Nord York (Bayview Village)",
+    "mun": "North York",
+    "lat": "43.7797",
+    "lng": "-79.3813"
+  },
+  {
+    "pcd": "M2L",
+    "loc": "North York (York Mills / Silver Hills)",
+    "loc_fr": "Nord York (York Mills / Silver Hills)",
+    "mun": "North York",
+    "lat": "43.7547",
+    "lng": "-79.3764"
+  },
+  {
+    "pcd": "M2M",
+    "loc": "Willowdale East (Newtonbrook)",
+    "loc_fr": "Willowdale Est (Newtonbrook)",
+    "mun": "Willowdale",
+    "lat": "43.7915",
+    "lng": "-79.4103"
+  },
+  {
+    "pcd": "M2N",
+    "loc": "Willowdale South",
+    "loc_fr": "Willowdale Sud",
+    "mun": "Willowdale",
+    "lat": "43.7673",
+    "lng": "-79.4111"
+  },
+  {
+    "pcd": "M2P",
+    "loc": "North York (York Mills West)",
+    "loc_fr": "Nord York (York Mills Ouest)",
+    "mun": "North York",
+    "lat": "43.75",
+    "lng": "-79.3978"
+  },
+  {
+    "pcd": "M2R",
+    "loc": "Willowdale West",
+    "loc_fr": "Willowdale Ouest",
+    "mun": "Willowdale",
+    "lat": "43.7786",
+    "lng": "-79.445"
+  },
+  {
+    "pcd": "M3A",
+    "loc": "North York (York Heights / Victoria Village / Parkway East)",
+    "loc_fr": "Nord York (York Heights / Victoria Village / Parkway Est)",
+    "mun": "North York",
+    "lat": "43.7545",
+    "lng": "-79.33"
+  },
+  {
+    "pcd": "M3B",
+    "loc": "Don Mills North",
+    "loc_fr": "Don Mills Nord",
+    "mun": "Don Mills",
+    "lat": "43.745",
+    "lng": "-79.359"
+  },
+  {
+    "pcd": "M3C",
+    "loc": "Don Mills South (Flemingdon Park)",
+    "loc_fr": "Don Mills Sud (Flemingdon Park)",
+    "mun": "Don Mills",
+    "lat": "43.7334",
+    "lng": "-79.3329"
+  },
+  {
+    "pcd": "M3H",
+    "loc": "North York (Armour Heights / Wilson Heights / Downsview North)",
+    "loc_fr": "Nord York (Armour Heights / Wilson Heights / Downsview Nord)",
+    "mun": "North York",
+    "lat": "43.7535",
+    "lng": "-79.4472"
+  },
+  {
+    "pcd": "M3J",
+    "loc": "North York (Northwood Park / York University)",
+    "loc_fr": "Nord York (Nordwood Park / York University)",
+    "mun": "North York",
+    "lat": "43.7694",
+    "lng": "-79.4921"
+  },
+  {
+    "pcd": "M3L",
+    "loc": "Downsview West",
+    "loc_fr": "Downsview Ouest",
+    "mun": "Downsview",
+    "lat": "43.7334",
+    "lng": "-79.5116"
+  },
+  {
+    "pcd": "M3M",
+    "loc": "Downsview Central",
+    "loc_fr": "Downsview Central",
+    "mun": "Downsview",
+    "lat": "43.7319",
+    "lng": "-79.4928"
+  },
+  {
+    "pcd": "M3N",
+    "loc": "North York (Jane and Finch)",
+    "loc_fr": "Nord York (Jane and Finch)",
+    "mun": "North York",
+    "lat": "43.7568",
+    "lng": "-79.521"
+  },
+  {
+    "pcd": "M4A",
+    "loc": "North York (Sweeney Park / Wigmore Park)",
+    "loc_fr": "Nord York (Sweeney Park / Wigmore Park)",
+    "lat": "43.7276",
+    "lng": "-79.3148"
+  },
+  {
+    "pcd": "M4B",
+    "loc": "East York (Parkview Hill / Woodbine Gardens)",
+    "loc_fr": "Est York (Parkview Hill / Woodbine Gardens)",
+    "mun": "East York",
+    "lat": "43.7063",
+    "lng": "-79.3094"
+  },
+  {
+    "pcd": "M4C",
+    "loc": "East York (Woodbine Heights)",
+    "loc_fr": "Est York (Woodbine Heights)",
+    "mun": "East York",
+    "lat": "43.6913",
+    "lng": "-79.3116"
+  },
+  {
+    "pcd": "M4G",
+    "loc": "East York (Leaside)",
+    "loc_fr": "Est York (Leaside)",
+    "mun": "East York",
+    "lat": "43.7124",
+    "lng": "-79.3644"
+  },
+  {
+    "pcd": "M4H",
+    "loc": "East York (Thorncliffe Park)",
+    "loc_fr": "Est York (Thorncliffe Park)",
+    "mun": "East York",
+    "lat": "43.7059",
+    "lng": "-79.3464"
+  },
+  {
+    "pcd": "M5M",
+    "loc": "North York (Bedford Park / Lawrence Park West / Lawrence Manor East)",
+    "loc_fr": "Nord York (Bedford Park / Lawrence Park Ouest / Lawrence Manor Est)",
+    "lat": "43.7335",
+    "lng": "-79.4177"
+  },
+  {
+    "pcd": "M6A",
+    "loc": "North York (Lawrence Manor / Lawrence Heights)",
+    "loc_fr": "Nord York (Lawrence Manor / Lawrence Heights)",
+    "mun": "North York",
+    "lat": "43.7223",
+    "lng": "-79.4504"
+  },
+  {
+    "pcd": "M6B",
+    "loc": "North York (Glencairn)",
+    "loc_fr": "Nord York (Glencairn)",
+    "mun": "North York",
+    "lat": "43.7081",
+    "lng": "-79.4479"
+  },
+  {
+    "pcd": "M6C",
+    "loc": "York (Cedarvale)",
+    "loc_fr": "York (Cedarvale)",
+    "mun": "York",
+    "lat": "43.6915",
+    "lng": "-79.4307"
+  },
+  {
+    "pcd": "M6E",
+    "loc": "York (Fairbank / Oakwood)",
+    "loc_fr": "York (Fairbank / Oakwood)",
+    "mun": "York",
+    "lat": "43.6889",
+    "lng": "-79.4507"
+  },
+  {
+    "pcd": "M6L",
+    "loc": "North York (North Park / Maple Leaf Park / Upwood Park)",
+    "loc_fr": "Nord York (Nord Park / Maple Leaf Park / Upwood Park)",
+    "mun": "North York",
+    "lat": "43.7137",
+    "lng": "-79.4869"
+  },
+  {
+    "pcd": "M6M",
+    "loc": "York (Del Ray / Keelsdale / Mount Dennis / Silverthorne)",
+    "loc_fr": "York (Del Ray / Keelsdale / Mount Dennis / Silverthorne)",
+    "mun": "York",
+    "lat": "43.6934",
+    "lng": "-79.4857"
+  },
+  {
+    "pcd": "M6N",
+    "loc": "York (Runnymede / The Junction North)",
+    "loc_fr": "York (Runnymede / The Junction Nord)",
+    "mun": "York",
+    "lat": "43.6748",
+    "lng": "-79.4839"
+  },
+  {
+    "pcd": "M7A",
+    "loc": "Queen's Park Ontario Provincial Government",
+    "loc_fr": "Queen's Park Ontario Provincial Government",
+    "lat": "43.6641",
+    "lng": "-79.3889"
+  },
+  {
+    "pcd": "M8W",
+    "loc": "Etobicoke (Alderwood / Long Branch)",
+    "loc_fr": "Etobicoke (Alderwood / Long Branch)",
+    "mun": "Etobicoke",
+    "lat": "43.6021",
+    "lng": "-79.5402"
+  },
+  {
+    "pcd": "M8X",
+    "loc": "Etobicoke (The Kingsway / Montgomery Road / Old Mill North)",
+    "loc_fr": "Etobicoke (The Kingsway / Montgomery Road / Old Mill Nord)",
+    "mun": "Etobicoke",
+    "lat": "43.6518",
+    "lng": "-79.5076"
+  },
+  {
+    "pcd": "M8Y",
+    "loc": "Etobicoke (Old Mill South / King's Mill Park / Sunnylea / Humber Bay / Mimico NE / The Queensway East / Royal York South East / Kingsway Park South East)",
+    "loc_fr": "Etobicoke (Old Mill Sud / King's Mill Park / Sunnylea / Humber Bay / Mimico NE / The Queensway Est / Royal York Sud Est / Kingsway Park Sud Est)",
+    "mun": "Etobicoke",
+    "lat": "43.6325",
+    "lng": "-79.4939"
+  },
+  {
+    "pcd": "M8Z",
+    "loc": "Etobicoke (Mimico NW / The Queensway West / South of Bloor / Kingsway Park South West / Royal York South West)",
+    "loc_fr": "Etobicoke (Mimico NW / The Queensway Ouest / Sud of Bloor / Kingsway Park Sud-Ouest / Royal York Sud-Ouest)",
+    "mun": "Etobicoke",
+    "lat": "43.6256",
+    "lng": "-79.5231"
+  },
+  {
+    "pcd": "M9A",
+    "loc": "Etobicoke (Islington Avenue)",
+    "loc_fr": "Etobicoke (Islington Avenue)",
+    "mun": "Etobicoke",
+    "lat": "43.6662",
+    "lng": "-79.5282"
+  },
+  {
+    "pcd": "M9B",
+    "loc": "Etobicoke (West Deane Park / Princess Gardens / Martin Grove / Islington / Cloverdale)",
+    "loc_fr": "Etobicoke (Ouest Deane Park / Princess Gardens / Martin Grove / Islington / Cloverdale)",
+    "mun": "Etobicoke",
+    "lat": "43.6505",
+    "lng": "-79.5517"
+  },
+  {
+    "pcd": "M9C",
+    "loc": "Etobicoke (Eringate / Bloordale Gardens / Old Burnhamthorpe / Markland Woods)",
+    "loc_fr": "Etobicoke (Eringate / Bloordale Gardens / Old Burnhamthorpe / Markland Woods)",
+    "mun": "Etobicoke",
+    "lat": "43.6437",
+    "lng": "-79.5767"
+  },
+  {
+    "pcd": "M9L",
+    "loc": "North York (Humber Summit)",
+    "loc_fr": "Nord York (Humber Summit)",
+    "mun": "North York",
+    "lat": "43.7598",
+    "lng": "-79.5565"
+  },
+  {
+    "pcd": "M9M",
+    "loc": "North York (Humberlea / Emery)",
+    "loc_fr": "Nord York (Humberlea / Emery)",
+    "mun": "North York",
+    "lat": "43.7366",
+    "lng": "-79.5401"
+  },
+  {
+    "pcd": "M9N",
+    "loc": "Weston",
+    "loc_fr": "Oueston",
+    "lat": "43.7068",
+    "lng": "-79.517"
+  },
+  {
+    "pcd": "M9P",
+    "loc": "Etobicoke (Westmount)",
+    "loc_fr": "Etobicoke (Ouestmount)",
+    "mun": "Etobicoke",
+    "lat": "43.6949",
+    "lng": "-79.5323"
+  },
+  {
+    "pcd": "M9R",
+    "loc": "Etobicoke (Kingsview Village / St. Phillips / Martin Grove Gardens / Richview Gardens)",
+    "loc_fr": "Etobicoke (Kingsview Village / St. Phillips / Martin Grove Gardens / Richview Gardens)",
+    "mun": "Etobicoke",
+    "lat": "43.6898",
+    "lng": "-79.5582"
+  },
+  {
+    "pcd": "M9V",
+    "loc": "Etobicoke (South Steeles / Silverstone / Humbergate / Jamestown / Mount Olive / Beaumond Heights / Thistletown / Albion Gardens)",
+    "loc_fr": "Etobicoke (Sud Steeles / Silverstone / Humbergate / Jamestown / Mount Olive / Beaumond Heights / Thistletown / Albion Gardens)",
+    "mun": "Etobicoke",
+    "lat": "43.7432",
+    "lng": "-79.5876"
+  },
+  {
+    "pcd": "M9W",
+    "loc": "Etobicoke Northwest (Clairville / Humberwood / Woodbine Downs / West Humber / Kipling Heights / Rexdale / Elms / Tandridge / Old Rexdale)",
+    "loc_fr": "Etobicoke Nord-Ouest (Clairville / Humberwood / Woodbine Downs / Ouest Humber / Kipling Heights / Rexdale / Elms / Tandridge / Old Rexdale)",
+    "mun": "Etobicoke",
+    "lat": "43.7144",
+    "lng": "-79.5909"
+  },
+  {
+    "pcd": "N0A",
+    "loc": "West Haldimand (Port Dover)",
+    "loc_fr": "Ouest Haldimand (Port Dover)",
+    "lat": "42.9403",
+    "lng": "-79.945"
+  },
+  {
+    "pcd": "N0B",
+    "loc": "Wellington (Elora)",
+    "loc_fr": "Wellington (Elora)",
+    "lat": "43.5569",
+    "lng": "-80.4414"
+  },
+  {
+    "pcd": "N0C",
+    "loc": "Georgian Bay Southwest Shore (Dundalk)",
+    "loc_fr": "Georgian Bay Sud-OuestShore (Dundalk)",
+    "lat": "44.2561",
+    "lng": "-80.5029"
+  },
+  {
+    "pcd": "N0E",
+    "loc": "Brant and Norfolk (Waterford)",
+    "loc_fr": "Brant and Norfolk (Waterford)",
+    "lat": "42.6618",
+    "lng": "-80.5572"
+  },
+  {
+    "pcd": "N0G",
+    "loc": "Huron (Wingham)",
+    "loc_fr": "Huron (Wingham)",
+    "lat": "44.0024",
+    "lng": "-81.0676"
+  },
+  {
+    "pcd": "N0H",
+    "loc": "Bruce Peninsula (Wiarton)",
+    "loc_fr": "Bruce Peninsula (Wiarton)",
+    "lat": "44.6941",
+    "lng": "-81.0962"
+  },
+  {
+    "pcd": "N0J",
+    "loc": "Oxford (Norwich)",
+    "loc_fr": "Oxford (Norwich)",
+    "lat": "42.9775",
+    "lng": "-80.7057"
+  },
+  {
+    "pcd": "N0K",
+    "loc": "Perth (Mitchell)",
+    "loc_fr": "Perth (Mitchell)",
+    "lat": "43.5067",
+    "lng": "-81.1582"
+  },
+  {
+    "pcd": "N0L",
+    "loc": "Elgin (Dorchester)",
+    "loc_fr": "Elgin (Dorchester)",
+    "lat": "42.7557",
+    "lng": "-81.4533"
+  },
+  {
+    "pcd": "N0M",
+    "loc": "Middlesex (Clinton)",
+    "loc_fr": "Middlesex (Clinton)",
+    "lat": "43.2788",
+    "lng": "-81.5442"
+  },
+  {
+    "pcd": "N0N",
+    "loc": "Lambton (Forest)",
+    "loc_fr": "Lambton (Forest)",
+    "lat": "42.9062",
+    "lng": "-82.11"
+  },
+  {
+    "pcd": "N0P",
+    "loc": "Kent (Blenheim)",
+    "loc_fr": "Kent (Blenheim)",
+    "lat": "42.4045",
+    "lng": "-81.9107"
+  },
+  {
+    "pcd": "N0R",
+    "loc": "Essex (Belle River)",
+    "loc_fr": "Essex (Belle River)",
+    "lat": "42.1783",
+    "lng": "-82.7715"
+  },
+  {
+    "pcd": "N1A",
+    "loc": "Dunnville",
+    "loc_fr": "Dunnville",
+    "lat": "42.9001",
+    "lng": "-79.6163"
+  },
+  {
+    "pcd": "N1C",
+    "loc": "Guelph South",
+    "loc_fr": "Guelph Sud",
+    "mun": "Guelph",
+    "lat": "43.4921",
+    "lng": "-80.2267"
+  },
+  {
+    "pcd": "N1E",
+    "loc": "Guelph North",
+    "loc_fr": "Guelph Nord",
+    "mun": "Guelph",
+    "lat": "43.5677",
+    "lng": "-80.2418"
+  },
+  {
+    "pcd": "N1G",
+    "loc": "Guelph Central",
+    "loc_fr": "Guelph Central",
+    "mun": "Guelph",
+    "lat": "43.5184",
+    "lng": "-80.2257"
+  },
+  {
+    "pcd": "N1H",
+    "loc": "Guelph Northwest",
+    "loc_fr": "Guelph Nord-Ouest",
+    "mun": "Guelph",
+    "lat": "43.5588",
+    "lng": "-80.3004"
+  },
+  {
+    "pcd": "N1K",
+    "loc": "Guelph West",
+    "loc_fr": "Guelph Ouest",
+    "mun": "Guelph",
+    "lat": "43.526",
+    "lng": "-80.3051"
+  },
+  {
+    "pcd": "N1L",
+    "loc": "Guelph East",
+    "loc_fr": "Guelph Est",
+    "mun": "Guelph",
+    "lat": "43.516",
+    "lng": "-80.19"
+  },
+  {
+    "pcd": "N1M",
+    "loc": "Fergus",
+    "loc_fr": "Fergus",
+    "lat": "43.7001",
+    "lng": "-80.3664"
+  },
+  {
+    "pcd": "N1P",
+    "loc": "Cambridge South",
+    "loc_fr": "Cambridge Sud",
+    "mun": "Cambridge",
+    "lat": "43.3398",
+    "lng": "-80.2955"
+  },
+  {
+    "pcd": "N1R",
+    "loc": "Cambridge Central",
+    "loc_fr": "Cambridge Central",
+    "mun": "Cambridge",
+    "lat": "43.3666",
+    "lng": "-80.2239"
+  },
+  {
+    "pcd": "N1S",
+    "loc": "Cambridge Southwest",
+    "loc_fr": "Cambridge Sud-Ouest",
+    "mun": "Cambridge",
+    "lat": "43.3592",
+    "lng": "-80.3347"
+  },
+  {
+    "pcd": "N1T",
+    "loc": "Cambridge East",
+    "loc_fr": "Cambridge Est",
+    "mun": "Cambridge",
+    "lat": "43.3849",
+    "lng": "-80.2833"
+  },
+  {
+    "pcd": "N2A",
+    "loc": "Kitchener East",
+    "loc_fr": "Kitchener Est",
+    "mun": "Kitchener",
+    "lat": "43.4413",
+    "lng": "-80.4246"
+  },
+  {
+    "pcd": "N2B",
+    "loc": "Kitchener Northeast",
+    "loc_fr": "Kitchener Nord-Est",
+    "mun": "Kitchener",
+    "lat": "43.4646",
+    "lng": "-80.4467"
+  },
+  {
+    "pcd": "N2C",
+    "loc": "Kitchener South Central",
+    "loc_fr": "Kitchener Sud Central",
+    "mun": "Kitchener",
+    "lat": "43.4182",
+    "lng": "-80.4451"
+  },
+  {
+    "pcd": "N2E",
+    "loc": "Kitchener Southwest",
+    "loc_fr": "Kitchener Sud-Ouest",
+    "mun": "Kitchener",
+    "lat": "43.4106",
+    "lng": "-80.5011"
+  },
+  {
+    "pcd": "N2G",
+    "loc": "Kitchener Central",
+    "loc_fr": "Kitchener Central",
+    "mun": "Kitchener",
+    "lat": "43.4443",
+    "lng": "-80.4891"
+  },
+  {
+    "pcd": "N2H",
+    "loc": "Kitchener North Central",
+    "loc_fr": "Kitchener Nord Central",
+    "mun": "Kitchener",
+    "lat": "43.4581",
+    "lng": "-80.4818"
+  },
+  {
+    "pcd": "N2J",
+    "loc": "Waterloo Southeast",
+    "loc_fr": "Waterloo Sud-Est",
+    "mun": "Waterloo",
+    "lat": "43.504",
+    "lng": "-80.5366"
+  },
+  {
+    "pcd": "N2K",
+    "loc": "Kitchener North",
+    "loc_fr": "Kitchener Nord",
+    "mun": "Kitchener",
+    "lat": "43.4961",
+    "lng": "-80.4936"
+  },
+  {
+    "pcd": "N2L",
+    "loc": "Waterloo South",
+    "loc_fr": "Waterloo Sud",
+    "mun": "Waterloo",
+    "lat": "43.4715",
+    "lng": "-80.5454"
+  },
+  {
+    "pcd": "N2M",
+    "loc": "Kitchener Northwest",
+    "loc_fr": "Kitchener Nord-Ouest",
+    "mun": "Kitchener",
+    "lat": "43.4363",
+    "lng": "-80.5093"
+  },
+  {
+    "pcd": "N2N",
+    "loc": "Kitchener West",
+    "loc_fr": "Kitchener Ouest",
+    "mun": "Kitchener",
+    "lat": "43.426",
+    "lng": "-80.5438"
+  },
+  {
+    "pcd": "N2P",
+    "loc": "Kitchener Southeast",
+    "loc_fr": "Kitchener Sud-Est",
+    "mun": "Kitchener",
+    "lat": "43.3878",
+    "lng": "-80.4296"
+  },
+  {
+    "pcd": "N2R",
+    "loc": "Kitchener South",
+    "loc_fr": "Kitchener Sud",
+    "mun": "Kitchener",
+    "lat": "43.3849",
+    "lng": "-80.487"
+  },
+  {
+    "pcd": "N2T",
+    "loc": "Waterloo Southwest",
+    "loc_fr": "Waterloo Sud-Ouest",
+    "mun": "Waterloo",
+    "lat": "43.453",
+    "lng": "-80.5692"
+  },
+  {
+    "pcd": "N2V",
+    "loc": "Waterloo Northwest",
+    "loc_fr": "Waterloo Nord-Ouest",
+    "mun": "Waterloo",
+    "lat": "43.4764",
+    "lng": "-80.5842"
+  },
+  {
+    "pcd": "N2Z",
+    "loc": "Kincardine",
+    "loc_fr": "Kincardine",
+    "lat": "44.1664",
+    "lng": "-81.601"
+  },
+  {
+    "pcd": "N3A",
+    "loc": "Baden",
+    "loc_fr": "Baden",
+    "lat": "43.4001",
+    "lng": "-80.6497"
+  },
+  {
+    "pcd": "N3B",
+    "loc": "Elmira",
+    "loc_fr": "Elmira",
+    "lat": "43.6001",
+    "lng": "-80.5497"
+  },
+  {
+    "pcd": "N3C",
+    "loc": "Cambridge Northeast",
+    "loc_fr": "Cambridge Nord-Est",
+    "mun": "Cambridge",
+    "lat": "43.4389",
+    "lng": "-80.2649"
+  },
+  {
+    "pcd": "N3E",
+    "loc": "Cambridge Northwest",
+    "loc_fr": "Cambridge Nord-Ouest",
+    "mun": "Cambridge",
+    "lat": "43.4193",
+    "lng": "-80.3505"
+  },
+  {
+    "pcd": "N3H",
+    "loc": "Cambridge West",
+    "loc_fr": "Cambridge Ouest",
+    "mun": "Cambridge",
+    "lat": "43.4267",
+    "lng": "-80.3699"
+  },
+  {
+    "pcd": "N3L",
+    "loc": "Paris",
+    "loc_fr": "Paris",
+    "lat": "43.2",
+    "lng": "-80.3833"
+  },
+  {
+    "pcd": "N3W",
+    "loc": "Caledonia",
+    "loc_fr": "Caledonia",
+    "lat": "43.0668",
+    "lng": "-79.9329"
+  },
+  {
+    "pcd": "N3Y",
+    "loc": "Simcoe",
+    "loc_fr": "Simcoe",
+    "lat": "42.8334",
+    "lng": "-80.2997"
+  },
+  {
+    "pcd": "N4B",
+    "loc": "Delhi",
+    "loc_fr": "Delhi",
+    "lat": "42.8501",
+    "lng": "-80.4997"
+  },
+  {
+    "pcd": "N4G",
+    "loc": "Tillsonburg",
+    "loc_fr": "Tillsonburg",
+    "lat": "42.8599",
+    "lng": "-80.7262"
+  },
+  {
+    "pcd": "N4K",
+    "loc": "Owen Sound",
+    "loc_fr": "Owen Sound",
+    "lat": "44.5672",
+    "lng": "-80.9435"
+  },
+  {
+    "pcd": "N4L",
+    "loc": "Meaford",
+    "loc_fr": "Meaford",
+    "lat": "44.6001",
+    "lng": "-80.583"
+  },
+  {
+    "pcd": "N4N",
+    "loc": "Hanover",
+    "loc_fr": "Hanover",
+    "lat": "44.1501",
+    "lng": "-81.033"
+  },
+  {
+    "pcd": "N4S",
+    "loc": "Woodstock Central",
+    "loc_fr": "Woodstock Central",
+    "mun": "Woodstock",
+    "lat": "43.1432",
+    "lng": "-80.7338"
+  },
+  {
+    "pcd": "N4T",
+    "loc": "Woodstock North",
+    "loc_fr": "Woodstock Nord",
+    "mun": "Woodstock",
+    "lat": "43.1485",
+    "lng": "-80.7319"
+  },
+  {
+    "pcd": "N4V",
+    "loc": "Woodstock South",
+    "loc_fr": "Woodstock Sud",
+    "mun": "Woodstock",
+    "lat": "43.115",
+    "lng": "-80.743"
+  },
+  {
+    "pcd": "N4W",
+    "loc": "Listowel",
+    "loc_fr": "Listowel",
+    "lat": "43.7334",
+    "lng": "-80.9497"
+  },
+  {
+    "pcd": "N4X",
+    "loc": "St. Mary's",
+    "loc_fr": "St. Mary's",
+    "lat": "43.2655",
+    "lng": "-81.1687"
+  },
+  {
+    "pcd": "N4Z",
+    "loc": "Stratford South",
+    "loc_fr": "Stratford Sud",
+    "lat": "43.3634",
+    "lng": "-81.0069"
+  },
+  {
+    "pcd": "N5A",
+    "loc": "Stratford North",
+    "loc_fr": "Stratford Nord",
+    "lat": "43.3668",
+    "lng": "-80.9497"
+  },
+  {
+    "pcd": "N5C",
+    "loc": "Ingersoll",
+    "loc_fr": "Ingersoll",
+    "lat": "43.0334",
+    "lng": "-80.883"
+  },
+  {
+    "pcd": "N5H",
+    "loc": "Aylmer",
+    "loc_fr": "Aylmer",
+    "lat": "42.7668",
+    "lng": "-80.983"
+  },
+  {
+    "pcd": "N5L",
+    "loc": "Port Stanley",
+    "loc_fr": "Port Stanley",
+    "lat": "42.6668",
+    "lng": "-81.2164"
+  },
+  {
+    "pcd": "N5P",
+    "loc": "St. Thomas North",
+    "loc_fr": "St. Thomas Nord",
+    "mun": "St. Thomas",
+    "lat": "42.7779",
+    "lng": "-81.1769"
+  },
+  {
+    "pcd": "N5R",
+    "loc": "St. Thomas South",
+    "loc_fr": "St. Thomas Sud",
+    "mun": "St. Thomas",
+    "lat": "42.7597",
+    "lng": "-81.1762"
+  },
+  {
+    "pcd": "N5V",
+    "loc": "London (YXU / North and East Argyle / East Huron Heights)",
+    "loc_fr": "London (YXU / Nord and Est Argyle / Est Huron Heights)",
+    "mun": "London",
+    "lat": "43.0233",
+    "lng": "-81.1643"
+  },
+  {
+    "pcd": "N5W",
+    "loc": "London East (SW Argyle / Hamilton Road)",
+    "loc_fr": "London Est (SW Argyle / Hamilton Road)",
+    "mun": "London",
+    "lat": "42.9856",
+    "lng": "-81.1821"
+  },
+  {
+    "pcd": "N5X",
+    "loc": "London (Fanshawe / Stoneybrook / Stoney Creek / Uplands / East Masonville)",
+    "loc_fr": "London (Fanshawe / Stoneybrook / Stoney Creek / Uplands / Est Masonville)",
+    "mun": "London",
+    "lat": "43.0443",
+    "lng": "-81.2391"
+  },
+  {
+    "pcd": "N5Y",
+    "loc": "London (West Huron Heights / Carling)",
+    "loc_fr": "London (Ouest Huron Heights / Carling)",
+    "mun": "London",
+    "lat": "43.0123",
+    "lng": "-81.2307"
+  },
+  {
+    "pcd": "N5Z",
+    "loc": "London (Glen Cairn)",
+    "loc_fr": "London (Glen Cairn)",
+    "mun": "London",
+    "lat": "42.966",
+    "lng": "-81.2053"
+  },
+  {
+    "pcd": "N6A",
+    "loc": "London North (UWO)",
+    "loc_fr": "London Nord (UWO)",
+    "mun": "London",
+    "lat": "42.9976",
+    "lng": "-81.2563"
+  },
+  {
+    "pcd": "N6B",
+    "loc": "London Central",
+    "loc_fr": "London Central",
+    "mun": "London",
+    "lat": "42.9835",
+    "lng": "-81.2386"
+  },
+  {
+    "pcd": "N6C",
+    "loc": "London South (East Highland / North White Oaks / North Westminster)",
+    "loc_fr": "London Sud (Est Highland / Nord White Oaks / Nord-Ouestminster)",
+    "mun": "London",
+    "lat": "42.9582",
+    "lng": "-81.238"
+  },
+  {
+    "pcd": "N6E",
+    "loc": "London (South White Oaks / Central Westminster / East Longwoods / West Brockley)",
+    "loc_fr": "London (Sud White Oaks / Central Ouestminster / Est Longwoods / Ouest Brockley)",
+    "mun": "London",
+    "lat": "42.9185",
+    "lng": "-81.2244"
+  },
+  {
+    "pcd": "N6G",
+    "loc": "London (Sunningdale / West Masonville / Medway / NE Hyde Park / East Fox Hollow)",
+    "loc_fr": "London (Sunningdale / Ouest Masonville / Medway / NE Hyde Park / Est Fox Hollow)",
+    "mun": "London",
+    "lat": "43.0147",
+    "lng": "-81.3049"
+  },
+  {
+    "pcd": "N6H",
+    "loc": "London West (Central Hyde Park / Oakridge)",
+    "loc_fr": "London Ouest (Central Hyde Park / Oakridge)",
+    "mun": "London",
+    "lat": "42.9915",
+    "lng": "-81.3402"
+  },
+  {
+    "pcd": "N6J",
+    "loc": "London (Southcrest / East Westmount / West Highland)",
+    "loc_fr": "London (Sudcrest / Est Ouestmount / Ouest Highland)",
+    "mun": "London",
+    "lat": "42.9546",
+    "lng": "-81.2735"
+  },
+  {
+    "pcd": "N6K",
+    "loc": "London (Riverbend / Woodhull / North Sharon Creek / Byron / West Westmount)",
+    "loc_fr": "London (Riverbend / Woodhull / Nord Sharon Creek / Byron / Ouest Ouestmount)",
+    "mun": "London",
+    "lat": "42.9536",
+    "lng": "-81.3418"
+  },
+  {
+    "pcd": "N6L",
+    "loc": "London (East Tempo)",
+    "loc_fr": "London (Est Tempo)",
+    "mun": "London",
+    "lat": "42.8719",
+    "lng": "-81.2472"
+  },
+  {
+    "pcd": "N6M",
+    "loc": "London (Jackson / Old Victoria / Bradley / North Highbury)",
+    "loc_fr": "London (Jackson / Old Victoria / Bradley / Nord Highbury)",
+    "mun": "London",
+    "lat": "42.9632",
+    "lng": "-81.1392"
+  },
+  {
+    "pcd": "N6N",
+    "loc": "London (South Highbury / Glanworth / East Brockley / SE Westminster)",
+    "loc_fr": "London (Sud Highbury / Glanworth / Est Brockley / SE Ouestminster)",
+    "mun": "London",
+    "lat": "42.8997",
+    "lng": "-81.1592"
+  },
+  {
+    "pcd": "N6P",
+    "loc": "London (Talbot / Lambeth / West Tempo / South Sharon Creek)",
+    "loc_fr": "London (Talbot / Lambeth / Ouest Tempo / Sud Sharon Creek)",
+    "mun": "London",
+    "lat": "42.8909",
+    "lng": "-81.3236"
+  },
+  {
+    "pcd": "N7A",
+    "loc": "Goderich",
+    "loc_fr": "Goderich",
+    "lat": "43.7501",
+    "lng": "-81.7165"
+  },
+  {
+    "pcd": "N7G",
+    "loc": "Strathroy",
+    "loc_fr": "Strathroy",
+    "lat": "42.9551",
+    "lng": "-81.6223"
+  },
+  {
+    "pcd": "N7L",
+    "loc": "Chatham Northwest",
+    "loc_fr": "Chatham Nord-Ouest",
+    "mun": "Chatham",
+    "lat": "42.4209",
+    "lng": "-82.1993"
+  },
+  {
+    "pcd": "N7M",
+    "loc": "Chatham Southeast",
+    "loc_fr": "Chatham Sud-Est",
+    "mun": "Chatham",
+    "lat": "42.4238",
+    "lng": "-82.1183"
+  },
+  {
+    "pcd": "N7S",
+    "loc": "Sarnia Central",
+    "loc_fr": "Sarnia Central",
+    "mun": "Sarnia",
+    "lat": "42.9888",
+    "lng": "-82.3592"
+  },
+  {
+    "pcd": "N7T",
+    "loc": "Sarnia Southwest",
+    "loc_fr": "Sarnia Sud-Ouest",
+    "mun": "Sarnia",
+    "lat": "42.9578",
+    "lng": "-82.2777"
+  },
+  {
+    "pcd": "N7V",
+    "loc": "Sarnia Northwest",
+    "loc_fr": "Sarnia Nord-Ouest",
+    "mun": "Sarnia",
+    "lat": "42.9998",
+    "lng": "-82.3926"
+  },
+  {
+    "pcd": "N7W",
+    "loc": "Sarnia Southeast",
+    "loc_fr": "Sarnia Sud-Est",
+    "mun": "Sarnia",
+    "lat": "42.9644",
+    "lng": "-82.3259"
+  },
+  {
+    "pcd": "N7X",
+    "loc": "Sarnia Northeast",
+    "loc_fr": "Sarnia Nord-Est",
+    "mun": "Sarnia",
+    "lat": "43.0214",
+    "lng": "-82.3212"
+  },
+  {
+    "pcd": "N8A",
+    "loc": "Wallaceburg",
+    "loc_fr": "Wallaceburg",
+    "lat": "42.593",
+    "lng": "-82.3885"
+  },
+  {
+    "pcd": "N8H",
+    "loc": "Leamington",
+    "loc_fr": "Leamington",
+    "lat": "42.0549",
+    "lng": "-82.6062"
+  },
+  {
+    "pcd": "N8M",
+    "loc": "Essex",
+    "loc_fr": "Essex",
+    "lat": "42.1751",
+    "lng": "-82.8248"
+  },
+  {
+    "pcd": "N8N",
+    "loc": "Tecumseh Outskirts",
+    "loc_fr": "Tecumseh Outskirts",
+    "mun": "Tecumseh",
+    "lat": "42.2946",
+    "lng": "-82.8667"
+  },
+  {
+    "pcd": "N8P",
+    "loc": "Windsor (East Riverside)",
+    "loc_fr": "Windsor (Est Riverside)",
+    "mun": "Windsor",
+    "lat": "42.3276",
+    "lng": "-82.9104"
+  },
+  {
+    "pcd": "N8R",
+    "loc": "Windsor (East Forest Glade)",
+    "loc_fr": "Windsor (Est Forest Glade)",
+    "mun": "Windsor",
+    "lat": "42.3067",
+    "lng": "-82.915"
+  },
+  {
+    "pcd": "N8S",
+    "loc": "Windsor (Riverside)",
+    "loc_fr": "Windsor (Riverside)",
+    "mun": "Windsor",
+    "lat": "42.3283",
+    "lng": "-82.9472"
+  },
+  {
+    "pcd": "N8T",
+    "loc": "Windsor (West Forest Glade / East Fontainbleu)",
+    "loc_fr": "Windsor (Ouest Forest Glade / Est Fontainbleu)",
+    "mun": "Windsor",
+    "lat": "42.3037",
+    "lng": "-82.9459"
+  },
+  {
+    "pcd": "N8V",
+    "loc": "Tecumseh (YQG)",
+    "loc_fr": "Tecumseh (YQG)",
+    "mun": "Tecumseh",
+    "lat": "42.2773",
+    "lng": "-82.9447"
+  },
+  {
+    "pcd": "N8W",
+    "loc": "Windsor (South Walkerville / West Fontainbleu / Walker Farm / Devonshire)",
+    "loc_fr": "Windsor (Sud Walkerville / Ouest Fontainbleu / Walker Farm / Devonshire)",
+    "mun": "Windsor",
+    "lat": "42.2836",
+    "lng": "-82.9771"
+  },
+  {
+    "pcd": "N8X",
+    "loc": "Windsor South Central (West Walkerville / Remington Park)",
+    "loc_fr": "Windsor Sud Central (Ouest Walkerville / Remington Park)",
+    "mun": "Windsor",
+    "lat": "42.2926",
+    "lng": "-83.0186"
+  },
+  {
+    "pcd": "N8Y",
+    "loc": "Windsor East (East Walkerville)",
+    "loc_fr": "Windsor Est (Est Walkerville)",
+    "mun": "Windsor",
+    "lat": "42.3176",
+    "lng": "-82.9929"
+  },
+  {
+    "pcd": "N9A",
+    "loc": "Windsor (City Centre / NW Walkerville)",
+    "loc_fr": "Windsor (City Centre / NW Walkerville)",
+    "mun": "Windsor",
+    "lat": "42.2007",
+    "lng": "-83.0276"
+  },
+  {
+    "pcd": "N9B",
+    "loc": "Windsor (University / South Cameron)",
+    "loc_fr": "Windsor (University / Sud Cameron)",
+    "mun": "Windsor",
+    "lat": "42.2949",
+    "lng": "-83.052"
+  },
+  {
+    "pcd": "N9C",
+    "loc": "Windsor (Sandwich / Ojibway / West Malden)",
+    "loc_fr": "Windsor (Sandwich / Ojibway / Ouest Malden)",
+    "mun": "Windsor",
+    "lat": "42.2767",
+    "lng": "-83.0793"
+  },
+  {
+    "pcd": "N9E",
+    "loc": "Windsor South (East Malden)",
+    "loc_fr": "Windsor Sud (Est Malden)",
+    "mun": "Windsor",
+    "lat": "42.2652",
+    "lng": "-83.0314"
+  },
+  {
+    "pcd": "N9G",
+    "loc": "Windsor (Roseland)",
+    "loc_fr": "Windsor (Roseland)",
+    "mun": "Windsor",
+    "lat": "42.2481",
+    "lng": "-82.9952"
+  },
+  {
+    "pcd": "N9H",
+    "loc": "La Salle East",
+    "loc_fr": "La Salle Est",
+    "mun": "La Salle",
+    "lat": "42.2318",
+    "lng": "-83.0281"
+  },
+  {
+    "pcd": "N9J",
+    "loc": "La Salle West",
+    "loc_fr": "La Salle Ouest",
+    "mun": "La Salle",
+    "lat": "42.2187",
+    "lng": "-83.0801"
+  },
+  {
+    "pcd": "N9K",
+    "loc": "Tecumseh Central",
+    "loc_fr": "Tecumseh Central",
+    "lat": "42.2978",
+    "lng": "-82.8701"
+  },
+  {
+    "pcd": "N9V",
+    "loc": "Amherstburg",
+    "loc_fr": "Amherstburg",
+    "lat": "42.1168",
+    "lng": "-83.0498"
+  },
+  {
+    "pcd": "N9Y",
+    "loc": "Kingsville",
+    "loc_fr": "Kingsville",
+    "lat": "42.0502",
+    "lng": "-82.7598"
+  },
+  {
+    "pcd": "P0A",
+    "loc": "Nipissing Central (Burk's Falls)",
+    "loc_fr": "Nipissing Central (Burk's Falls)",
+    "mun": "Nipissing",
+    "lat": "45.5881",
+    "lng": "-79.3546"
+  },
+  {
+    "pcd": "P0B",
+    "loc": "Nipissing South (Utterson)",
+    "loc_fr": "Nipissing Sud (Utterson)",
+    "mun": "Nipissing",
+    "lat": "45.1863",
+    "lng": "-79.4115"
+  },
+  {
+    "pcd": "P0C",
+    "loc": "Parry Sound Mid-Shore (Bala)",
+    "loc_fr": "Parry Sound Mid-Shore (Bala)",
+    "mun": "Parry Sound",
+    "lat": "45.1275",
+    "lng": "-79.786"
+  },
+  {
+    "pcd": "P0E",
+    "loc": "Parry Sound South Shore (Kilworthy)",
+    "loc_fr": "Parry Sound Sud Shore (Kilworthy)",
+    "mun": "Parry Sound",
+    "lat": "44.8608",
+    "lng": "-79.5069"
+  },
+  {
+    "pcd": "P0G",
+    "loc": "Parry Sound North Shore (Nobel)",
+    "loc_fr": "Parry Sound Nord Shore (Nobel)",
+    "mun": "Parry Sound",
+    "lat": "45.6718",
+    "lng": "-80.3688"
+  },
+  {
+    "pcd": "P0H",
+    "loc": "Nipissing North (Callander)",
+    "loc_fr": "Nipissing Nord (Callander)",
+    "mun": "Nipissing",
+    "lat": "46.3109",
+    "lng": "-79.3617"
+  },
+  {
+    "pcd": "P0J",
+    "loc": "Timiskaming South (Temiskaming Shores)",
+    "loc_fr": "Timiskaming Sud (Temiskaming Shores)",
+    "mun": "Timiskaming",
+    "lat": "47.5776",
+    "lng": "-80.2036"
+  },
+  {
+    "pcd": "P0K",
+    "loc": "Timiskaming North (Iroquois Falls A)",
+    "loc_fr": "Timiskaming Nord (Iroquois Falls A)",
+    "mun": "Timiskaming",
+    "lat": "48.5234",
+    "lng": "-80.3081"
+  },
+  {
+    "pcd": "P0L",
+    "loc": "Cochrane Region (Hearst)",
+    "loc_fr": "Cochrane Region (Hearst)",
+    "lat": "51.97",
+    "lng": "-83.5369"
+  },
+  {
+    "pcd": "P0M",
+    "loc": "Algoma, Sudbury District and Greater Sudbury (Chelmsford)",
+    "loc_fr": "Algoma, Sudbury District and Greater Sudbury (Chelmsford)",
+    "lat": "47.6526",
+    "lng": "-82.4753"
+  },
+  {
+    "pcd": "P0N",
+    "loc": "Timmins Region (South Porcupine)",
+    "loc_fr": "Timmins Region (Sud Porcupine)",
+    "lat": "48.6027",
+    "lng": "-81.0115"
+  },
+  {
+    "pcd": "P0P",
+    "loc": "Manitoulin (Little Current)",
+    "loc_fr": "Manitoulin (Little Current)",
+    "lat": "45.7565",
+    "lng": "-82.2151"
+  },
+  {
+    "pcd": "P0S",
+    "loc": "Lake Superior East Shore (Wawa)",
+    "loc_fr": "Lake Superior Est Shore (Wawa)",
+    "mun": "Lake Superior",
+    "lat": "48.048",
+    "lng": "-84.6727"
+  },
+  {
+    "pcd": "P0T",
+    "loc": "Lake Superior North Shore (Marathon)",
+    "loc_fr": "Lake Superior Nord Shore (Marathon)",
+    "mun": "Lake Superior",
+    "lat": "49.2924",
+    "lng": "-88.756"
+  },
+  {
+    "pcd": "P0V",
+    "loc": "Northwestern Ontario (Red Lake)",
+    "loc_fr": "Nord-Ouestern Ontario (Red Lake)",
+    "lat": "52.9648",
+    "lng": "-90.1505"
+  },
+  {
+    "pcd": "P0W",
+    "loc": "Rainy River Region (Emo)",
+    "loc_fr": "Rainy River Region (Emo)",
+    "lat": "48.875",
+    "lng": "-93.7522"
+  },
+  {
+    "pcd": "P0X",
+    "loc": "Kenora Region (Keewatin)",
+    "loc_fr": "Kenora Region (Keewatin)",
+    "lat": "50.9293",
+    "lng": "-93.3095"
+  },
+  {
+    "pcd": "P0Y",
+    "loc": "Lake of the Woods East Shore (Ingolf)",
+    "loc_fr": "Lake of the Woods Est Shore (Ingolf)",
+    "lat": "49.7603",
+    "lng": "-95.1003"
+  },
+  {
+    "pcd": "P1A",
+    "loc": "North Bay South",
+    "loc_fr": "Nord Bay Sud",
+    "mun": "North Bay",
+    "lat": "46.2801",
+    "lng": "-79.4502"
+  },
+  {
+    "pcd": "P1B",
+    "loc": "North Bay Central",
+    "loc_fr": "Nord Bay Central",
+    "mun": "North Bay",
+    "lat": "46.3364",
+    "lng": "-79.583"
+  },
+  {
+    "pcd": "P1C",
+    "loc": "North Bay North",
+    "loc_fr": "Nord Bay Nord",
+    "mun": "North Bay",
+    "lat": "46.3397",
+    "lng": "-79.4223"
+  },
+  {
+    "pcd": "P1H",
+    "loc": "Huntsville",
+    "loc_fr": "Huntsville",
+    "lat": "45.3334",
+    "lng": "-79.2163"
+  },
+  {
+    "pcd": "P1L",
+    "loc": "Bracebridge",
+    "loc_fr": "Bracebridge",
+    "lat": "45.0334",
+    "lng": "-79.3163"
+  },
+  {
+    "pcd": "P1P",
+    "loc": "Gravenhurst",
+    "loc_fr": "Gravenhurst",
+    "lat": "44.9168",
+    "lng": "-79.3663"
+  },
+  {
+    "pcd": "P2A",
+    "loc": "Parry Sound",
+    "loc_fr": "Parry Sound",
+    "lat": "45.3501",
+    "lng": "-80.033"
+  },
+  {
+    "pcd": "P2B",
+    "loc": "Sturgeon Falls",
+    "loc_fr": "Sturgeon Falls",
+    "lat": "46.3668",
+    "lng": "-79.9164"
+  },
+  {
+    "pcd": "P2N",
+    "loc": "Kirkland Lake",
+    "loc_fr": "Kirkland Lake",
+    "lat": "48.1446",
+    "lng": "-80.0377"
+  },
+  {
+    "pcd": "P3A",
+    "loc": "Greater Sudbury (New Sudbury)",
+    "loc_fr": "Greater Sudbury (New Sudbury)",
+    "mun": "Greater Sudbury",
+    "lat": "46.5187",
+    "lng": "-80.934"
+  },
+  {
+    "pcd": "P3B",
+    "loc": "Greater Sudbury (Downtown / Minnow Lake)",
+    "loc_fr": "Greater Sudbury (Centre-ville de / Minnow Lake)",
+    "mun": "Greater Sudbury",
+    "lat": "46.4847",
+    "lng": "-80.9304"
+  },
+  {
+    "pcd": "P3C",
+    "loc": "Greater Sudbury (Gatchell / West End / Little Britain)",
+    "loc_fr": "Greater Sudbury (Gatchell / Ouest End / Little Britain)",
+    "mun": "Greater Sudbury",
+    "lat": "46.5133",
+    "lng": "-81.0225"
+  },
+  {
+    "pcd": "P3E",
+    "loc": "Greater Sudbury (Robinson / Lockerby)",
+    "loc_fr": "Greater Sudbury (Robinson / Lockerby)",
+    "mun": "Greater Sudbury",
+    "lat": "46.2676",
+    "lng": "-80.9063"
+  },
+  {
+    "pcd": "P3G",
+    "loc": "Greater Sudbury (Lo-Ellen / McFarlane Lake)",
+    "loc_fr": "Greater Sudbury (Lo-Ellen / McFarlane Lake)",
+    "mun": "Greater Sudbury",
+    "lat": "46.4031",
+    "lng": "-80.9745"
+  },
+  {
+    "pcd": "P3L",
+    "loc": "Greater Sudbury (Garson)",
+    "loc_fr": "Greater Sudbury (Garson)",
+    "mun": "Greater Sudbury",
+    "lat": "46.5942",
+    "lng": "-80.85"
+  },
+  {
+    "pcd": "P3N",
+    "loc": "Greater Sudbury (Val Caron)",
+    "loc_fr": "Greater Sudbury (Val Caron)",
+    "mun": "Greater Sudbury",
+    "lat": "46.5845",
+    "lng": "-81.0029"
+  },
+  {
+    "pcd": "P3P",
+    "loc": "Greater Sudbury (Hanmer)",
+    "loc_fr": "Greater Sudbury (Hanmer)",
+    "mun": "Greater Sudbury",
+    "lat": "46.7259",
+    "lng": "-81.0166"
+  },
+  {
+    "pcd": "P3Y",
+    "loc": "Greater Sudbury (Lively)",
+    "loc_fr": "Greater Sudbury (Lively)",
+    "mun": "Greater Sudbury",
+    "lat": "46.4431",
+    "lng": "-81.127"
+  },
+  {
+    "pcd": "P4N",
+    "loc": "Timmins Southeast",
+    "loc_fr": "Timmins Sud-Est",
+    "mun": "Timmins",
+    "lat": "48.4669",
+    "lng": "-81.3331"
+  },
+  {
+    "pcd": "P4P",
+    "loc": "Timmins North",
+    "loc_fr": "Timmins Nord",
+    "mun": "Timmins",
+    "lat": "48.4985",
+    "lng": "-81.3448"
+  },
+  {
+    "pcd": "P4R",
+    "loc": "Timmins West",
+    "loc_fr": "Timmins Ouest",
+    "mun": "Timmins",
+    "lat": "48.4702",
+    "lng": "-81.3997"
+  },
+  {
+    "pcd": "P5A",
+    "loc": "Elliot Lake",
+    "loc_fr": "Elliot Lake",
+    "lat": "46.3834",
+    "lng": "-82.6332"
+  },
+  {
+    "pcd": "P5E",
+    "loc": "Espanola",
+    "loc_fr": "Espanola",
+    "lat": "46.2584",
+    "lng": "-81.7665"
+  },
+  {
+    "pcd": "P5N",
+    "loc": "Kapuskasing",
+    "loc_fr": "Kapuskasing",
+    "lat": "49.4169",
+    "lng": "-82.4331"
+  },
+  {
+    "pcd": "P6A",
+    "loc": "Sault Ste. Marie East",
+    "loc_fr": "Sault Ste. Marie Est",
+    "mun": "Sault Ste.",
+    "lat": "46.5168",
+    "lng": "-84.3333"
+  },
+  {
+    "pcd": "P6B",
+    "loc": "Sault Ste. Marie Central",
+    "loc_fr": "Sault Ste. Marie Central",
+    "mun": "Sault Ste.",
+    "lat": "46.5307",
+    "lng": "-84.3046"
+  },
+  {
+    "pcd": "P6C",
+    "loc": "Sault Ste. Marie North",
+    "loc_fr": "Sault Ste. Marie Nord",
+    "mun": "Sault Ste.",
+    "lat": "46.5353",
+    "lng": "-84.3732"
+  },
+  {
+    "pcd": "P7A",
+    "loc": "Thunder Bay Northeast",
+    "loc_fr": "Thunder Bay Nord-Est",
+    "mun": "Thunder Bay",
+    "lat": "48.4601",
+    "lng": "-89.2035"
+  },
+  {
+    "pcd": "P7B",
+    "loc": "Thunder Bay North Central",
+    "loc_fr": "Thunder Bay Nord Central",
+    "mun": "Thunder Bay",
+    "lat": "48.9475",
+    "lng": "-89.4063"
+  },
+  {
+    "pcd": "P7C",
+    "loc": "Thunder Bay Central",
+    "loc_fr": "Thunder Bay Central",
+    "mun": "Thunder Bay",
+    "lat": "48.352",
+    "lng": "-89.4649"
+  },
+  {
+    "pcd": "P7E",
+    "loc": "Thunder Bay South Central",
+    "loc_fr": "Thunder Bay Sud Central",
+    "mun": "Thunder Bay",
+    "lat": "48.3684",
+    "lng": "-89.284"
+  },
+  {
+    "pcd": "P7G",
+    "loc": "Thunder Bay North",
+    "loc_fr": "Thunder Bay Nord",
+    "mun": "Thunder Bay",
+    "lat": "48.4001",
+    "lng": "-89.3168"
+  },
+  {
+    "pcd": "P7J",
+    "loc": "Thunder Bay South",
+    "loc_fr": "Thunder Bay Sud",
+    "mun": "Thunder Bay",
+    "lat": "48.2834",
+    "lng": "-89.3668"
+  },
+  {
+    "pcd": "P7K",
+    "loc": "Thunder Bay West",
+    "loc_fr": "Thunder Bay Ouest",
+    "mun": "Thunder Bay",
+    "lat": "48.3728",
+    "lng": "-89.3484"
+  },
+  {
+    "pcd": "P7L",
+    "loc": "Neebing",
+    "loc_fr": "Neebing",
+    "lat": "48.1668",
+    "lng": "-89.4168"
+  },
+  {
+    "pcd": "P8N",
+    "loc": "Dryden",
+    "loc_fr": "Dryden",
+    "lat": "49.7833",
+    "lng": "-92.7503"
+  },
+  {
+    "pcd": "P8T",
+    "loc": "Sioux Lookout",
+    "loc_fr": "Sioux Lookout",
+    "lat": "50.0668",
+    "lng": "-91.9836"
+  },
+  {
+    "pcd": "P9A",
+    "loc": "Fort Frances",
+    "loc_fr": "Fort Frances",
+    "lat": "48.6393",
+    "lng": "-93.4469"
+  },
+  {
+    "pcd": "P9N",
+    "loc": "Kenora",
+    "loc_fr": "Kenora",
+    "lat": "49.7573",
+    "lng": "-94.3427"
+  }
+]

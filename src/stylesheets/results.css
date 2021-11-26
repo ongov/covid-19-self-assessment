@@ -67,3 +67,15 @@
     margin-right: 0.9rem;
   }
 }
+
+@media screen and (min-width: 73em) {
+  .print-save-button {
+    width: 52%;
+  }
+}
+
+@media screen and (min-width: 40em) and (max-width: 72.9375em) {
+  .print-save-button {
+    width: 100%;
+  }
+}

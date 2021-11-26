@@ -12,16 +12,16 @@ function reducer(state, action) {
       const { id, value } = action
       const updatedState = { ...state }
 
-      if (updatedState.q2 && updatedState.q2.hasOwnProperty(id)) {
-        delete updatedState.q2[id]
+      if (updatedState.q5 && updatedState.q5.hasOwnProperty(id)) {
+        delete updatedState.q5[id]
       } else {
-        if (!updatedState.q2) updatedState.q2 = {}
+        if (!updatedState.q5) updatedState.q5 = {}
         // This is the scenario "none of the above" was selected previous to this click
-        if (id === noSymptomsId || updatedState.q2.hasOwnProperty(noSymptomsId)) {
-          updatedState.q2 = {}
+        if (id === noSymptomsId || updatedState.q5.hasOwnProperty(noSymptomsId)) {
+          updatedState.q5 = {}
         }
 
-        updatedState.q2[id] = value
+        updatedState.q5[id] = value
       }
 
       updatedState.symptomScore = calculateTotalScore(updatedState)
@@ -30,18 +30,15 @@ function reducer(state, action) {
     }
     case "SYMPTOMS_CONTINUE_CLICKED": {
       let updatedState = { ...state }
-      if (!state.q2 || !Object.keys(state.q2).length) {
-        updatedState = { ...state, q2: {}, symptomScore: 0 }
-        updatedState.q2[noSymptomsId] = "0"
+      if (!state.q5 || !Object.keys(state.q5).length) {
+        updatedState = { ...state, q5: {}, symptomScore: 0 }
+        updatedState.q5[noSymptomsId] = "0"
       }
 
       return updatedState
     }
-    case "RETURN_DATE_CONTINUE_CLICKED": {
-      return { ...state, q15: action.returnDate }
-    }
     case "POSTALCODE-X1X":
-    case "ONSET_RADIO_SELECTED":
+    case "AGE_RADIO_SELECTED":
     case "YES_NO_RESPONSE": {
       const updatedState = { ...state }
       updatedState[action.question] = action.response
@@ -60,44 +57,36 @@ function reducer(state, action) {
     case "SAT_DONE": {
       return { ...state, in_progress: false }
     }
-    case "CONTACT_FORM_SUBMITTED_OK": {
-      return { ...state, contact_form_submitted_ok: true }
-    }
-    case "CONTACT_FORM_SUBMITTED_WITH_ERRORS": {
-      return { ...state, contact_form_submitted_ok: false }
-    }
-    case "CONTACT_FORM_RESUBMITTED": {
-      const newState = { ...state }
-      delete newState.contact_form_submitted_ok
-      return newState
-    }
     default:
       throw new Error(`Bad Action Type: ${action.type}`)
   }
 }
 
 function calculateTotalScore(state) {
-  if (!state.q2) return 0
+  if (!state.q5) return 0
 
-  return Object.values(state.q2)
-    .map(val => parseFloat(val))
+  return Object.values(state.q5)
+    .map((val) => parseFloat(val))
     .reduce((acc, cur) => acc + cur, 0)
 }
 
 /*
-    q3 - healthcare workers
-    q4 - rural
-    q5 - at-risk
-    q6 - travel
-    q7 - exposure to covid-19
-    q8 - exposure to respiratory symptoms
-
-    r2 - symptomatic, self-isolate
+    q1: "fully-vaccinated"
+    q2: "severe-symptoms"
+    q3: "age-range"
+    q4: "postal-code"
+    q5: "symptoms"
+    q6: "covid-exposure"
+    q7: "covid-alert"
+    q8: "respiratory-exposure"
+    q9: "travel"
+  
+    r1 - call 911
     r3 - practice physical distancing
-    r4 - at-risk, self-isolate
     r5 - travel, self-isolate
     r6 - possible exposure, self-isolate
-    r7 - call telehealth/doctor
+    r7 - call telehealth/doctor 
+    r9 - test but not isolate
 */
 
 const GlobalContextProvider = ({ children }) => {

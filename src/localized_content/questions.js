@@ -1,71 +1,47 @@
 export default {
   q1: {
-    en: "severe-symptoms",
-    fr: "symptômes-graves",
+    en: "fully-vaccinated",
+    fr: "entierement-vaccine",
   },
   q2: {
-    en: "symptoms",
-    fr: "symptômes",
+    en: "severe-symptoms",
+    fr: "symptomes-graves",
   },
   q3: {
     en: "age-range",
-    fr: "tranche-d-âge",
+    fr: "tranche-d-age",
   },
   q4: {
     en: "postal-code",
     fr: "code-postal",
   },
   q5: {
-    en: "symptoms-onset",
-    fr: "apparition-des-symptômes",
+    en: "symptoms",
+    fr: "symptomes",
   },
-  q7: {
-    en: "risk-factors",
-    fr: "facteurs-de-risque",
-  },
-  q8: {
+  q6: {
     en: "covid-exposure",
     fr: "exposition-au-covid",
   },
-  q9: {
-    en: "exposure-date",
-    fr: "date-d-exposition",
+  q7: {
+    en: "covid-alert",
+    fr: "alerte-covid",
   },
-  q10: {
+  q8: {
     en: "respiratory-exposure",
     fr: "exposition-respiratoire",
   },
-  q11: {
-    en: "respiratory-exposure-date",
-    fr: "date-d-exposition-respiratoire",
-  },
-  q14: {
+  q9: {
     en: "travel",
     fr: "voyage",
-  },
-  q15: {
-    en: "travel-return",
-    fr: "voyage-retour",
-  },
-  q16: {
-    en: "symptoms-confirm",
-    fr: "symptomes-confirmer",
   },
   r1: {
     en: "r1",
     fr: "r1",
   },
-  r2: {
-    en: "r2",
-    fr: "r2",
-  },
   r3: {
     en: "r3",
     fr: "r3",
-  },
-  r4: {
-    en: "r4",
-    fr: "r4",
   },
   r5: {
     en: "r5",
@@ -78,5 +54,9 @@ export default {
   r7: {
     en: "r7",
     fr: "r7",
+  },
+  r9: {
+    en: "r9",
+    fr: "r9",
   },
 }

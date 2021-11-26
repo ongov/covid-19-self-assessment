@@ -7,7 +7,8 @@ import Question from "../components/question"
 import ContinueButton from "../components/continue-button"
 import { GlobalStateContext, GlobalDispatchContext } from "../context/global-context-provider"
 import Checkbox from "../components/checkbox"
-import { general, questions } from "../localized_content"
+import Callout from "../components/callout-blue"
+import { general, questions, calloutSymptoms } from "../localized_content"
 import { symptomsTitle, symptoms, logic, addSymptomsToGTMDataLayer } from "../shared"
 
 const SymptomsTemplate = ({ lang }) => {
@@ -17,7 +18,7 @@ const SymptomsTemplate = ({ lang }) => {
   const handleContinueClick = () => {
     addSymptomsToGTMDataLayer(state)
     dispatch({ type: "SYMPTOMS_CONTINUE_CLICKED" })
-    navigate(`${general[lang].basePath}${questions[logic.q2.cont(state)][lang]}`)
+    navigate(`${general[lang].basePath}${questions[logic.q5.cont(state)][lang]}`)
   }
 
   return (
@@ -32,9 +33,10 @@ const SymptomsTemplate = ({ lang }) => {
           <fieldset className="ontario-fieldset">
             <legend>{symptomsTitle[lang].text}</legend>
             <p>{symptomsTitle[lang].sup_text}</p>
+            <Callout message={calloutSymptoms[lang].message} />
             <div className="ontario-question__options">
               <div className="ontario-checkboxes">
-                {Object.keys(symptoms).map(id => (
+                {Object.keys(symptoms).map((id) => (
                   <Checkbox
                     key={id}
                     id={id}
@@ -42,7 +44,7 @@ const SymptomsTemplate = ({ lang }) => {
                     text={symptoms[id][lang].text}
                     labelStyle="--large"
                     supplementaryText={symptoms[id][lang].sup_text || ""}
-                    checkboxState={state.q2 && state.q2.hasOwnProperty(id)}
+                    checkboxState={state.q5 && state.q5.hasOwnProperty(id)}
                     checkboxOnChange={() => dispatch({ type: "TOGGLE_SYMPTOM", id, value: symptoms[id].value })}
                   />
                 ))}

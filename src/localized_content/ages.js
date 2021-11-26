@@ -1,19 +1,9 @@
 export default {
   en: [
     {
-      labelText: "9 years old or younger",
+      labelText: "18 to 29 years old ",
       supplementaryText: "",
-      id: "0-9",
-    },
-    {
-      labelText: "10 to 19 years old",
-      supplementaryText: "",
-      id: "10-19",
-    },
-    {
-      labelText: "20 to 29 years old ",
-      supplementaryText: "",
-      id: "20-29",
+      id: "18-29",
     },
     {
       labelText: "30 to 39 years old",
@@ -50,19 +40,9 @@ export default {
 
   fr: [
     {
-      labelText: "9 ans ou moins",
+      labelText: "18 à 29 ans",
       supplementaryText: "",
-      id: "0-9",
-    },
-    {
-      labelText: "10 à 19 ans",
-      supplementaryText: "",
-      id: "10-19",
-    },
-    {
-      labelText: "20 à 29 ans",
-      supplementaryText: "",
-      id: "20-29",
+      id: "18-29",
     },
     {
       labelText: "30 à 39 ans",

@@ -15,7 +15,7 @@ const YesNoButtons = ({ lang, noLink, yesLink }) => {
   const handleClick = (toLink, isYes = false) => {
     const splitUrl = url.split("/")
     const urlFragment = splitUrl.pop() || splitUrl.pop()
-    const questionId = Object.keys(questions).find(key => questions[key][lang] === decodeURIComponent(urlFragment))
+    const questionId = Object.keys(questions).find((key) => questions[key][lang] === decodeURIComponent(urlFragment))
     dispatch({ type: "YES_NO_RESPONSE", question: questionId, response: isYes })
     navigate(toLink)
   }

@@ -6,24 +6,6 @@
   margin: 2.5rem 0;
 }
 
-.ontario-callout--double {
-  padding: 2rem;
-  margin: 2.5rem 0;
-}
-
-/** Note: this only appear below the Header **/
-.ontario-callout--full-width {
-  margin-bottom: 0;
-  position: relative;
-  top: -2rem;
-}
-
-@media screen and (max-width: 39.9375em) {
-  .ontario-callout--full-width {
-    top: -1rem;
-  }
-}
-
 /** Callout typography **/
 .ontario-callout h2,
 .ontario-callout h3,
@@ -31,87 +13,23 @@
   margin-bottom: 0;
 }
 
-.ontario-callout h2, .ontario-callout h3 {
+.ontario-callout h2,
+.ontario-callout h3 {
   font-size: 1.5rem;
   line-height: 1.3;
 }
 
 /** Callout types **/
-.ontario-callout--no-bg { /* navy border */
+.ontario-callout--no-bg {
+  /* navy border */
   background: none;
-  border-left: 4px solid #1080A6;
-}
-
-.ontario-callout--white { /* navy border */
-  background-color: #FFFFFF;
-  border-left: 4px solid #1080A6;
-}
-
-/* Error callout with icon positioning */
-.ontario-callout--alert { /* light red */
-  background-color: #FFECEE;
-  border-left: 4px solid #CD0000;
-}
-
-.ontario-callout--alert a,
-.ontario-callout--alert a:visited {
-  color: #CD0000;
-  text-decoration: underline;
-}
-
-.ontario-callout--alert a:hover,
-.ontario-callout--alert a:focus,
-.ontario-callout--alert a:active  {
-  color: #CD0000;
-  text-decoration: none;
-}
-
-.ontario-callout__title--error {
-  display: block;
-  font: 1.5rem "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-  font-weight: 700 !important;
-  letter-spacing: 0.0313rem;
-  line-height: 1.5;
-  margin-top: 0.3rem;
-}
-
-@media screen and (max-width: 39.9375em) {
-  .ontario-callout__title--error {
-    float: left;
-    width: 70%;
-  }
-}
-
-.ontario-callout__icon-error {
-  display: inline-block;
-  margin: 0 1rem 0 0;
-  float: left;
+  border-left: 4px solid #1080a6;
 }
 
 /* general info callout with icon positioning (light blue) */
 .ontario-callout--info {
-  background-color: #DEF2FA;
-  border-left: 4px solid #1080A6;
-}
-
-.ontario-callout__title--info {
-  font-size: 1.25rem;
-  margin-left: 0.5rem;
-  font-weight: bold;
-}
-
-@media screen and (max-width: 72.9375em) {
-  .ontario-callout__title--info {
-    display: block;
-    float: left;
-    width: 80%;
-  }
-}
-
-.ontario-callout__icon-info {
-  display: inline-block;
-  margin: 0 1rem 0 0;
-  float: left;
+  background-color: #def2fa;
+  border-left: 4px solid #1080a6;
 }
 
 .ontario-callout--info .ontario-button--secondary {
@@ -134,7 +52,8 @@
   width: 90%;
 }
 
-.ontario-callout--warning__message--bottom { /* for longer text */
+.ontario-callout--warning__message--bottom {
+  /* for longer text */
   display: table-cell;
   padding-left: 0.5rem;
   vertical-align: bottom;
@@ -155,5 +74,5 @@
 
 .ontario-callout--grey {
   padding: 1.5rem 2rem;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
 }

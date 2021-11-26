@@ -1,123 +1,6 @@
-/* Reset the design system */
-body {
-  margin: 0;
-}
-
-/* Skip nav link */
-:root {
-  --reach-skip-nav: 1;
-}
-
 /* -------------------------------
-    Elements
+    Icons
 --------------------------------- */
-a,
-a:visited {
-  text-decoration: none;
-}
-
-a:hover,
-a:focus,
-a:active {
-  text-decoration: underline;
-}
-
-a {
-  color: #0066CC;
-}
-
-a:visited {
-  color: #551A8B;
-}
-
-a:hover {
-  color: #002142;
-}
-
-ul,
-ol {
-  padding-left: 2em;
-  margin-left: 1.1rem;
-}
-
-ul li,
-ol li {
-  margin-bottom: 0.85rem;
-}
-
-abbr[title] {
-  text-decoration: none;
-}
-
-/* -------------------------------
-    Components
---------------------------------- */
-
-/* Background colours */
-.ontario-background-grey {
-  background-color: rgba(26, 26, 26, 0.05);
-}
-
-/* Buttons */
-[class^="ontario-button"]:hover {
-  text-decoration: underline;
-}
-
-.ontario-button--primary, .ontario-button--primary:visited,
-.ontario-button--primary:hover, .ontario-button--primary:focus {
-  color: white;
-}
-
-.ontario-button--secondary, .ontario-button--secondary:visited {
-  color: #06c;
-}
-
-.ontario-button--secondary.ontario-button--noBG {
-  background: none;
-}
-
-.ontario-button--secondary.ontario-button--noBG:visited,
-.ontario-button--secondary.ontario-button--noBG:focus {
-  color: #06c;
-}
-
-/* Breadcrumbs */
-.ontario-breadcrumbs {
-  display: block;
-  margin: 0 0 1.25rem 0;
-  padding: 0;
-  list-style: none;
-  overflow: hidden;
-}
-
-.ontario-breadcrumbs li {
-  float: left;
-  font-size: 0.9rem;
-  line-height: inherit;
-  margin-bottom: 0;
-}
-
-.ontario-breadcrumbs li a {
-  text-decoration: underline;
-}
-
-.ontario-breadcrumbs > :nth-child(n + 1):before {
-  content: "";
-  background: url("../images/ontario-icon-breadcrumb.svg") no-repeat;
-  display: inline-block;
-  height: 12px;
-  width: 12px;
-  top: 0.1rem;
-  position: relative;
-  margin: 0 0.5rem;
-}
-
-.ontario-breadcrumbs > *:first-child:before {
-  width: 0;
-  margin: 0;
-}
-
-/* Icons */
 .ontario-icon__warning {
   display: block;
   background: url("../images/ontario-icon-warning.svg");
@@ -154,6 +37,7 @@ abbr[title] {
   float: left;
   width: 2rem;
   height: 2em;
+  margin: auto auto auto 1.5rem;
 }
 
 .ontario-icon__linkedin,
@@ -335,15 +219,6 @@ abbr[title] {
   position: relative;
 }
 
-.ontario-icon__covidapp {
-  background: url("../images/icon_covidalert.svg");
-  background-size: 100%;
-  display: inline-block;
-  width: 60px;
-  height: 60px;
-  margin-left: 0.2rem;
-}
-
 @media screen and (max-width: 39.9375em) {
   .ontario-icon__covidapp {
     width: 30px;
@@ -377,155 +252,18 @@ abbr[title] {
   }
 }
 
+.ontario-icon__print {
+  background: url("../images/ontario-icon-print.svg");
+  background-size: 100%;
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin: auto auto auto 0.3rem;
+  position: relative;
+}
+
 @media screen and (min-width: 40em) and (max-width: 72.9375em) {
   .ontario-icon__thermometer {
     margin-left: 1rem;
-  }
-}
-
-/* List style */
-.ontario-list--inline {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
-.ontario-list--inline li {
-  display: block;
-  float: left;
-}
-
-/* Text alignment */
-.ontario-text-center {
-  text-align: center;
-}
-
-.ontario-text-right {
-  text-align: right;
-}
-
-.ontario-text-left {
-  text-align: left;
-}
-
-/* Typography */
-
-.h1 {
-  font-size: 2.5rem;
-}
-
-.h2 {
-  font-size: 2.0625rem;
-}
-
-.h3 {
-  font-size: 1.75rem;
-}
-
-.h4 {
-  font-size: 1.5rem;
-}
-
-.h5 {
-  font-size: 1.1875rem;
-}
-
-.ontario-infographic-number {
-  font: 1.75rem "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 700;
-  letter-spacing: 0.02rem;
-  line-height: 1.5;
-  margin-bottom: 0.5rem;
-  text-align: center;
-}
-
-@media screen and (max-width: 39.9375em) {
-  .ontario-infographic-number {
-    font-size: 1.25rem;
-    line-height: 1.43;
-  }
-}
-
-.ontario-bulleted-list {
-  margin-left: 1rem;
-}
-
-.ontario-bullet {
-  font-weight: 700;
-  text-align: center;
-  font-size: 23px;
-  margin-right: 0.5rem;
-}
-
-/* -------------------------------
-    Overrides
---------------------------------- */
-
-/* Elements */
-hr.ontario-hr-short {
-  max-width: 40rem;
-  border: none;
-  border-top: 4px solid #ededed;
-  margin: 0 auto 2.5rem auto;
-}
-
-@media screen and (max-width: 39.9375em) {
-  hr.ontario-hr-short {
-    max-width: 20rem;
-  }
-}
-
-@media screen and (min-width: 40em) and (max-width: 72.9375em) {
-  hr.ontario-hr-short {
-    max-width: 30rem;
-  }
-}
-
-/* Visibility */
-.ontario-show-for-sr,
-.ontario-show-on-focus,
-[data-reach-skip-nav-link] {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
-}
-
-.ontario-show-on-focus:active,
-.ontario-show-on-focus:focus,
-[data-reach-skip-nav-link]:focus {
-  position: static;
-  width: auto;
-  height: auto;
-  overflow: visible;
-  clip: auto;
-  white-space: normal;
-}
-
-@media screen and (max-width: 39.9375em) {
-  .ontario-hide-for-small-only {
-    display: none;
-  }
-}
-
-@media screen and (min-width: 40em) {
-  .ontario-show-for-small-only {
-    display: none;
-  }
-}
-
-@media screen and (min-width: 73em) {
-  .ontario-hide-for-large-only {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 72.9375em) {
-  .ontario-show-for-large-only {
-    display: none;
   }
 }
