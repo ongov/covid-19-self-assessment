@@ -1,5 +1,6 @@
 import React from "react"
 import QuestionTemplate from "../../templates/yes-no-question-template"
+import ProgressBar from "../../components/progress-bar"
 import { logic } from "../../shared"
 
 const SevereSymptoms = () => (
@@ -21,6 +22,8 @@ const SevereSymptoms = () => (
       <li>Sentiment de confusion, ne pas savoir où vous êtes</li>
       <li>Perte de conscience</li>
     </ul>
+
+    <ProgressBar progress={20} />
   </QuestionTemplate>
 )
 

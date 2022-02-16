@@ -1,5 +1,6 @@
 import React from "react"
 import QuestionTemplate from "../../templates/yes-no-question-template"
+import ProgressBar from "../../components/progress-bar"
 import { logic } from "../../shared"
 
 export default () => (
@@ -9,5 +10,7 @@ export default () => (
       COVID sur votre cellulaire?
     </h2>
     <p>Si vous avez déjà fait un test de dépistage PCR et que le résultat était négatif, répondre « Non ».</p>
+
+    <ProgressBar progress={70} />
   </QuestionTemplate>
 )
