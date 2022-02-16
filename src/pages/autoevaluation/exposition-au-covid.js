@@ -1,5 +1,6 @@
 import React from "react"
 import QuestionTemplate from "../../templates/yes-no-question-template"
+import ProgressBar from "../../components/progress-bar"
 import { logic } from "../../shared"
 
 const CovidExposure = () => (
@@ -9,6 +10,8 @@ const CovidExposure = () => (
       actuellement le COVID-19?
     </h2>
     <p>Si la santé publique vous a avisé/e que vous n’avez pas besoin de vous isoler, sélectionnez « Non ».</p>
+
+    <ProgressBar progress={60} />
   </QuestionTemplate>
 )
 

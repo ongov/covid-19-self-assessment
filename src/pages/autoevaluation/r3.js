@@ -1,6 +1,7 @@
 import React, { forwardRef, useRef } from "react"
 import { general } from "../../localized_content"
 
+import ProgressBar from "../../components/progress-bar"
 import ResultsTemplate from "../../templates/results-template"
 import SaveToPDFButton from "../../components/save-to-pdf-button"
 import PrintPageButton from "../../components/print-page-button"
@@ -26,6 +27,10 @@ const ResultsContent = forwardRef(({ lang }, ref) => (
             laver les mains le plus possible.
           </strong>
         </p>
+
+        <ProgressBar progress={100} />
+
+
         <p className="ontario-results--subtitle">
           <a href="https://covid-19.ontario.ca/fr/zones-et-restrictions" target="_blank" rel="noopener">
             Obtenez les renseignements les plus récents sur les restrictions et fermetures.

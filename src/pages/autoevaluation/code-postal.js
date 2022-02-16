@@ -1,5 +1,6 @@
 import React from "react"
 import Postalcode from "../../templates/postalcode-template"
+import ProgressBar from "../../components/progress-bar"
 
 const lang = "fr"
 
@@ -12,5 +13,7 @@ export default () => (
     votre région générale et non pas le nom de votre rue ou votre 
     adresse. Nous nous en servons pour trouver des centres de 
     dépistage près de chez vous.`}
-  />
+  >
+    <ProgressBar progress={40} />
+  </Postalcode>
 )

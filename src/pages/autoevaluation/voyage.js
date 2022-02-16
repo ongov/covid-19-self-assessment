@@ -1,5 +1,6 @@
 import React from "react"
 import QuestionTemplate from "../../templates/yes-no-question-template"
+import ProgressBar from "../../components/progress-bar"
 import { logic } from "../../shared"
 
 const Travel = () => (
@@ -18,6 +19,8 @@ const Travel = () => (
       travailleur essentiel devant traverser régulièrement la frontière entre le Canada et les États-Unis pour
       travailler), sélectionnez « Non ».
     </p>
+
+    <ProgressBar progress={90} />
   </QuestionTemplate>
 )
 

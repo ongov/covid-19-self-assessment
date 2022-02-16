@@ -1,5 +1,6 @@
 import React from "react"
 import QuestionTemplate from "../../templates/yes-no-question-template"
+import ProgressBar from "../../components/progress-bar"
 import { logic } from "../../shared"
 
 const RespiratoryExposure = () => (
@@ -24,6 +25,8 @@ const RespiratoryExposure = () => (
     </p>
     
     <p>Si la personne présentant des symptômes a reçu un vaccin contre la COVID-19 au cours des 48 dernières heures et ressent une fatigue légère, des douleurs musculaires ou articulaires qui ont commencé seulement après la vaccination, sélectionnez « Non ».</p>
+
+    <ProgressBar progress={80} />
   </QuestionTemplate>
 )
 
