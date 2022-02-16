@@ -11,7 +11,7 @@ import { general, questions } from "../localized_content"
 import Radio from "../components/radio"
 import { logic } from "../shared"
 
-const AgeTemplate = ({ lang, question, questionId, title, choices }) => {
+const AgeTemplate = ({ lang, question, questionId, title, choices, children }) => {
   const radioButtonGroup = `${questionId}-age`
 
   const state = useContext(GlobalStateContext)
@@ -69,6 +69,7 @@ const AgeTemplate = ({ lang, question, questionId, title, choices }) => {
             </div>
           </fieldset>
         </div>
+        {children}
       </Question>
     </Layout>
   )

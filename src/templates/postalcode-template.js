@@ -9,7 +9,7 @@ import { GlobalStateContext, GlobalDispatchContext } from "../context/global-con
 import { general, questions } from "../localized_content"
 import { logic } from "../shared"
 
-const PostalcodeLocation = ({ lang, question, questionId, title }) => {
+const PostalcodeLocation = ({ lang, question, questionId, title, children }) => {
   const state = useContext(GlobalStateContext)
   const dispatch = useContext(GlobalDispatchContext)
 
@@ -59,6 +59,7 @@ const PostalcodeLocation = ({ lang, question, questionId, title }) => {
             </div>
           </fieldset>
         </div>
+        {children}
       </Question>
     </Layout>
   )

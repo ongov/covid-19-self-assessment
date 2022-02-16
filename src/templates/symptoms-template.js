@@ -11,7 +11,7 @@ import Callout from "../components/callout-blue"
 import { general, questions, calloutSymptoms } from "../localized_content"
 import { symptomsTitle, symptoms, logic, addSymptomsToGTMDataLayer } from "../shared"
 
-const SymptomsTemplate = ({ lang }) => {
+const SymptomsTemplate = ({ lang, children }) => {
   const state = useContext(GlobalStateContext)
   const dispatch = useContext(GlobalDispatchContext)
 
@@ -52,6 +52,7 @@ const SymptomsTemplate = ({ lang }) => {
             </div>
           </fieldset>
         </div>
+        {children}
       </Question>
     </Layout>
   )
