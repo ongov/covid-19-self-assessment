@@ -13,7 +13,7 @@
     "axios": "^0.21.1",
     "babel-plugin-styled-components": "^1.12.0",
     "date-fns": "^2.12.0",
-    "gatsby": "^3.9.1",
+    "gatsby": "^4.25.7",
     "gatsby-image": "^3.9.0",
     "gatsby-plugin-anchor-links": "^1.1.1",
     "gatsby-plugin-build-date": "^1.0.0",
